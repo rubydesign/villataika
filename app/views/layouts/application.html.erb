@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <%= stylesheet_link_tag :all %>
+  <%= javascript_include_tag :defaults %>
+  <%= csrf_meta_tag %>
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Villa Taika Bed & Breakfast</title>
+</head>
+
+<body>
+
+<div id="main">
+
+  <div id="header">
+      <div class="centre">
+      <img src="/kuvat/logo_iso.png">
+      </div>
+      <div id="slogan">taianomaista tyylikkyyttä</div>
+  </div>
+
+  <div id="lcol">
+    <div id="menu">
+      <ul>
+        <li><%= link_to  t('bed.short') , "/#{@locale}/bed.html" %><span>&nbsp;</span></li>
+        <li><%= link_to  t('kurssi.short') , "/#{@locale}/kurssi.html" %><span></span></li>
+        <li><%= link_to  t('kartta.short') , "/#{@locale}/kartta.html" %><span></span></li>
+        <li><a href="#">Kuvagalleria<span></span></a></li>
+        <li><a href="#">Aktivities<span></span></a></li>
+      </ul>
+    </div>
+    <div id="menu_end"></div>
+
+    <div id="lcontent">
+      <h3 class="first"><span>Huoneet</span></h3>
+      <ul class="divided">
+        <%  rooms.each do |room| %>
+          <li><%= link_to  t(room + ".short") , "/#{@locale}/room/#{room}.html" %></li>
+        <%end%>
+      </ul>
+    
+      <h3><span>Latest News</span></h3>
+      <p><a href="#">One Massage</a> for everyone who stays a whole week.</p>  
+      <div class="divider"></div>
+
+      <p><a href="#">Free Beer</a> if you stop a bear within 2 kilometers of Villa Taika.</p>
+    </div>
+
+  </div>
+
+  <div id="rcol">
+    <div id="rcontent">
+
+      <%= yield %>
+
+      <div class="divider"></div>
+  </div>
+
+</div>
+
+<div id="footer">
+  &copy; our stuff
+</div>
+
+</body>
+</html>
