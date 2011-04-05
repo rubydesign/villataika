@@ -4,6 +4,7 @@
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
+  <%= favicon_link_tag %>
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -27,9 +28,9 @@
         <li><%= link_to  t('bed.short') , "/#{@locale}/bed.html" %><span>&nbsp;</span></li>
         <li><%= link_to  t('kurssi.short') , "/#{@locale}/kurssi.html" %><span></span></li>
         <li><%= link_to  t('kartta.short') , "/#{@locale}/kartta.html" %><span></span></li>
-        <li><a href="#">Kuvagalleria<span></span></a></li>
+<!--        <li><a href="#">Kuvagalleria<span></span></a></li>
         <li><a href="#">Aktivities<span></span></a></li>
-      </ul>
+    -->  </ul>
     </div>
     <div id="menu_end"></div>
 
@@ -61,7 +62,21 @@
 </div>
 
 <div id="footer">
-  &copy; our stuff
+  <div class="kolmas">
+    <b>Villa Taika</b>, Fiskarsintie 513, Antskog
+    <br>
+    www.villataika.fi&nbsp;&nbsp;&nbsp;info(at)villataika.fi
+  </div>
+  <div class="kolmas">
+    Raisa Kaipainen &amp; Torsten Rüger
+    <br>
+    puh 040 704 6689
+  </div>
+  <div class="kolmas">
+    <a href="/fi/index.html">
+    <img alt="" src="/kuvat/logo_pien.gif" border="0" height="33" width="198">
+    </a>
+  </div>
 </div>
 
 </body>
