@@ -1,3 +1,12 @@
+/* @override 
+	http://localhost:3000/stylesheets/style.css?1302007163
+	http://localhost:3000/stylesheets/style.css?1302007778
+	http://localhost:3000/stylesheets/style.css?1302007888
+	http://localhost:3000/stylesheets/style.css?1302008013
+	http://localhost:3000/stylesheets/style.css?1302008260
+	http://localhost:3000/stylesheets/style.css?1302008711
+*/
+
 *
 {
 margin: 0px;
@@ -345,19 +354,31 @@ div#aurinko {
 	float: left;
 }
 
-div#extra {
+#extra {
 	width: 200px;
-	float: left;
-	
+	height: 330px;
+	bottom: 0;
+	float: left;	
 }
 
 div#aurinko_wrapper {
-	height: 350px;
+	height: 330px;
 	float: left;
 }
 
-#extra img {
+.bottom {
 	bottom: 0;
+	padding-top: 22px;
+}
+
+div#main_text {
+	margin-left: 15px;
+	font-weight: bold; 
+	font-size: 16px;
+	color: rgb(0, 132, 149);
+}
+.top {
+	top: 0;
 }
 
 .wide_box {
