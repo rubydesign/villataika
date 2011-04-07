@@ -16,13 +16,17 @@ font-family: "trebuchet ms", helvetica, sans-serif;
 a
 {
 text-decoration: underline;
-color: rgb(0, 132, 149)
+color: rgb(0, 132, 149);
 }
 
-a:hover
+#news a {
+text-decoration: none;	
+color: #9f9f9f;
+}
+
+menu a:hover
 {
 text-decoration: none;
-color: #fff;
 background:  url('/images/bbg1.gif');
 }
 
@@ -227,11 +231,11 @@ list-style: none;
 
 li
 {
-background: url('/kuvat/li.gif') no-repeat 0px 5px;
-padding-left: 15px;
+background: url('/kuvat/li.gif') no-repeat;
+padding-left: 18px;
 }
 
-li a:hover 
+li:hover 
 {
 background: url('/kuvat/li_high.gif') no-repeat;
 }
@@ -271,7 +275,6 @@ ul.divided li
 border-top: solid 1px #F5F5F5;
 margin-top: 4px;
 padding-top: 4px;
-background-position: 0px 9px;
 }
 
 ul.divided li.first
