@@ -1,3 +1,7 @@
+/* @override 
+	http://localhost:3000/stylesheets/style.css?1302253012
+	http://localhost:3000/stylesheets/style.css?1302253047
+*/
 
 *
 {
@@ -305,7 +309,6 @@ top: -5px;
 {
 position: relative;
 border: dashed 1px #dadada;
-margin-top: 15px;
 background: inherit;
 color: #AAB162;
 }
@@ -321,7 +324,7 @@ margin-bottom: 5px;
 
 .box p
 {
-font-size: 10px;
+font-size: 13px;
 line-height: 16px;
 margin: 0px;
 }
@@ -332,6 +335,7 @@ border: solid 1px #fff;
 padding: 15px;
 background: #FFFFE9 url('/images/a4.gif') repeat-x;
 color: inherit;
+height: 200px;
 }
 
 .captioned_image

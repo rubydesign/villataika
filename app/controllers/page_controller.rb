@@ -3,10 +3,6 @@ class PageController < ApplicationController
   
   def index
     @template =  params[:page]
-    if params[:dir]
-      @room = params[:page]
-      @template =  "room"  
-    end
     response.headers['Content-type'] = 'text/html; charset=utf-8'
     render :template => @template
   end
