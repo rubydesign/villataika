@@ -4,8 +4,9 @@
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
+  <%= favicon_link_tag %>
+  <meta name="keywords" content="Bed&breakfast Fiskars Suite" />
+  <meta name="description" content=" " />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <title>Villa Taika Bed & Breakfast</title>
 </head>
@@ -18,7 +19,7 @@
       <div class="centre">
       <img src="/kuvat/logo_iso.png">
       </div>
-      <div id="slogan">taianomaista tyylikkyyttä</div>
+      <div id="slogan"><%=t("slogan")%></div>
   </div>
 
   <div id="lcol">
@@ -27,12 +28,11 @@
         <li><%= link_to  t('bed.short') , "/#{@locale}/bed.html" %><span>&nbsp;</span></li>
         <li><%= link_to  t('kurssi.short') , "/#{@locale}/kurssi.html" %><span></span></li>
         <li><%= link_to  t('kartta.short') , "/#{@locale}/kartta.html" %><span></span></li>
-        <li><a href="#">Kuvagalleria<span></span></a></li>
+<!--        <li><a href="#">kuvagalleria<span></span></a></li>
         <li><a href="#">Aktivities<span></span></a></li>
-      </ul>
+    -->  </ul>
     </div>
     <div id="menu_end"></div>
-
     <div id="lcontent">
       <h3 class="first"><span>Huoneet</span></h3>
       <ul class="divided">
@@ -40,12 +40,20 @@
           <li><%= link_to  t(room + ".short") , "/#{@locale}/room/#{room}.html" %></li>
         <%end%>
       </ul>
-    
-      <h3><span>Latest News</span></h3>
-      <p><a href="#">One Massage</a> for everyone who stays a whole week.</p>  
       <div class="divider"></div>
+    
+      <%["fi" , "en" , "se" , "de"].each do |lang| %>
+        <a href="<%="/#{lang}#{this_page}"%>" <%="class='selected'" if lang == @locale%>>  
+          <img src="/images/<%=lang.to_s%>.gif"/> </a>
+      <%end%>
 
-      <p><a href="#">Free Beer</a> if you stop a bear within 2 kilometers of Villa Taika.</p>
+      <h3><span><%=t("news")%></span></h3>
+      <div id="news"> 
+        <a href="/<%=@locale%>/news.html"> 
+          <%= t(t("last"))[0..200]%> 
+        </a>
+      </div>
+      <div class="divider"></div>
     </div>
 
   </div>
@@ -61,7 +69,21 @@
 </div>
 
 <div id="footer">
-  &copy; our stuff
+  <div class="kolmas">
+    <b>Villa Taika</b>, Fiskarsintie 513, Antskog
+    <br>
+    www.villataika.fi&nbsp;&nbsp;&nbsp;info(at)villataika.fi
+  </div>
+  <div class="kolmas">
+    Raisa Kaipainen &amp; Torsten Rüger
+    <br>
+    puh 040 704 6689
+  </div>
+  <div class="kolmas">
+    <a href="/<%=@locale%>/index.html">
+    <img alt="" src="/kuvat/logo_pien.gif" border="0" height="33" width="198">
+    </a>
+  </div>
 </div>
 
 </body>

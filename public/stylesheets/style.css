@@ -1,10 +1,3 @@
-/* @override http://tukku2.local:3000/stylesheets/style.css?1301842792 */
-
-/* @override 
-	http://localhost:3000/stylesheets/style.css?1301836126
-	http://localhost:3000/stylesheets/style.css?1301840104
-*/
-
 *
 {
 margin: 0px;
@@ -26,10 +19,14 @@ font-weight: bold;
 color: rgb(0, 132, 149);
 }
 
-a:hover
+#news a {
+text-decoration: none;	
+color: #9f9f9f;
+}
+
+menu a:hover
 {
 text-decoration: none;
-color: #fff;
 background:  url('/images/bbg1.gif');
 }
 
@@ -76,11 +73,26 @@ color: #DADADA;
 
 #slogan
 {
-position: absolute;
-right: 162px;
+position: relative;
 bottom: 0px;
-color: #DADADA;
 font-size: 13px;
+text-align: right;
+	margin-right: 25px;
+}
+
+div.right {
+	position: relative;
+
+float:left;
+width: 200px;
+	font-size: 130%;
+}
+
+div.left {
+	position: relative;
+float:left;
+
+ width: 610px;	
 }
 
 #main
@@ -219,11 +231,11 @@ list-style: none;
 
 li
 {
-background: url('/kuvat/li.gif') no-repeat 0px 5px;
-padding-left: 15px;
+background: url('/kuvat/li.gif') no-repeat;
+padding-left: 18px;
 }
 
-li a:hover 
+li:hover 
 {
 background: url('/kuvat/li_high.gif') no-repeat;
 }
@@ -263,7 +275,6 @@ border-top: solid 1px #F5F5F5;
 margin-top: 4px;
 padding-top: 4px;
 background-position: 0px 1px;
-
 }
 
 ul.divided li.first
@@ -353,19 +364,36 @@ div#aurinko {
 	float: left;
 }
 
-div#extra {
+#extra {
 	width: 200px;
-	float: left;
-	
+	height: 330px;
+	bottom: 0;
+	float: left;	
 }
 
 div#aurinko_wrapper {
-	height: 350px;
+	height: 330px;
 	float: left;
 }
 
-#extra img {
+.bottom {
 	bottom: 0;
+	padding-top: 22px;
+}
+
+div#main_text {
+	margin-left: 15px;
+	font-weight: bold; 
+	font-size: 16px;
+	color: rgb(0, 132, 149);
+}
+
+div.kolmas {
+	width: 33%;
+	float: left;
+}
+.top {
+	top: 0;
 }
 
 .wide_box {
@@ -387,9 +415,6 @@ div#aurinko_wrapper {
   border: 2px solid #c1cabb;
 }
 
-* {
-	
-}
 .small_box2 img {
   border: 2px solid #c1cabb;
 }

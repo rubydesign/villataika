@@ -1,5 +1,6 @@
 Villataika::Application.routes.draw do |map|
 
+  root :controller => "page", :action => "index" , :locale => "fi"
 
   get '/(:locale)/(:dir)/:page(.:extension)',
         :to => 'page#index',

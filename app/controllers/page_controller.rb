@@ -4,7 +4,6 @@ class PageController < ApplicationController
   def index
     @template =  params[:page]
     if params[:dir]
-#      templ = ["ruusu" , "taivas" , "aurinko" , "lootus"].include?(@page) ? "huone_wide" : "huone_high" 
       @room = params[:page]
       @template =  "room"  
     end
