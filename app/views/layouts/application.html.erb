@@ -5,6 +5,11 @@
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
   <%= favicon_link_tag %>
+  <script type="text/javascript" src="/javascripts/prototype.js"></script>
+  <script type="text/javascript" src="/javascripts/scriptaculous.js?load=effects,builder"></script>
+  <script type="text/javascript" src="/javascripts/lightbox.js"></script>
+  <link rel="stylesheet" href="/stylesheets/lightbox.css" type="text/css" media="screen" />
+  
   <meta name="keywords" content="Bed&breakfast Fiskars Suite" />
   <meta name="description" content=" " />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -34,12 +39,17 @@
     </div>
     <div id="menu_end"></div>
     <div id="lcontent">
-      <h3 class="first"><span>Huoneet</span></h3>
+      <h3 class="first"> 
+        <a href="/<%=@locale%>/rooms.html">
+          <span>Huoneet</span>
+        </a>
+      </h3>
       <ul class="divided">
-        <%  rooms.each do |room| %>
-          <li><%= link_to  t(room + ".short") , "/#{@locale}/room/#{room}.html" %></li>
-        <%end%>
+        <li><%= link_to  "Suites (w.shower)" , "/#{@locale}/suites.html" %></li>
+        <li><%= link_to  "Deluxe (w.toilet)" , "/#{@locale}/deluxe.html" %></li>
+        <li><%= link_to  "Standard (shared)" , "/#{@locale}/standard.html" %></li>
       </ul>
+
       <div class="divider"></div>
     
       <%["fi" , "en" , "se" , "de"].each do |lang| %>
@@ -47,7 +57,9 @@
           <img src="/images/<%=lang.to_s%>.gif"/> </a>
       <%end%>
 
-      <h3><span><%=t("news")%></span></h3>
+      <h3>
+        <a href="/<%=@locale%>/news.html">  <span><%=t("news")%></span> </a>
+      </h3>
       <div id="news"> 
         <a href="/<%=@locale%>/news.html"> 
           <%= t(t("last"))[0..200]%> 
