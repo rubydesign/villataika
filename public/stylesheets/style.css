@@ -1,3 +1,10 @@
+/* @override http://tukku2.local:3000/stylesheets/style.css?1301842792 */
+
+/* @override 
+	http://localhost:3000/stylesheets/style.css?1301836126
+	http://localhost:3000/stylesheets/style.css?1301840104
+*/
+
 *
 {
 margin: 0px;
@@ -7,15 +14,16 @@ padding: 0px;
 body
 {
 background-color: #fff;
-color: #9f9f9f;
+color: black;
 font-size: 11px;
-font-family: "trebuchet ms", helvetica, sans-serif;
+font-family: georgia, "times new roman", serif;
 }
 
 a
 {
-text-decoration: underline;
-color: rgb(0, 132, 149)
+text-decoration: none;
+font-weight: bold;
+color: rgb(0, 132, 149);
 }
 
 a:hover
@@ -238,7 +246,6 @@ margin: 0px;
 {
 font-size: 0px;
 position: relative;
-border-bottom: solid 1px #F5F5F5;
 height: 1px;
 width: 100%;
 margin: 10px 0px 10px 0px;
@@ -255,7 +262,8 @@ ul.divided li
 border-top: solid 1px #F5F5F5;
 margin-top: 4px;
 padding-top: 4px;
-background-position: 0px 9px;
+background-position: 0px 1px;
+
 }
 
 ul.divided li.first
@@ -366,19 +374,24 @@ div#aurinko_wrapper {
 }
 
 .small_box {
-  width: 220px;
-	float: left;
+  width: 285px;
+  float: left;
 }
+
 .small_box2 {
-  width: 180px;
+  width: 210px;
 	float: left;
 }
 
 .small_box img {
-  border: 3px solid #c1cabb;
+  border: 2px solid #c1cabb;
+}
+
+* {
+	
 }
 .small_box2 img {
-  border: 3px solid #c1cabb;
+  border: 2px solid #c1cabb;
 }
 
 div.room_header {
