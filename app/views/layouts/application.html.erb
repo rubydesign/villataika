@@ -60,11 +60,11 @@
       <%end%>
 
       <h3>
-        <a href="/<%=@locale%>/news.html">  <span><%=t("news")%></span> </a>
+        <a href="/<%=@locale%>/news.html">  <span><%=t("news.short")%></span> </a>
       </h3>
       <div id="news"> 
         <a href="/<%=@locale%>/news.html"> 
-          <%= t(t("last"))[0..200]%> 
+          <%= t(t("last")+".short")%> 
         </a>
       </div>
       <div class="divider"></div>

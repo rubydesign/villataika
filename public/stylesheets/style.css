@@ -300,6 +300,14 @@ font-size: 14px;
 position: relative;
 top: -5px;
 }
+.news_box
+{
+position: relative;
+border: dashed 1px #dadada;
+background: inherit;
+color: #AAB162;
+height: 120px;
+}
 
 .box
 {
@@ -307,6 +315,7 @@ position: relative;
 border: dashed 1px #dadada;
 background: inherit;
 color: #AAB162;
+height: 180px;
 }
 
 .box h2
@@ -331,7 +340,6 @@ border: solid 1px #fff;
 padding: 15px;
 background: #FFFFE9 url('/images/a4.gif') repeat-x;
 color: inherit;
-height: 200px;
 }
 
 .captioned_image

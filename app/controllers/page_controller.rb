@@ -6,7 +6,9 @@ class PageController < ApplicationController
     response.headers['Content-type'] = 'text/html; charset=utf-8'
     render :template => @template
   end
-
+  
+  protected
+  
   def locale
     @locale = params[:locale] 
     @locales = [ "en" , "fi"]
