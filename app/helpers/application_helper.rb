@@ -1,5 +1,6 @@
 module ApplicationHelper  
   def this_page
-     "/" +  params["page"] + ".html"
+    page = params["page"] || "index"
+     "/#{page}.html"
   end
 end
