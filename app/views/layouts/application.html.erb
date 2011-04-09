@@ -30,9 +30,11 @@
   <div id="lcol">
     <div id="menu">
       <ul>
+        <li><%= link_to  t('index.short') , "/#{@locale}/index.html" %><span>&nbsp;</span></li>
         <li><%= link_to  t('bed.short') , "/#{@locale}/bed.html" %><span>&nbsp;</span></li>
         <li><%= link_to  t('groups.short') , "/#{@locale}/groups.html" %><span></span></li>
         <li><%= link_to  t('map.short') , "/#{@locale}/map.html" %><span></span></li>
+        <li><%= link_to  t('photos.short') , "/#{@locale}/photos.html" %><span></span></li>
 <!--        <li><a href="#">kuvagalleria<span></span></a></li>
         <li><a href="#">Aktivities<span></span></a></li>
     -->  </ul>
@@ -45,9 +47,9 @@
         </a>
       </h3>
       <ul class="divided">
-        <li><%= link_to  "Suites (w.shower)" , "/#{@locale}/suites.html" %></li>
-        <li><%= link_to  "Deluxe (w.toilet)" , "/#{@locale}/deluxe.html" %></li>
-        <li><%= link_to  "Standard (shared)" , "/#{@locale}/standard.html" %></li>
+        <li><%= link_to  t("suites") , "/#{@locale}/suites.html" %></li>
+        <li><%= link_to  t("deluxe") , "/#{@locale}/deluxe.html" %></li>
+        <li><%= link_to  t("standard") , "/#{@locale}/standard.html" %></li>
       </ul>
 
       <div class="divider"></div>

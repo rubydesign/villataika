@@ -13,7 +13,12 @@ en:
            space to fit two extra beds on request.
            The room has an attached toilet and shower.
     price: The price for two is 90€.
-
+  ametist:
+    short: Ametisti huone
+    full: <b>The Amethyst</b> room is a sunny 15m2 room with a double bed. Thought not ensuite, 
+          there is a private bathroom just next to it.
+    price: The price for two is 80€
+  
 fi:
   lootus:
     short: Lootus sviitti 
