@@ -1,22 +1,23 @@
 en:
   bed:
     short: Bed & Breakfast
-    main:
+    one:
         We have 5 rooms and 2 Suites. The Orange and Green rooms have their own toilet with use of a shared shower. 
         Rose and Sky room share a toilet and use the shared shower. <br>
         The Suites have their own toilet and shower.
+    two:
         The room price is for two people, between 75 and 95 €. 
         The price includes breakfast(served between 8:30-10:00), bed-linen and towels, and extra beds cost 25€.  
         We can accommodate groups of 25-30.
 fi:
   bed:
     short: Bed & Breakfast
-    main:
+    one:
         Meillä on 5 huonetta ja 2 sviittiä. Vihreä ja Oranssi huoneissa on oma WC ja yhteinen suihku.
         Ruusu ja Taivas huoneissa on yhteinen WC ja suihku.
         Sviiteissä on oma WC ja suihku.
-        <br>
-        Huoneen price on kahdelle ja lisävuode on
-        25€. Huoneen pricean kuuluu aamupala (tarjoillaan klo 8:30-10:00), liinavaatteet ja
-        pyyhkeet. Huoneiden hinnat ovat 75-95 € .
+    two:
+        Huoneen price on kahdelle ja lisävuode on 25€. 
+        Huoneen hintan kuuluu aamupala (tarjoillaan klo 8:30-10:00), liinavaatteet ja pyyhkeet. 
+        Huoneiden hinnat ovat 75-95 € .
         Voimme majoittaa jopa 25-30 hengen ryhmän.

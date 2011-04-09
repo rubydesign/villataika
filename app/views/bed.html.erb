@@ -1,20 +1,33 @@
+<div class="wide_bed_box">
+  <div class="bed_box">
+      <%=raw t("bed.one")%>
+  </div>
+  <div class="bed_box">
+      <%=raw t("bed.two")%>
+  </div>
+  
+</div>
+
 <div class="wide_box">
-  <%  ["lootus" , "sun" , "ametist"].each do |room| %>
   <div class="small_box">
-    <%= link_to t(room + ".short") , "/#{@locale}/room/#{room}.html" %>
-      <img src="/images/<%=room%>_small.jpg"  
-          alt=<%=t(room+'.short')%>  
+    <%= link_to t("suites") , "/#{@locale}/suites.html" %>
+      <img src="/images/lootus_small.jpg"  
+          alt=<%=t('suites')%>  
           height=187px  width=250px />
     <br/>
   </div>
-  <%end%>
-</div>
-<% ["green", "orange" ,"sky" , "rose" ].each do |room| %>
-  <div class="small_box2">
-    <%= link_to t(room + ".short") , "/#{@locale}/room/#{room}.html" %>
-      <img src="/images/<%=room%>_small.jpg"  
-          alt=<%=t(room+'.short')%>  
-          height=135px  width=180px />
+  <div class="small_box">
+    <%= link_to t("deluxe") , "/#{@locale}/deluxe.html" %>
+      <img src="/images/orange_small.jpg"  
+          alt=<%=t('deluxe')%>  
+          height=187px  width=250px />
     <br/>
   </div>
-<%end%>
+  <div class="small_box">
+    <%= link_to t("standard") , "/#{@locale}/standard.html" %>
+      <img src="/images/rose_small.jpg"  
+          alt=<%=t('standard')%>  
+          height=187px  width=250px />
+    <br/>
+  </div>
+</div>
