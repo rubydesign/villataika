@@ -1,0 +1,35 @@
+# translation for suites,  all rooms have short , full and price
+en:
+  lootus:
+    short: Lootus Suite
+    full:  The <b>Lootus Suite</b>  is a spacious and enjoyable flat of about 40m2. It has it's own bathroom with shower and toilet. From the Suite's own terasse one can see the nearby lake.
+            There is a lovely double bed, and plenty of space for up to three extra beds on request. <br> <br>
+            The suite is also very well suited for wedding couples. The wedding package includes extra decoration, including flowers and candles. 
+            Breakfeast can be served privately on the terasse.
+    price: The price for two is 95€. (Weddingpackage is 135€ for two)
+  sun:
+    short: Aurinko sviitti 
+    full: <b>Sun suite</b> is an elegant and sunny room. In the room is a double bed and there is 
+           space to fit two extra beds on request.
+           The room has an attached toilet and shower.
+    price: The price for two is 90€.
+
+fi:
+  lootus:
+    short: Lootus sviitti 
+    full: <b>Lootus sviitti </b> on viehättävä huoneisto 40m2. Siihen kuuluu oma wc ja suihku, sekä terassi , jolta pilkottaa 
+            läheinen järvi. Huoneessa on parisänky ja sinne mahtuu 3 tai 4 lisävuodetta. <br>  <br>
+            Sviitti sopii myös hääpareille. Hääpaketti sisältää huoneen ja lisäkoristelun kukkasilla ja kynttilöillä. 
+            Aamupala haluttaessa oneityisesti sään salliessa omalla terassilla. 
+    price: Hinta on 95€ /2hh. (Hääpaketti on 135€ /2hh)
+  sun:
+    short: Aurinko sviitti 
+    full: <b>Aurinko sviitti</b> on valoisa ja tyylikäs 25m2 sviitti. Siellä on parisänky ja sinne mahtuu mukavasti twoikin lisävuodetta. 
+            Siinä on oma wc ja suihku.
+    price: Hinta on 90€ /2hh
+  ametist:
+    short: Ametisti huone
+    full: <b>Ametisti huone </b>on valoisa 15m2 huone. Siellä on parisänky ja sinne mahtuu tarvittaessa lisävuode.
+          Huoneessa on oma wc ja suihku.
+    price: Hinta on 85€ /2hh
+    

@@ -1,5 +1,5 @@
 <div class="wide_box">
-  <%  ["lootus" , "aurinko" , "ametisti"].each do |room| %>
+  <%  ["lootus" , "sun" , "ametist"].each do |room| %>
   <div class="small_box">
     <%= link_to t(room + ".short") , "/#{@locale}/room/#{room}.html" %>
       <img src="/images/<%=room%>_pieni.jpg"  
@@ -9,7 +9,7 @@
   </div>
   <%end%>
 </div>
-<% ["vihrea", "oranssi" ,"taivas" , "ruusu" ].each do |room| %>
+<% ["green", "orange" ,"sky" , "rose" ].each do |room| %>
   <div class="small_box2">
     <%= link_to t(room + ".short") , "/#{@locale}/room/#{room}.html" %>
       <img src="/images/<%=room%>_pieni.jpg"  

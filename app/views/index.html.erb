@@ -1,13 +1,13 @@
 <div id="lotus">
-  <a href='/fi/room/aurinko.html'>
-   <img alt='Aurinko sviitti' border='0' height='414' src='/kuvat/aurinko.jpg' valign='top' width='312' />
+  <a href='/<%=@locale%>/room/sun.html'>
+   <img alt='Aurinko sviitti' border='0' height='414' src='/kuvat/sun.jpg' valign='top' width='312' />
   </a>
 </div>
 
 <div id="aurinko_wrapper">
   
   <div id="aurinko">
-    <a href='/fi/room/lootus.html'>
+    <a href='/<%=@locale%>/room/lootus.html'>
       <img alt='Lootus sviitti' border='0' height='310' src='/kuvat/lootus.jpg' width='246' />
     </a>
   </div>
@@ -23,10 +23,11 @@
 </div>
 
 <div id="main_text">
-    Taianomaista tyylikkyyttä Aasiasta ja luonnonkauniin ympäristön rauhaa. 
+  <%= t("index.bold")%>
 </div>
 <div style='margin-left: 15px;margin-top: 10px;'>
-  <strong> Villa Taika </strong> on kaunis ja viehättävä Bed&Breakfast -paikka sekä kurssikeskus Antskogissa, 4,5 km Fiskarsista Karjalohjalle päin.
+  <strong> Villa Taika </strong> 
+  <%= t("index.text")%>
 </div>
 
 

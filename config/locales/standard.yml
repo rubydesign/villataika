@@ -1,0 +1,24 @@
+# translation for "standard" rooms,  all rooms have short , full and price
+en:
+  sky:
+    short: Sky room
+    full: The <b>Sky room </b> is a  charming  room with a peaceful atmosphere. 
+           It shares a toilet and shower with the next door Rose room. 
+           There is a double bed, and space for an extra bed on request.
+    price: The price for two is 75€.
+  rose:
+    short: Roose room
+    full: The <b>Rose room </b> has a romantic atmosphere. It has a double bed and a cosy sofa for two.
+            It shares a toilet and shower with the next door Sky room. 
+    price: The price for two is 75€.
+fi:
+  sky:
+    short: Taivas huone 
+    full: <b>Taivas huone </b>on viehkeä huone. Sillä on yhteinen wc ja suihku Ruusu huoneen vieressa.  
+            Huoneessa on parisänky, ja siellä on lisävuode jo valmiina. 
+    price: Hinta on 75€ /2hh
+  rose:
+    short: Ruusu huone 
+    full: <b>Ruusu huone </b>on romanttinen huone. Huoneessa on parisänky, sinne ei mahdu lisävuodetta. 
+            Sillä on yhteinen wc ja suihku Taivas huoneen kanssa.
+    price: Hinta on 75€ /2hh

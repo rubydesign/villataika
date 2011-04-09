@@ -1,0 +1,28 @@
+# translation for deluxe rooms,  all rooms have short , full and price
+en:
+  green:
+    short: Green room
+    full: The <b>Green room</b>  is an bright and calm room with a beautiful view of the garden. There is a double bed in it and it fits another spare bed.
+              There is an en suite wc, and shares a shower with the next door Orange room.<br>
+    price: The price for two is 75€.
+  orange:
+    short: Orange room
+    full: The <b>Orange room</b>  has a warm and cosy atmosphere. 
+           There is a double bed and it can easily fit one adult or two children extra. <br>
+           The room has a en suite wc and shares a shower with the next door Green room. <br>
+           From its second floor it has a beautiful view of the garden with its pond and  surrounding nature. <br>
+    price: The price for two is 75€.
+
+fi:
+  green:
+    short:  Vihreä huone 
+    full: <b>Vihreä huone </b>on tunfourmallinen 20m2 huone. Siellä on parisänky ja sinne mahtuu lisävuode.
+              Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. 
+              Yläkerran huoneesta on kaunis näkymä puutarhaan. <br>
+    price: Hinta on 75€ /2hh
+  orange:
+    short: Oranssi huone 
+    full: <b>Oranssi huone </b>on viihtyisä 20m2 huone. Siellä on parisänky ja sinne mahtuu twoikin lisävuodetta. <br>
+            Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. Yläkerran huoneesta on kaunis näkymä puutarhaan.
+    price: Hinta on 75€ /2hh
+    

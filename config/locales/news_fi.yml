@@ -1,12 +1,12 @@
 # News file 
 
-fi:
-  news: Uutiset
-  last: "01"
-  "01": Seasonki alkaa , nyt myös mökki huone ulkona
 en:
   news: News
   last: "01"
   "01": Season starts and there is now a cottage room. Real hirsi country feeing combined with 
         beautiful style and a four poster bed! 
+fi:
+  news: Uutiset
+  last: "01"
+  "01": Seasonki alkaa , nyt myös mökki huone ulkona
     
