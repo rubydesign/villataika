@@ -1,3 +1,5 @@
+/* @override http://localhost:3000/stylesheets/style.css?1302440504 */
+
 *
 {
 margin: 0px;
@@ -364,6 +366,8 @@ div#lotus {
 div#aurinko {
 	width: 265px;
 	float: left;
+	margin-left: 20px;
+	position: relative;
 }
 
 #extra {
@@ -371,11 +375,14 @@ div#aurinko {
 	height: 330px;
 	bottom: 0;
 	float: left;	
+	margin-left: 20px;
+	position: relative;
 }
 
 div#aurinko_wrapper {
 	height: 330px;
 	float: left;
+	position: relative;
 }
 
 .bottom {
@@ -384,10 +391,20 @@ div#aurinko_wrapper {
 }
 
 div#main_text {
-	margin-left: 15px;
+	margin-left: 20px;
 	font-weight: bold; 
 	font-size: 16px;
 	color: rgb(0, 132, 149);
+  width: 100%;
+	position: relative;
+}
+
+.sub_text {
+  width:510px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 13px;
 }
 
 div.kolmas {
@@ -396,6 +413,9 @@ div.kolmas {
 }
 .top {
 	top: 0;
+}
+
+.left {
 }
 
 .wide_box {

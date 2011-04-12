@@ -9,6 +9,9 @@ en:
         The room price is for two people, between 75 and 95 €. 
         The price includes breakfast(served between 8:30-10:00), bed-linen and towels, and extra beds cost 25€.  
         We can accommodate groups of 25-30.
+    suites: 3 suites with own shower 80/90/95
+    deluxe: 2 rooms with toilet inside (upstairs) 75
+    standard: 2 rooms which share one shower, 75
 fi:
   bed:
     short: Bed & Breakfast
