@@ -2,33 +2,46 @@
   <div class="bed_box">
       <%=raw t("bed.one")%>
   </div>
+</div>
+<div class="divider"></div>
+
+<div class="wide_box">
+    <br/>
+  <div class="small_box">
+    <%= link_to  "/#{@locale}/suites.html" do  %>
+      <%= t("suites") %> 
+      <img src="/images/sun_small.jpg"  
+          alt=<%=t('suites')%>  
+          height=187px  width=250px />
+          <%end%>
+    <br/>
+    <%=t('bed.suites')%>
+  </div>
+  <div class="small_box">
+    <%= link_to "/#{@locale}/deluxe.html" do %>
+    <%= t("deluxe") %> 
+      <img src="/images/orange_small.jpg"  
+          alt=<%=t('deluxe')%>  
+          height=187px  width=250px />
+          <%end%>
+    <br/>
+    <%=t('bed.suites')%>
+  </div>
+  <div class="small_box">
+    <%= link_to "/#{@locale}/standard.html" do %>
+    <%= t("standard") %> 
+      <img src="/images/rose_small.jpg"  
+          alt="<%=t('standard')%>"  
+          height=187px  width=250px />
+          <%end%>
+    <br/>
+    <%=t('bed.suites')%>
+  </div>
+</div>
+<div class="wide_bed_box">
   <div class="bed_box">
       <%=raw t("bed.two")%>
   </div>
   
 </div>
-
-<div class="wide_box">
-    <br/>
-  <div class="small_box">
-    <%= link_to t("suites") , "/#{@locale}/suites.html" %>
-      <img src="/images/lootus_small.jpg"  
-          alt=<%=t('suites')%>  
-          height=187px  width=250px />
-    <br/>
-  </div>
-  <div class="small_box">
-    <%= link_to t("deluxe") , "/#{@locale}/deluxe.html" %>
-      <img src="/images/orange_small.jpg"  
-          alt=<%=t('deluxe')%>  
-          height=187px  width=250px />
-    <br/>
-  </div>
-  <div class="small_box">
-    <%= link_to t("standard") , "/#{@locale}/standard.html" %>
-      <img src="/images/rose_small.jpg"  
-          alt=<%=t('standard')%>  
-          height=187px  width=250px />
-    <br/>
-  </div>
-</div>
+<div class="divider"></div>
