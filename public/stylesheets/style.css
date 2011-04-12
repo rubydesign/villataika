@@ -1,3 +1,5 @@
+/* @override http://tukku2.local:3000/stylesheets/style.css?1302413159 */
+
 *
 {
 margin: 0px;
@@ -8,7 +10,7 @@ body
 {
 background-color: #fff;
 color: black;
-font-size: 11px;
+font-size: 13px;
 font-family: georgia, "times new roman", serif;
 }
 
@@ -277,6 +279,7 @@ border-top: solid 1px #F5F5F5;
 margin-top: 4px;
 padding-top: 4px;
 background-position: 0px 1px;
+font-size: 12px;
 }
 
 ul.divided li.first
@@ -440,4 +443,5 @@ margin: 0px auto;
 margin-bottom: 25px;
 padding-top: 10px;
 text-align: center;
+line-height: 24px;
 }

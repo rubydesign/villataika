@@ -54,7 +54,7 @@
 
       <div class="divider"></div>
     
-      <%["fi" , "en" , "se" , "de"].each do |lang| %>
+      <%["fi" ,"se" , "en" ,  "de"].each do |lang| %>
         <a href="<%="/#{lang}#{this_page}"%>" <%="class='selected'" if lang == @locale%>>  
           <img src="/images/<%=lang.to_s%>.gif"/> </a>
       <%end%>
