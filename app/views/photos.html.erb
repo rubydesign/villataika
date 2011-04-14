@@ -1,0 +1,13 @@
+<% photos.each do |photo| %>
+<div class="photo_box">
+  <div class="eiole">
+    <a href="/photos/large/<%=photo%>.jpg" rel="lightbox[photos]" title="<%=photo.humanize%>">
+      <img src="/photos/<%=photo%>.jpg" height=100>
+    </a>
+    <%=photo.humanize%>
+  </div>
+</div>
+<%end%>
+
+<%= 
+%>

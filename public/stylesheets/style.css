@@ -354,6 +354,17 @@ bottom: 0px;
 left: 0px;
 }
 
+.photo_box{
+  border: solid 1px #fff;
+  padding: 5px;
+  color: inherit;
+  font-size: 13px;
+  line-height: 1.4em;
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
 div.centre {
 	text-align: center;
 }
