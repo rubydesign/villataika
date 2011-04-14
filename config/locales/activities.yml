@@ -1,0 +1,36 @@
+# News file 
+
+en:
+  activities: 
+    short: Activities
+    swim:
+      short: Swimming
+      rest: There are several opertunities to go swimming. In walking distance is the local beach on Isosimmi lake, about 200m walk.
+          There is also the village "beach" a little further away, and two more very family friendly beaches a few minitues drive away.
+    row:
+      short: Rowing
+      rest: Possible to rent the rowing boat for a small fee and spend some quiet time on 
+            the lake just a few minutes away.
+    garden:
+      short: Swimming
+      rest: There are several opertunities to go .
+    fiskars:
+      short: Fiskars village
+      rest: The beautifully restored art and craft centre is just a few minutes drive away.
+    tammisaari:
+      short: Swimming
+      rest: There are several opertunities to go .
+    hanko:
+      short: Swimming
+      rest: There are several opertunities to go .    
+    raasepori:
+      short: Raasepori Castle
+      rest: The old castle is close by.
+    
+      
+fi:
+  activities: 
+    short: Uutiset
+    swim: 
+      short: Seasonki alkaa , nyt myös mökki huone ulkona
+      rest: Hirsi ja hieno

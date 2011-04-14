@@ -5,6 +5,14 @@ module ApplicationHelper
   end
   
   def photos
-    Dir.glob("#{Rails.root}/public/photos/*.jpg").collect {|p| File.basename(p , ".jpg")}
+    dir "photos"
+  end
+  
+  def activities
+    dir "activities"
+  end
+
+  def dir name
+    Dir.glob("#{Rails.root}/public/#{name}/*.jpg").collect {|p| File.basename(p , ".jpg")}
   end
 end

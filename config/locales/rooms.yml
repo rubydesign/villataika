@@ -2,25 +2,31 @@ en:
   bed:
     short: Bed & Breakfast
     one:
-        We have 5 rooms and 2 Suites. The Orange and Green rooms have their own toilet with use of a shared shower. 
-        Rose and Sky room share a toilet and use the shared shower. <br>
-        The Suites have their own toilet and shower.
+        Welcome to the charming Villa Taika! We have a beautiful garden with the pond and waterfall.
+        You can relax in the garden by listening to the soothing sound of the water or make trips to the nearby tourist sights.
+        The Billnäs    15km, Mustio castle 15 km , beautiful towns of Tammisaari 35 km and Hanko 65km
+    
     two:
         The room price is for two people, between 75 and 95 €. 
         The price includes breakfast(served between 8:30-10:00), bed-linen and towels, and extra beds cost 25€.  
-        We can accommodate groups of 25-30.
-    suites: 3 suites with own shower 80/90/95
+        We can accommodate groups of 25-30. You can sign into your room between 14-19 . Please let us know what time
+        you'll be arriving! And you'll ......by 12.??? 
+    suites: 3 suites with own shower 85/90/95
     deluxe: 2 rooms with toilet inside (upstairs) 75
     standard: 2 rooms which share one shower, 75
 fi:
   bed:
     short: Bed & Breakfast
-    one:
-        Meillä on 5 huonetta ja 2 sviittiä. Vihreä ja Oranssi huoneissa on oma WC ja yhteinen suihku.
-        Ruusu ja Taivas huoneissa on yhteinen WC ja suihku.
-        Sviiteissä on oma WC ja suihku.
+    one: Tervetuloa viehättävään Villa Taikaan! Meillä on suuri puutarha vesiputouksineen ja pihalampineen . Siellä voit
+      nauttia olostasi vesiputouksen solinaa kuunnellen.Voit myös tehdä retkiä lähiympäristöön. Billnäsin ruukki 15km, Mustion linna 15km, 
+      Tammisaari 35km, Hanko 65km. Tulopäivänä huoneeseen voi saapua klo 14-19. Ilmoitathan saapumisajan etukäteen!! Huone luovutetaan klo 12 mennessä.
     two:
-        Huoneen price on kahdelle ja lisävuode on 25€. 
-        Huoneen hintan kuuluu aamupala (tarjoillaan klo 8:30-10:00), liinavaatteet ja pyyhkeet. 
+        Huoneen hinta on kahdelle ja lisävuode on 25€. 
+        Huoneen hintaan kuuluu aamupala (tarjoillaan klo 8:30-10:00), liinavaatteet ja pyyhkeet. 
         Huoneiden hinnat ovat 75-95 € .
         Voimme majoittaa jopa 25-30 hengen ryhmän.
+        Peruutus on tehtävä 48h ennen .
+    suites: 3 suites with own shower 85/90/95
+    deluxe: 2 rooms with toilet inside (upstairs) 75
+    standard: 2 rooms which share one shower, 75
+    
