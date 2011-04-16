@@ -1,9 +1,3 @@
-/* @override 
-	http://tukku2.local:3000/stylesheets/style.css?1302950684
-	http://tukku2.local:3000/stylesheets/style.css?1302951852
-	http://tukku2.local:3000/stylesheets/style.css?1302952049
-*/
-
 *
 {
 margin: 0px;
@@ -92,7 +86,7 @@ div.right {
 position: relative;
 float:left;
 width: 230px;
-padding-left: 20px;
+padding-left: 15px;
 }
 
 div.left {
@@ -101,9 +95,9 @@ float:left;
 }
 div.left2 {
 position: relative;
-float: right;
-width: 150px;
-padding-left: 10px;
+float: left;
+width: 140px;
+padding-left: 15px;
 }
 
 
