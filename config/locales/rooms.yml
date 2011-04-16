@@ -1,5 +1,6 @@
 en:
   bed:
+    rooms: Rooms
     short: Bed & Breakfast
     one:
         Welcome to the charming Villa Taika! We have a beautiful garden with the pond and waterfall.
@@ -16,6 +17,7 @@ en:
     standard: 2 rooms which share one shower, 75
 fi:
   bed:
+    rooms: Huoneet
     short: Bed & Breakfast
     one: Tervetuloa viehättävään Villa Taikaan! Meillä on suuri puutarha vesiputouksineen ja pihalampineen . Siellä voit
       nauttia olostasi vesiputouksen solinaa kuunnellen.Voit myös tehdä retkiä lähiympäristöön. Billnäsin ruukki 15km, Mustion linna 15km, 

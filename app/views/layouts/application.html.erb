@@ -43,9 +43,7 @@
     <div id="menu_end"></div>
     <div id="lcontent">
       <h3 class="first"> 
-        <a href="/<%=@locale%>/rooms.html">
-          <span>Huoneet</span>
-        </a>
+          <span><%= t "bed.rooms"%></span>
       </h3>
       <ul class="divided">
         <li><%= link_to  t("suites") , "/#{@locale}/suites.html" %></li>
