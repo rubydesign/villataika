@@ -2,6 +2,7 @@
 
 en:
   activities: 
+    all: swim , row , fiskars , garden , hanko , raasepori
     short: Activities
     swim:
       short: Swimming
@@ -12,16 +13,17 @@ en:
       rest: Possible to rent the rowing boat for a small fee and spend some quiet time on 
             the lake just a few minutes away.
     garden:
-      short: Swimming
-      rest: There are several opertunities to go .
+      short: Relax in peace
+      rest: Our lovely and large garden has several spaces to retreat, and to the beautiful sound of the 
+            waterfall you may not want to leave.
     fiskars:
       short: Fiskars village
       rest: The beautifully restored art and craft centre is just a few minutes drive away.
     tammisaari:
-      short: Swimming
+      short: Tammisaari
       rest: There are several opertunities to go .
     hanko:
-      short: Swimming
+      short: Hanko
       rest: There are several opertunities to go .    
     raasepori:
       short: Raasepori Castle
@@ -30,7 +32,27 @@ en:
       
 fi:
   activities: 
-    short: Uutiset
+    short: Tekemista
     swim: 
       short: Seasonki alkaa , nyt myös mökki huone ulkona
       rest: Hirsi ja hieno
+    row:
+      short: Rowing
+      rest: Possible to rent the rowing boat for a small fee and spend some quiet time on 
+            the lake just a few minutes away.
+    garden:
+      short: Garden
+      rest: There are several opertunities to go .
+    fiskars:
+      short: Fiskars village
+      rest: The beautifully restored art and craft centre is just a few minutes drive away.
+    tammisaari:
+      short: Tammisaari
+      rest: There are several opertunities to go .
+    hanko:
+      short: Hanko
+      rest: There are several opertunities to go .    
+    raasepori:
+      short: Raasepori Castle
+      rest: The old castle is close by.
+    

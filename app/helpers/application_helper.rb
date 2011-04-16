@@ -13,6 +13,6 @@ module ApplicationHelper
   end
 
   def dir name
-    Dir.glob("#{Rails.root}/public/#{name}/*.jpg").collect {|p| File.basename(p , ".jpg")}
+    I18n.t("#{name}.all" , :locale => :en ).split(",").collect do |n| n.strip end
   end
 end
