@@ -1,15 +1,13 @@
-<% activities.each do |activity| %>
+<% activities.each_with_index do |activity , index| %>
 
-<div class="news_box">
+<div class="activity_box">
   <div class="box_inner">
-    <div class="captioned_image">
       <a href="/activities/large/<%=activity%>.jpg" rel="lightbox[activity]" title="<%= t(".#{activity}.short")%>">
+	    <h2> <%= t(".#{activity}.short")%> </h2>
         <img src="/activities/<%=activity%>.jpg" >
         </a>
-    </div>
-    <h2> <%= t(".#{activity}.short")%> </h2>
     <%=raw t(".#{activity}.rest")%>
   </div>
 </div>
-<div class="divider"> </div>
+<%=raw "<div class='line'> &nbsp;</div>" if (index.modulo(2)) != 0 %>
 <%end%>

@@ -1,3 +1,9 @@
+/* @override 
+	http://tukku2.local:3000/stylesheets/style.css?1302950684
+	http://tukku2.local:3000/stylesheets/style.css?1302951852
+	http://tukku2.local:3000/stylesheets/style.css?1302952049
+*/
+
 *
 {
 margin: 0px;
@@ -314,6 +320,15 @@ color: #AAB162;
 height: 120px;
 }
 
+.activity_box
+{
+float: left;
+position: relative;
+background: inherit;
+width: 400px;
+height: 160px;
+}
+
 .box
 {
 position: relative;
@@ -339,6 +354,10 @@ line-height: 1.4em;
 
 }
 
+#rcontent div.activity_box div.box_inner {
+padding-top: 5px;	
+}
+
 .captioned_image
 {
 position: relative;
@@ -358,6 +377,8 @@ left: 0px;
 .photo_box{
   border: solid 1px #fff;
   padding: 5px;
+  margin-right: 12px;
+  margin-left: 12px;
   color: inherit;
   font-size: 13px;
   line-height: 1.4em;
@@ -467,6 +488,15 @@ img {
 	border-style: none;
 }
 
+#rcontent div.activity_box div.box_inner a img {
+	float: left;
+	margin-right: 10px;
+}
+
+#rcontent div.activity_box div.box_inner a h2 {
+	margin-bottom: 10px;
+}
+
 #footer
 {
 clear: both;
@@ -477,4 +507,10 @@ margin-bottom: 25px;
 padding-top: 18px;
 text-align: center;
 line-height: 18px;
+}
+
+#rcontent div.line {
+border-bottom: solid 1px #c0dce0;
+	float: left;
+	width : 100%;
 }
