@@ -30,15 +30,12 @@
   <div id="lcol">
     <div id="menu">
       <ul>
-        <li><%= link_to  t('index.short') , "/#{@locale}/index.html" %><span>&nbsp;</span></li>
-        <li><%= link_to  t('bed.short') , "/#{@locale}/bed.html" %><span>&nbsp;</span></li>
-        <li><%= link_to  t('groups.short') , "/#{@locale}/groups.html" %><span></span></li>
-        <li><%= link_to  t('map.short') , "/#{@locale}/map.html" %><span></span></li>
-        <li><%= link_to  t('photos.short') , "/#{@locale}/photos.html" %><span></span></li>
-        <li><%= link_to  t('activities.short') , "/#{@locale}/activities.html" %><span></span></li>
-<!--        <li><a href="#">kuvagalleria<span></span></a></li>
-        <li><a href="#">Aktivities<span></span></a></li>
-    -->  </ul>
+        <% ["index" , "bed" ,"groups","map","photos","activities"].each do |p| %>
+          <li <%=raw('class="active"') if params[:page] == p %>>
+            <%= link_to  t(p+'.short') , "/#{@locale}/#{p}.html" %><span>&nbsp;</span>
+          </li>
+        <%end%>
+      </ul>
     </div>
     <div id="menu_end"></div>
     <div id="lcontent">
