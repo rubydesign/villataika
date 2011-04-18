@@ -1,17 +1,22 @@
-# translation for deluxe rooms,  all rooms have short , full and price
 en:
   green:
     short: Green room
-    full: The <b>Green room</b>  is an bright and calm room with a beautiful view of the garden. There is a double bed in it and it fits another spare bed.
-              There is an en suite wc, and shares a shower with the next door Orange room.<br>
-    price: The price for two is 75€.
+    full: The <b>Green room</b>  is calm and peaceful room with a beautiful view of the garden. <br>
+        There is a double bed in it and it fits another spare bed. It also has a small little cove, which fits 
+        a childs bed, and they love it.<br>
+        There is an en-suite wc, and it shares a shower with the next door Orange room.<br>
+        Orange and Green room together are a very good choice for small groups, or large families, as there is 
+        also a small lounge for these two rooms. <br>
+        The price for two is 75€.
   orange:
     short: Orange room
-    full: The <b>Orange room</b>  has a warm and cosy atmosphere. 
-           There is a double bed and it can easily fit one adult or two children extra. <br>
-           The room has a en suite wc and shares a shower with the next door Green room. <br>
-           From its second floor it has a beautiful view of the garden with its pond and  surrounding nature. <br>
-    price: The price for two is 75€.
+    full: The <b>Orange room</b>  has a warm and cosy atmosphere, with an asian feel to it.<br>
+          There is a double bed and it can easily fit one adult or two children extra. <br>
+          The room has a en-suite wc and shares a shower with the next door Green room. <br>
+          From its second floor it has a beautiful view of the garden with its pond and  surrounding nature. <br>
+          Orange and Green room together are a very good choice for small groups, or large families, as there is 
+          also a small lounge for these two rooms.<br>
+          The price for two is 75€.
 
 fi:
   green:
