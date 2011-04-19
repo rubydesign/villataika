@@ -1,3 +1,4 @@
+
 *
 {
 margin: 0px;
@@ -247,6 +248,12 @@ li:hover
 background: url('/images/li_high.gif') no-repeat;
 }
 
+#rcontent div.right ul {
+	font-size: 1.1em;
+	word-spacing: 3px;
+	line-height: 20px;
+}
+
 p
 {
 margin-bottom: 25px;
@@ -338,13 +345,13 @@ height: 180px;
 color: rgb(0, 132, 149);
 font-weight: normal;
 font-size: 20px;
-margin-bottom: 5px;
+margin-bottom: 5px
 }
 
 .box_inner
 {
 border: solid 1px #fff;
-padding: 15px;
+padding: 16px;
 color: inherit;
 font-size: 13px;
 line-height: 1.4em;
