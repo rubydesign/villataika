@@ -2,34 +2,44 @@
 
 en:
   activities: 
-    all: swim , row , fiskars , garden , hanko , raasepori
+    all: swim , row , fiskars , forest , garden , hanko , raasepori , groups
     short: Activities
     swim:
-      short: Swimming
-      rest: There are several opertunities to go swimming. In walking distance is the local beach on Isosimmi lake, about 200m walk.
-          There is also the village "beach" a little further away, and two more very family friendly beaches a few minitues drive away.
+      short: Swimming in clean lakes
+      rest: There are several opertunities to go swimming. The closest beach on Isosimmi lake is about 200m walk.
+          There three more family friendly beaches a few mintues drive away by car or bicycle. 
+    forest:
+      short: Walk or cycle through woods
+      rest: There are many unpaved paths through the surrounding nature reseve. 
+            Bring your own bicycle, get one from us or walk to explore the surroounding nature. 
     row:
-      short: Rowing
-      rest: Possible to rent the rowing boat for a small fee and spend some quiet time on 
-            the lake just a few minutes away.
+      short: Rowing or fishing, time off
+      rest: It is possible to rent the rowing boat for a small fee and spend some quiet time on 
+            the lake just a few minutes away. For groups canoe trips can be arranged.
     garden:
       short: Relax in peace
       rest: Our lovely and large garden has several spaces to retreat, and to the beautiful sound of the 
             waterfall you may not want to leave.
     fiskars:
-      short: Fiskars village
-      rest: The beautifully restored art and craft centre is just a few minutes drive away.
-    tammisaari:
-      short: Tammisaari
-      rest: There are several opertunities to go .
+      short: Fiskars & Bilnas Villages
+      rest: The beautifully restored art and craft centre of Fiskars is just a few minutes drive away. 
+            There are handicraft shops, workshops, cafees and restaurants. 
+            Bilnas, another old ironwork centre, is just over 10 minutes drive.
     hanko:
-      short: Hanko
-      rest: There are several opertunities to go .    
+      short: Tammisaari and Hanko, old towns
+      rest: Tammisaari and Hanko are both beautiful old towns with lots of wooden houses, by the sea. Perfect for a
+            day trip, Tammisaari is just over half an hours drive and Hanko slightly further.
     raasepori:
-      short: Raasepori Castle
-      rest: The old castle is close by.
-    
-      
+      short: Raasepori and Mustio
+      rest: The old stone castle of Raasepori, now the namesake of the region is close by. 
+            Also the grand castle of Mustio is just 15 minutes away. 
+    groups:
+      short: Group activities
+      rest: <a href="http://www.kdadventure.com/fi/activities/kursseja/">KD Adventure</a>, can 
+            arrange a variety of group activities, like several nature courses, themed evenings, coal walking 
+            and paintball.  Best of all, they are just next door, so you can enjoy a shower and warm
+            bed after an adventourous day.
+        
 fi:
   activities: 
     short: Tekemista

@@ -2,9 +2,9 @@ class PageController < ApplicationController
   before_filter :locale
   
   def index
-    @template =  params[:page] 
+    @page =  params[:page] || "index"
     response.headers['Content-type'] = 'text/html; charset=utf-8'
-    render :template => @template
+    render :template => @page
   end
   
   protected

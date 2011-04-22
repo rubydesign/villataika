@@ -10,10 +10,12 @@
   <script type="text/javascript" src="/javascripts/lightbox.js"></script>
   <link rel="stylesheet" href="/stylesheets/lightbox.css" type="text/css" media="screen" />
   
-  <meta name="keywords" content="Bed&breakfast Fiskars Suite" />
-  <meta name="description" content=" " />
+  <meta name="keywords" content="Bed&breakfast majoitus hotel Fiskars häät  Suite" />
+  <meta name="description" content="Bed & Breakfast Villa Taika :<%=t('slogan') + ' ' + t(@page + ".short") %>" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>Villa Taika Bed & Breakfast</title>
+  <meta http-equiv="Content-Language" content="<%=@locale%>"/>  
+  <title>Bed & Breakfast Villa Taika : <%= t(@page + ".short") %></title>
+  
 </head>
 
 <body>
@@ -43,14 +45,14 @@
           <span><%= t "bed.rooms"%></span>
       </h3>
       <ul class="divided">
-        <li><%= link_to  t("suites") , "/#{@locale}/suites.html" %></li>
-        <li><%= link_to  t("deluxe") , "/#{@locale}/deluxe.html" %></li>
-        <li><%= link_to  t("standard") , "/#{@locale}/standard.html" %></li>
+        <li><%= link_to  t("suites.short") , "/#{@locale}/suites.html" %></li>
+        <li><%= link_to  t("deluxe.short") , "/#{@locale}/deluxe.html" %></li>
+        <li><%= link_to  t("standard.short") , "/#{@locale}/standard.html" %></li>
       </ul>
 
       <div class="divider"></div>
     
-      <%["fi" ,"se" , "en" ,  "de"].each do |lang| %>
+      <%["fi" , "en" , "se" , "de"].each do |lang| %>
         <a href="<%="/#{lang}#{this_page}"%>" <%="class='selected'" if lang == @locale%>>  
           <img src="/images/<%=lang.to_s%>.gif"/> </a>
       <%end%>

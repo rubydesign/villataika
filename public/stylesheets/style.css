@@ -1,3 +1,4 @@
+/* @override http://localhost:3000/stylesheets/style.css?1303373019 */
 
 *
 {
@@ -9,7 +10,7 @@ body
 {
 background-color: #fff;
 color: black;
-font-size: 13px;
+font-size: 14px;
 font-family: georgia, "times new roman", serif;
 }
 
@@ -329,8 +330,8 @@ height: 120px;
 float: left;
 position: relative;
 background: inherit;
-width: 400px;
-height: 160px;
+width: 430px;
+height: 140px;
 }
 
 .box
@@ -360,6 +361,9 @@ line-height: 1.4em;
 
 #rcontent div.activity_box div.box_inner {
 padding-top: 5px;	
+padding-left: 5px;	
+padding-top: 5px;
+	text-align: justify;
 }
 
 .captioned_image

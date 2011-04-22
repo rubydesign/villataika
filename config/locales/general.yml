@@ -3,9 +3,12 @@ en:
     puh: tel
     myos: See also
     slogan: asian elegance
-    suites: Suites (w.shower)
-    deluxe: Deluxe (w.toilet)
-    standard: Standard (shared)
+    suites: 
+      short: Suites (w.shower)
+    deluxe: 
+      short: Deluxe (w.toilet)
+    standard: 
+      short: Standard (shared)
     photos:
       short: Photos
     index:
@@ -18,9 +21,12 @@ fi:
     puh: puh
     myos: Katso myös
     slogan: taianomaista tyylikkyyttä
-    suites: Suites (w.shower)
-    deluxe: Deluxe (w.toilet)
-    standard: Standard (shared)
+    suites:
+      short: Suites (w.shower)
+    deluxe: 
+      short: Deluxe (w.toilet)
+    standard: 
+      short: Standard (shared)
     photos:
       short: Kuvat
     index:

@@ -9,7 +9,7 @@
     <br/>
   <div class="small_box">
     <%= link_to  "/#{@locale}/suites.html" do  %>
-      <%= t("suites") %> 
+      <%= t("suites.short") %> 
       <img src="/images/sun_small.jpg"  
           alt=<%=t('suites')%>  
           height=187px  width=250px />
@@ -19,25 +19,26 @@
   </div>
   <div class="small_box">
     <%= link_to "/#{@locale}/deluxe.html" do %>
-    <%= t("deluxe") %> 
+    <%= t("deluxe.short") %> 
       <img src="/images/orange_small.jpg"  
           alt=<%=t('deluxe')%>  
           height=187px  width=250px />
           <%end%>
     <br/>
-    <%=t('bed.suites')%>
+    <%=t('bed.deluxe')%>
   </div>
   <div class="small_box">
     <%= link_to "/#{@locale}/standard.html" do %>
-    <%= t("standard") %> 
+    <%= t("standard.short") %> 
       <img src="/images/rose_small.jpg"  
           alt="<%=t('standard')%>"  
           height=187px  width=250px />
           <%end%>
     <br/>
-    <%=t('bed.suites')%>
+    <%=t('bed.standard')%>
   </div>
 </div>
+<br/>
 <div class="wide_bed_box">
   <div class="bed_box">
       <%=raw t("bed.two")%>
