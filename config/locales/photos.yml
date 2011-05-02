@@ -1,18 +1,20 @@
 en:
   photos: 
-    all: w_frogs , w_highview , w_peony , h_aurinko_wc , h_curves , h_lootus_wc 
+    all: w_frogs , w_terasse, w_peony , h_aurinko_wc , h_curves , h_lootus_wc ,h_highview  
     w_frogs: Dancing frogs
-    w_highview: Villa Taika from above
     w_peony: Fountain in the garden
+    w_terasse: Garden terasse
     h_aurinko_wc: Aurinko wc
     h_curves: Aurinko carvings
     h_lootus_wc: Lootus WC
+    h_highview: Villa Taika from above
 fi:
   photos: 
     w_frogs: Sammakot
-    w_highview: Villa Taika kokealta
+    w_terasse: Terassi
     w_peony: Kukkat putharassa
     h_aurinko_wc: Aurinko wc
     h_curves: Aurinko carvings
     h_lootus_wc: Lootus WC
+    h_highview: Villa Taika korkealta
     
