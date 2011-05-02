@@ -2,32 +2,35 @@ en:
   green:
     short: Green room
     full: The <b>Green room</b>  is calm and peaceful room with a beautiful view of the garden. <br>
-        There is a double bed in it and it fits another spare bed. It also has a small little cove, which fits 
+        There is a double bed  and it fits another spare bed. It also has a small little cove, which fits 
         a childs bed, and they love it.<br>
         There is an en-suite wc, and it shares a shower with the next door Orange room.<br>
         Orange and Green room together are a very good choice for small groups, or large families, as there is 
         also a small lounge for these two rooms. <br>
-        The price for two is 75€.
+        The price for two is 75€ / Single 60€
   orange:
     short: Orange room
-    full: The <b>Orange room</b>  has a warm and cosy atmosphere, with an asian feel to it.<br>
-          There is a double bed and it can easily fit one adult or two children extra. <br>
+    full: The <b>Orange room</b>  has a warm and cosy atmosphere, with a bright feel to it.<br>
+          There is a double bed and it can fit one adult or two children extra. <br>
           The room has a en-suite wc and shares a shower with the next door Green room. <br>
-          From its second floor it has a beautiful view of the garden with its pond and  surrounding nature. <br>
-          Orange and Green room together are a very good choice for small groups, or large families, as there is 
+          From its second floor it has a beautiful view of the garden with its pond and surrounding nature. <br>
+          Orange and Green room together are a good choice for small groups, or large families, as there is 
           also a small lounge for these two rooms.<br>
           The price for two is 75€.
 
 fi:
   green:
     short:  Vihreä huone 
-    full: <b>Vihreä huone </b>on tunnelmallinen 20m2 huone. Siellä on parisänky ja sinne mahtuu lisävuode.
-              Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. 
-              Yläkerran huoneesta on kaunis näkymä puutarhaan. <br>
-    price: Hinta on 75€ /2hh
+    full: <b>Vihreä huone </b>on tunnelmallinen ja rauhaisa 20m2 huone. Siellä on parisänky ja sinne mahtuu lisävuode.
+              Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. <br> 
+              Yläkerran huoneesta on kaunis näkymä puutarhaan. <br>Vihreä-ja Oranssi huone sopivat hyvin pienille
+              ryhmille tai isolle perheelle yhteiskäytössä. Huoneiden välissä on myös sievä oleskelutila. <br>
+              Hinta on 75€ /2hh/60€ 1hh
   orange:
     short: Oranssi huone 
-    full: <b>Oranssi huone </b>on viihtyisä 20m2 huone. Siellä on parisänky ja sinne mahtuu kaksikin lisävuodetta. <br>
-            Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. Yläkerran huoneesta on kaunis näkymä puutarhaan.
-    price: Hinta on 75€ /2hh
+    full: <b>Oranssi huone </b>on viihtyisä ja  20m2 huone. Siellä on parisänky ja sinne mahtuu kaksikin lisävuodetta. <br>
+            Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. <br> Yläkerran huoneesta on kaunis näkymä puutarhaan. <br>
+            Vihreä-ja Oranssi huone sopivat hyvin pienille ryhmille
+            tai isolle perheelle yhteiskäytössä. Huoneiden välissä on myös sievä oleskelutila. <br>
+            Hinta on 75€ /2hh/ 60€ 1hh
     

@@ -1,17 +1,41 @@
 # News file 
 
 en:
-  last: 04_2011
   news: 
+    all: deco , eco
     short: News
-  04_2011: 
-    short: Season starts and there is now a cottage room. 
-    rest: Real hirsi country feeing combined with 
-          beautiful style and a four poster bed! 
+    deco: 
+        short: Redecorating and refurbishing for the new season
+        rest: Ulko aitassamme on edullinen majoitusvaihtoehto 60€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br>
+              Perinteisen kauniin hirsi seinän kanssa on kultainen pylvässänky. Huoneeseen mahtuu 2 hlöä.
+             Suihku ja wc ovat päärakennuksessa. Halutessasi voit käyttää biologista, kemiallista wc:tä 
+        image: renovate
+    eco: 
+      short: Ecological energy. 
+      rest: Villa Taika now uses only renewable enery <br>
+            We have installed a new wood heating sytem. A modern wood gasification stove now produces most of the 
+            energy neeeded. But also a water circulating fireplace contributes to the heating of the house. <br>
+            Additionally we installed a very energy efficient heat pump in our breakfast lounge.<br>
+            The electricity powering the pump, and indeed the whole house is 100% renwable, like wind and
+            water power, bought from Kraft and Kultur.  
+      image: renewable
+         
 fi:
-  last: 04_2011
   news: 
     short: Uutiset
-  04_2011: 
-    short: Seasonki alkaa , nyt myös mökki huone ulkona
-    rest: Hirsi ja hieno
+    deco: 
+      short: Edullinen majoitus kauniissa ulko aitassamme.
+      rest: Ulko aitassamme on edullinen majoitusvaihtoehto 60€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br>
+          Perinteisen kauniin hirsi seinän kanssa on kultainen pylvässänky. Huoneeseen mahtuu 2 hlöä.
+           Suihku ja wc ovat päärakennuksessa. Halutessasi voit käyttää biologista, kemiallista wc:tä 
+      image: renovate
+    eco: 
+      short: Uusiutuva energia 
+      rest: Villa Taika käyttää vain uusiutuvia energiamuotoja <br>
+              Olemme asentaneet uuden puupannun Villa Taikaan. Moderni puupannu tuottaa suurimman osan
+              talomme energiasta. Mutta vesikiertoinen takkamme tuo osansa talon lämmitys energiasta. <br>
+              Lisäksi asensimme erittäin energia taloudellisen ilmalämpöpumpun aamiaissaliimme.<br>
+              Kaikki talomme käyttämä sähkö on yrityksestä, joka myy ainoastaan tuuli-ja vesi sähköä. Yrityksen nimi on Kraft&Kultur.
+      image: renewable
+      
+           

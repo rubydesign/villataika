@@ -1,48 +1,50 @@
 # translation for suites,  all rooms have short , full and price
 en:
   lootus:
-    short: Lootus Suite
-    full:  The <b>Lootus Suite</b>  is a spacious and enjoyable flat of about 40 m², with traditional indian elements. <br>  
+    short: Lotus Suite
+    full:  The <b>Lotus Suite</b>  is a charming and spacious flat of about 40 m², with asian elegance. <br>  
             It has it's own bathroom with shower and toilet, and a <b>private terasse</b>. <br>
-            One can see the nearby lake, and the terasse is a perfect place to enjoy the morning 
+            One can get a glimpse of the  nearby lake, and the terasse is a perfect place to enjoy the morning 
             in the sun. <br>
-            There is a lovely double bed, and plenty of space for up to three extra beds on request. <br> 
+            There is a double bed, and plenty of space for up to three extra beds on request. <br> 
             The suite is also very well suited for wedding couples. We offer a <b>wedding package</b> which includes 
-            extra decoration, including flowers and candles, and breakfeast can be served privately 
+            extra decoration with flowers and candles, and breakfeast can be served privately 
             to the room or terasse.<br>
-            The price for two is 95€. (Weddingpackage is 135€ for two)
+            The room price for two is 95€. (Weddingpackage is 135€ for two)
   sun:
     short: Sun suite 
     full: The <b>Sun suite</b> is an elegant, sunny and spacious room. <br>
-          Traditional english timberframing gives the room a rustic touch which counterpoints the elegant 
+          Traditional timberframing gives the room a rustic touch which counterpoints the elegant 
           interiour with beautiful teak furniture.<br>
-          Facing south with large windows there is a very sunny and light feeling in the room. Also very spacious 
+          Facing south with large windows there is a sunny and light feeling in the room. Alsoit feels spacious 
           as the ceilings are over 3m high.<br> 
           Shower and toilet are ensuite. 
           There is a double bed and a space to fit two extra beds.<br>
-          The price for two is 90€.
+          The price for two is 90€/75€ single
   ametist:
     short: Amethyst room
-    full: The <b>Amethyst</b> room is a light and sunny 15m² room with a mixed asian interiour. <br>
-          The room has is south facing  with large windows and high ceiling that give it a very spacious feel.<br>
+    full: The <b>Amethyst</b> room is a light and sunny 15m² room with handcarved relief. <br>
+          The room has is south facing  with large windows and high ceiling that give it a spacious feel.<br>
           There is a private bathroom with shower and a double bed. One extra bed can be arranged. <br>
-          The price for two is 85€
+          The price for two is 85€/70€ single
 fi:
   lootus:
     short: Lootus sviitti 
-    full: <b>Lootus sviitti </b> on viehättävä huoneisto 40m2. Siihen kuuluu oma wc ja suihku, sekä terassi , jolta pilkottaa 
-            läheinen järvi. Huoneessa on parisänky ja sinne mahtuu 3 tai 4 lisävuodetta. <br>  <br>
+    full: <b>Lootus sviitti </b> on viehättävä , aasialaisella tyylikkyydellä sisustettu huoneisto 40m².<br> Siihen kuuluu oma wc ja suihku, sekä terassi , jolta pilkottaa 
+            läheinen järvi.<br> Huoneessa on parisänky ja sinne mahtuu 3 tai 4 lisävuodetta. <br>  <br>
             Sviitti sopii myös hääpareille. Hääpaketti sisältää huoneen ja lisäkoristelun kukkasilla ja kynttilöillä. 
-            Aamupala haluttaessa oneityisesti sään salliessa omalla terassilla. 
-    price: Hinta on 95€ /2hh. (Hääpaketti on 135€ /2hh)
+            Aamupala haluttaessa sään salliessa omalla terassilla. <br>
+            Hinta on 95€ /2hh. (Hääpaketti on 135€ /2hh)
   sun:
     short: Aurinko sviitti 
-    full: <b>Aurinko sviitti</b> on valoisa ja tyylikäs 25m2 sviitti. Siellä on parisänky ja sinne mahtuu mukavasti kaksikin lisävuodetta. 
-            Siinä on oma wc ja suihku.
-    price: Hinta on 90€ /2hh
+    full: <b>Aurinko sviitti</b> on valoisa ja tyylikäs 25m² sviitti. Perinteisellä hirsirakennus tekniikalla rakennetut kaaret
+          tuovat oman lisänsä, tyylikkäillä tiikki huonekaluilla sisustettuun huoneseen. <br>
+          Siellä on parisänky ja sinne mahtuu mukavasti kaksikin lisävuodetta. 
+          Siinä on oma wc ja suihku.<br>
+          Hinta on 90€ /2hh ja 75€ /1hh
   ametist:
     short: Ametisti huone
-    full: <b>Ametisti huone </b>on valoisa 15m2 huone. Siellä on parisänky ja sinne mahtuu tarvittaessa lisävuode.
-          Huoneessa on oma wc ja suihku.
-    price: Hinta on 85€ /2hh
+    full: <b>Ametisti huone </b>on valoisa ja kaunis 15m² huone. Huonetta koristaa käsinkaiverrettu reliefi ja uniikki käsinmaalattu kaappi. <br> Siellä on parisänky ja sinne mahtuu tarvittaessa lisävuode.
+          Huoneessa on oma wc ja suihku.<br>
+           Hinta on 85€ /2hh ja 70€/ 1hh
     

@@ -22,11 +22,11 @@ fi:
     myos: Katso myös
     slogan: taianomaista tyylikkyyttä
     suites:
-      short: Suites (w.shower)
+      short: Sviitit (suihkulla)
     deluxe: 
-      short: Deluxe (w.toilet)
+      short: Deluxe (wc:llä)
     standard: 
-      short: Standard (shared)
+      short: Standard (jaettu)
     photos:
       short: Kuvat
     index:

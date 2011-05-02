@@ -1,23 +1,18 @@
+<% news.each do |ne| %>
 <div class="news_box">
   <div class="box_inner">
-    <div class="captioned_image">
-      <a href="/images/lootus.jpg" rel="lightbox" title="Just an example">
-        <img src="/images/lootus_small.jpg" height=100>
+    <% unless t(".#{ne}.image").index("missing") %>
+      <div class="captioned_image">
+        <a href="/news/large/<%=t(".#{ne}.image")%>.jpg" rel="lightbox" title="<%= t(".#{ne}.short")%>">
+          <img src="/news/<%=t(".#{ne}.image")%>.jpg" height=100>
         </a>
-    </div>
-    <h2> <%= t("04_2011.short")%> </h2>
-    <%=raw t("04_2011.rest")%>
+      </div>
+    <%end%>
+    <h2> <%= t(".#{ne}.short")%> </h2>
+    <%=raw t(".#{ne}.rest")%>
   </div>
 </div>
-<div class="news_box">
-  <div class="box_inner">
-    <div class="captioned_image">
-      <a href="/images/lootus.jpg" rel="lightbox" title="Just an example">
-        <img src="/images/lootus_small.jpg" height=100>
-        </a>
-    </div>
-    <h2> <%= t("04_2011.short")%> </h2>
-    <%=raw t("04_2011.rest")%>
-  </div>
-</div>
+<%=raw "<div class='line'> &nbsp;</div>"  %>
+<%end%>
+
 

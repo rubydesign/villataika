@@ -2,16 +2,16 @@
 
 en:
   activities: 
-    all: swim , row , fiskars , forest , garden , hanko , raasepori , groups
+    all: swim , forest , row , garden , fiskars , hanko , raasepori , groups
     short: Activities
     swim:
       short: Swimming in clean lakes
-      rest: There are several opertunities to go swimming. The closest beach on Isosimmi lake is about 200m walk.
-          There three more family friendly beaches a few mintues drive away by car or bicycle. 
+      rest: There are several opertunities to go swimming. The closest beach on Isosimi lake is about 200m walk.
+          There are three more family friendly beaches a few minutes drive away by car or bicycle. 
     forest:
       short: Walk or cycle through woods
       rest: There are many unpaved paths through the surrounding nature reseve. 
-            Bring your own bicycle, get one from us or walk to explore the surroounding nature. 
+            Bring your own bicycle, get one from us or walk to explore the surrounding nature. 
     row:
       short: Rowing or fishing, time off
       rest: It is possible to rent the rowing boat for a small fee and spend some quiet time on 
@@ -22,8 +22,8 @@ en:
             waterfall you may not want to leave.
     fiskars:
       short: Fiskars & Bilnas Villages
-      rest: The beautifully restored art and craft centre of Fiskars is just a few minutes drive away. 
-            There are handicraft shops, workshops, cafees and restaurants. 
+      rest: The beautifully restored art and craft centre of Fiskars is just a 5 minutes drive away. 
+            There are handicraft shops, workshops, cafes and restaurants. 
             Bilnas, another old ironwork centre, is just over 10 minutes drive.
     hanko:
       short: Tammisaari and Hanko, old towns
@@ -32,37 +32,58 @@ en:
     raasepori:
       short: Raasepori and Mustio
       rest: The old stone castle of Raasepori, now the namesake of the region is close by. 
-            Also the grand castle of Mustio is just 15 minutes away. 
+            Also the grand castle of Mustio is just 15 minutes away where you can have a dinner or enjoy a cuppa by the lake.
     groups:
       short: Group activities
       rest: <a href="http://www.kdadventure.com/fi/activities/kursseja/">KD Adventure</a>, can 
-            arrange a variety of group activities, like several nature courses, themed evenings, coal walking 
+            arrange a variety of group activities, like nature courses,canoing, themed evenings, coal walking 
             and paintball.  Best of all, they are just next door, so you can enjoy a shower and warm
-            bed after an adventourous day.
-        
+            bed in Villa Taika, after an adventourous day.
+
 fi:
+  all: swim , forest , row , garden , fiskars , hanko , raasepori , groups
   activities: 
-    short: Tekemista
+    short: Tekemistä
     swim: 
-      short: Seasonki alkaa , nyt myös mökki huone ulkona
-      rest: Hirsi ja hieno
+      short: Uimista läheisissä järvissä
+      rest: Lähin järvi on Isosimi, jonka uimapaikkaan on 200m. Villa Taian lähiympäristössä on muitakin järviä,
+        joista monet sopivat myös perheen pienimpienkin polskutteluun. Niihin on vain muutaman minuutin matka autolla 
+        tai polkupyörällä.
+    forest:
+      short: Kävelyä tai pyöräilyä lähimetsissä
+      rest: Metsissä löytyy pikkupolkuja, joilla voi patikoida tai pyöräillä.
+            Voit tehdä lyhyitäkin retkiä läheiseen Iso-Simin luonnonsuojelualueelle.  
+            Tuo retkipyörä mukanasi, mutta meiltä saat pyörän lainaksi, jos haluat vaikka Fiskarsiin pyöräillä
     row:
-      short: Rowing
-      rest: Possible to rent the rowing boat for a small fee and spend some quiet time on 
-            the lake just a few minutes away.
+      short: Soutelua
+      rest: On mahdollista vuokrata edullisesti soutuvene ja soudella läheisellä järvellä.
+              Isosimin luonnonsuojelualue järvineen on hiljainen ja rauhoittava kokemus.
     garden:
-      short: Garden
-      rest: There are several opertunities to go .
+      short: Puutarha
+      rest: Puutarhassamme on monia levähdyspaikkoja, joissa voit istuksia, vaikka kirjaa lukemassa
+              ja nauttia olostasi vesiputouksen solistessa rauhoittavsti.
     fiskars:
-      short: Fiskars village
-      rest: The beautifully restored art and craft centre is just a few minutes drive away.
-    tammisaari:
-      short: Tammisaari
-      rest: There are several opertunities to go .
+      short: Fiskarsin ruukki
+      rest: Fiskarsin ruukki on ihana elämys . Siellä on pikku liikkeitä, jotka myyvät paikallisten 
+            käsityöläisten valmistamia kauniita esineitä. Myös hienot taidenäyttelyt rikastuttavat päivääsi.
+            Fiskarsissa Ihanat kahvilat ja ravintolat tarjoavat maukasta ruokaa tai kahvia ja pikkupurtavaa.
+            Sinne on vain 5 minuutin automatka
     hanko:
-      short: Hanko
-      rest: There are several opertunities to go .    
+      short: Tammisaari ja Hanko
+      rest: Tammisaari ja Hanko ovat molemmat idyllisiä kaupunkeja meren rannalla. Niihin voi mennä vaikka
+              päiväretkelle nauttimaan merellisestä tunnelmasta ja ihastelemaan kaunista puutalo miljöötä.
+              Tammisaareen on puolen tunnin automatka ja Hankoon pääsee hieman alle tunnissa.
     raasepori:
-      short: Raasepori Castle
-      rest: The old castle is close by.
+      short: Raaseporin linna ja Mustio
+      rest: Raaseporin vanhat ja komeat linnarauniot ovat alle puolentunnin matkan päässä.
+       Ja upea Mustion linna ja sen kaunis puutarha vain, 20 min ajomatkan päässä.Mustiossa on myös 
+       tunnelmallinen ravintola,jossa voi aterioida tai juoda kupposen kahvia.
+    groups:
+      short: Ryhmille
+      rest: <a href="http://www.kdadventure.com/fi/activities/kursseja/">KD Adventure</a> 
+           Naapurissamme toimiva yritys voi järjestää ryhmille toimintaa. Vaikkapa luontoretkiä, kanoottiretkiä, 
+           paintballia  tai tulisilla hiilillä kävelyä uskaliaimmille. 
+            
+    
+      
     

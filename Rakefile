@@ -5,12 +5,12 @@ require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
 Villataika::Application.load_tasks
-desc "Create the static content for upload to server. (to ../public_html/villataika.fi)"
+desc "Create the static content for upload to server. (to ./villataika.fi)"
 task :output do
   require "socket"
   name = Socket.gethostname
   local = "-k" if name.include?("local")
-  dir = "../public_html/villataika.fi/"
+  dir = "./villataika.fi/"
   require 'ftools'
   File.makedirs dir
   system "cp -R public/* #{dir}"
