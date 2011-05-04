@@ -1,5 +1,4 @@
 # News file 
-
 en:
   news: 
     all: deco , eco
@@ -21,6 +20,45 @@ en:
       image: renewable
          
 fi:
+  news: 
+    short: Uutiset
+    deco: 
+      short: Edullinen majoitus kauniissa ulko aitassamme.
+      rest: Ulko aitassamme on edullinen majoitusvaihtoehto 60€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br>
+          Perinteisen kauniin hirsi seinän kanssa on kultainen pylvässänky. Huoneeseen mahtuu 2 hlöä.
+           Suihku ja wc ovat päärakennuksessa. Halutessasi voit käyttää biologista, kemiallista wc:tä 
+      image: renovate
+    eco: 
+      short: Uusiutuva energia 
+      rest: Villa Taika käyttää vain uusiutuvia energiamuotoja <br>
+              Olemme asentaneet uuden puupannun Villa Taikaan. Moderni puupannu tuottaa suurimman osan
+              talomme energiasta. Mutta vesikiertoinen takkamme tuo osansa talon lämmitys energiasta. <br>
+              Lisäksi asensimme erittäin energia taloudellisen ilmalämpöpumpun aamiaissaliimme.<br>
+              Kaikki talomme käyttämä sähkö on yrityksestä, joka myy ainoastaan tuuli-ja vesi sähköä. Yrityksen nimi on Kraft&Kultur.
+      image: renewable
+      
+
+de:
+  news: 
+    all: deco , eco
+    short: News
+    deco: 
+        short: Affordable accommodation in redocorated granery
+        rest: On the yard we have room granary 60€/ 2hh. Room is traditionally decorated. <br>
+              Traditional log cabin that is decorated with afour poster bed. two peple can sleep in it.
+             Shower and toilet are in the main building.
+        image: renovate
+    eco: 
+      short: Ecological energy. 
+      rest: Villa Taika now uses only renewable enery <br>
+            We have installed a new wood heating sytem. A modern wood gasification stove now produces most of the 
+            energy neeeded. But also a water circulating fireplace contributes to the heating of the house. <br>
+            Additionally we installed a very energy efficient heat pump in our breakfast lounge.<br>
+            The electricity powering the pump, and indeed the whole house is 100% renwable, like wind and
+            water power, bought from Kraft and Kultur.  
+      image: renewable
+         
+se:
   news: 
     short: Uutiset
     deco: 

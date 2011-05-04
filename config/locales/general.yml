@@ -34,3 +34,39 @@ fi:
       bold: Taianomaista tyylikkyyttä Aasiasta ja luonnonkauniin ympäristön rauhaa.
       text:   on kaunis ja viehättävä Bed&Breakfast -paikka sekä 
                 kurssikeskus Antskogissa, 4,5 km Fiskarsista Karjalohjalle päin. 
+de:
+    tai: or
+    puh: tel
+    myos: See also
+    slogan: asian elegance
+    suites: 
+      short: Suites (w.shower)
+    deluxe: 
+      short: Deluxe (w.toilet)
+    standard: 
+      short: Standard (shared)
+    photos:
+      short: Photos
+    index:
+      short: Home
+      bold: Asian elegance in the beauty of natural surroundings.
+      text:  is a charming Bed&Breakfast  and 
+                course-center in Antskog, near Fiskars, just one hours drive from Helsinki. 
+se:
+    tai: tai
+    puh: puh
+    myos: Katso myös
+    slogan: taianomaista tyylikkyyttä
+    suites:
+      short: Sviitit (suihkulla)
+    deluxe: 
+      short: Deluxe (wc:llä)
+    standard: 
+      short: Standard (jaettu)
+    photos:
+      short: Kuvat
+    index:
+      short: Kotisivu
+      bold: Taianomaista tyylikkyyttä Aasiasta ja luonnonkauniin ympäristön rauhaa.
+      text:   on kaunis ja viehättävä Bed&Breakfast -paikka sekä 
+                kurssikeskus Antskogissa, 4,5 km Fiskarsista Karjalohjalle päin. 

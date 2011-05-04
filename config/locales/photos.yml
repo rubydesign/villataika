@@ -17,4 +17,23 @@ fi:
     h_curves: Aurinko sviitin kaiverrukset
     h_lootus_wc: Lootus WC
     h_highview: Villa Taika korkealta
+de:
+  photos: 
+    all: w_frogs , w_terasse, w_peony , h_aurinko_wc , h_curves , h_lootus_wc ,h_highview  
+    w_frogs: Dancing frogs
+    w_peony: Fountain in the garden
+    w_terasse: Garden terasse
+    h_aurinko_wc: Aurinko wc
+    h_curves: Aurinko carvings
+    h_lootus_wc: Lotus suite toilet
+    h_highview: Villa Taika from above
+se:
+  photos: 
+    w_frogs: Tanssivat  sammakot
+    w_terasse: Terassi
+    w_peony: Suihkulähde
+    h_aurinko_wc: Aurinko wc
+    h_curves: Aurinko sviitin kaiverrukset
+    h_lootus_wc: Lootus WC
+    h_highview: Villa Taika korkealta
     
