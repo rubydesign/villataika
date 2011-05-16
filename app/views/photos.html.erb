@@ -1,5 +1,5 @@
 <% photos.each do |photo| %>
-<div class="photo_box_<%=photo.split('_').first%>">
+<div class="photobox_<%=photo.split('_').first%>">
   <div class="eiole">
     <a href="/photos/large/<%=photo%>.jpg" rel="lightbox[photos]" title="<%=t "."+photo%>">
       <img src="/photos/<%=photo%>.jpg" alt="<%=t "."+photo%>"/>

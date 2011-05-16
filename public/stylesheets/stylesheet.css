@@ -307,7 +307,7 @@ position: relative;
 top: -5px;
 }
 
-.news_box
+.newsbox
 {
 position: relative;
 background: inherit;
@@ -315,7 +315,7 @@ color: #AAB162;
 height: 120px;
 }
 
-.activity_box
+.activitybox
 {
 float: left;
 position: relative;
@@ -349,7 +349,7 @@ line-height: 1.4em;
 
 }
 
-#rcontent div.activity_box div.box_inner {
+#rcontent div.activitybox div.box_inner {
 padding-top: 5px;  
 padding-left: 5px;  
 padding-top: 5px;
@@ -372,7 +372,7 @@ bottom: 0px;
 left: 0px;
 }
 
-.photo_box_w{
+.photobox_w{
   border: solid 1px #fff;
   padding: 5px;
   padding-bottom: 10px;
@@ -387,7 +387,7 @@ left: 0px;
   text-align: center;
 }
 
-.photo_box_h{
+.photobox_h{
   border: solid 1px #fff;
   padding: 5px;
   margin-right: 12px;
@@ -469,26 +469,26 @@ div.kolmas {
 .left {
 }
 
-.wide_box {
+.widebox {
   width: 100%;
   height: 250px;
 }
 
-.small_box {
+.smallbox {
   width: 285px;
   float: left;
 }
 
-.small_box2 {
+.smallbox2 {
   width: 210px;
   float: left;
 }
 
-.small_box img {
+.smallbox img {
   border: 2px solid #c1cabb;
 }
 
-.small_box2 img {
+.smallbox2 img {
   border: 2px solid #c1cabb;
 }
 
@@ -502,12 +502,12 @@ img {
   border-style: none;
 }
 
-#rcontent div.activity_box div.box_inner a img {
+#rcontent div.activitybox div.box_inner a img {
   float: left;
   margin-right: 10px;
 }
 
-#rcontent div.activity_box div.box_inner a h2 {
+#rcontent div.activitybox div.box_inner a h2 {
   margin-bottom: 10px;
 }
 
