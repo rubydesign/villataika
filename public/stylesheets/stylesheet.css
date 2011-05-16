@@ -1,26 +1,21 @@
 
-*
-{
-margin: 0px;
-padding: 0px;
-}
 
 body
 {
-background-color: #fff;
-font-size: 14px;
-font-family: georgia, "times new roman", serif;
+  font-size: 14px;
+  font-family: georgia, "times new roman", serif;
+  background: white;
 }
 
 a
 {
 text-decoration: none;
 font-weight: bold;
-color: rgb(0, 132, 149);
+color: #008495;
 }
 
 #news a {
-text-decoration: none;	
+text-decoration: none;  
 color: #9f9f9f;
 }
 
@@ -40,8 +35,8 @@ color: #50514D;
 {
 width: 100%;
 height: 104px;
-background-color: #ffffff;
 color: #ffffff;
+  background: #ffffff;
 }
 
 #header_inner
@@ -76,10 +71,10 @@ color: #DADADA;
 position: relative;
 bottom: 7px;
 font-size: 13px;
-color: rgb(0, 132, 149);
+color: #008495;
 text-align: right;
-	margin-right: 30px;
-	font-style: italic;
+  margin-right: 30px;
+  font-style: italic;
 }
 
 div.right {
@@ -118,18 +113,16 @@ margin: 0px;
 
 #menu li
 {
-background: none;
+background: inherit url('/images/bbg0.gif');
 padding: 0px;
 font-weight: bold;
 width: 165px;
 height: 38px;
-background: inherit;
-background-image: url('/images/bbg0.gif');
 }
 
 
 #menu ul li.active {
-  background-image: url('/images/bbg2.gif');
+  background: url('/images/bbg2.gif') ;
 }
 
 #menu a
@@ -162,13 +155,13 @@ height: 7px;
 
 #menu li:hover
 {
-background-image: url('/images/bbg1.gif');
+  background: url('/images/bbg1.gif') ;
 }
 
 #menu_end
 {
 height: 30px;
-background-image: url('/images/a2.gif');
+background: url('/images/a2.gif');
 }
 
 h1
@@ -204,7 +197,7 @@ background: url('/images/a3.gif') repeat-x 0px 17px;
 h3 span
 {
 background: inherit;
-color: rgb(0, 132, 149)
+color: #008495
 }
 
 h3.first
@@ -248,9 +241,9 @@ background: url('/images/li_high.gif') no-repeat;
 }
 
 #rcontent div.right ul {
-	font-size: 1.1em;
-	word-spacing: 3px;
-	line-height: 20px;
+  font-size: 1.1em;
+  word-spacing: 3px;
+  line-height: 20px;
 }
 
 p
@@ -304,8 +297,7 @@ background-position: 0px 5px;
 position: relative;
 margin-left: 170px;
 width: 885px;
-background-image: url('/images/a2.gif');
-background-repeat: repeat-x;
+background: url('/images/a2.gif') repeat-x;
 }
 
 #slogan2
@@ -341,7 +333,7 @@ height: 180px;
 
 .box h2
 {
-color: rgb(0, 132, 149);
+color: #008495;
 font-weight: normal;
 font-size: 20px;
 margin-bottom: 5px
@@ -358,10 +350,10 @@ line-height: 1.4em;
 }
 
 #rcontent div.activity_box div.box_inner {
-padding-top: 5px;	
-padding-left: 5px;	
+padding-top: 5px;  
+padding-left: 5px;  
 padding-top: 5px;
-	text-align: justify;
+  text-align: justify;
 }
 
 .captioned_image
@@ -392,7 +384,7 @@ left: 0px;
   width: 232px;
   height: 170px;
   float: left;
-	text-align: center;
+  text-align: center;
 }
 
 .photo_box_h{
@@ -410,51 +402,51 @@ left: 0px;
 }
 
 div.centre {
-	text-align: center;
+  text-align: center;
 }
 div#lotus {
-	height: 450px;
-	width: 330px;
-	float: left;
-	position: relative;
+  height: 450px;
+  width: 330px;
+  float: left;
+  position: relative;
 }
 
 div#aurinko {
-	width: 265px;
-	float: left;
-	position: relative;
+  width: 265px;
+  float: left;
+  position: relative;
 }
 
 #extra {
-	width: 200px;
-	height: 330px;
-	bottom: 0;
-	float: left;	
-	margin-left: 0px;
-	padding-right: 10px;
-	position: relative;
+  width: 200px;
+  height: 330px;
+  bottom: 0;
+  float: left;  
+  margin-left: 0px;
+  padding-right: 10px;
+  position: relative;
 }
 
 div#aurinko_wrapper {
-	height: 330px;
-	width: 500px;
-	margin-left:0px;
-	float: left;
-	position: relative;
+  height: 330px;
+  width: 500px;
+  margin-left:0px;
+  float: left;
+  position: relative;
 }
 
 .bottom {
-	bottom: 0;
-	padding-top: 22px;
+  bottom: 0;
+  padding-top: 22px;
 }
 
 div#main_text {
-	font-weight: bold; 
-	font-size: 16px;
-	color: rgb(0, 132, 149);
-  	width: 510px;
-	position: relative;
-	float:  left;
+  font-weight: bold; 
+  font-size: 16px;
+  color: #008495;
+    width: 510px;
+  position: relative;
+  float:  left;
 }
 
 .sub_text {
@@ -467,11 +459,11 @@ div#main_text {
 }
 
 div.kolmas {
-	width: 33%;
-	float: left;
+  width: 33%;
+  float: left;
 }
 .top {
-	top: 0;
+  top: 0;
 }
 
 .left {
@@ -489,7 +481,7 @@ div.kolmas {
 
 .small_box2 {
   width: 210px;
-	float: left;
+  float: left;
 }
 
 .small_box img {
@@ -507,16 +499,16 @@ div.room_header {
 }
 
 img {
-	border-style: none;
+  border-style: none;
 }
 
 #rcontent div.activity_box div.box_inner a img {
-	float: left;
-	margin-right: 10px;
+  float: left;
+  margin-right: 10px;
 }
 
 #rcontent div.activity_box div.box_inner a h2 {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #footer
@@ -533,6 +525,6 @@ line-height: 18px;
 
 #rcontent div.line {
 border-bottom: solid 1px #c0dce0;
-	float: left;
-	width : 100%;
+  float: left;
+  width : 100%;
 }
