@@ -4,7 +4,7 @@ en:
     short: Bed & Breakfast
     one:
         Welcome to the charming and peaceful Villa Taika! <br/>
-        We have created unique B&B, with 8 individually decorated rooms.
+        We have created unique B&amp;B, with 8 individually decorated rooms.
         Inspired by our trips to the Orient , we brought that beauty and inspiration with us in the 
         pieces of furniture, that we selected to our rooms. <br/> 
         We hope you will be revitalisedand rested in the beauty of our surroundings! <br/>
@@ -26,7 +26,7 @@ fi:
   bed:
     rooms: Huoneet
     short: Bed & Breakfast
-    one: Tervetuloa viehättävään Villa Taikaan! <br/>Olemme luoneet B&B;n, jossa jokainen huone on uniikisti sisustettu. <br/> 
+    one: Tervetuloa viehättävään Villa Taikaan! <br/>Olemme luoneet B&amp;;n, jossa jokainen huone on uniikisti sisustettu. <br/> 
         Matkoillamme Aasiaan olemme usein lumoutuneet sen kauneudesta. 
         Valitsimme huoneisiimme yksilölliset huonekalut muistuttamaan ja inspiroimaan elämän ainutlaatuisesta kauneudesta. <br/> 
         Toivomme että sinäkin nautit siitä täällä luonamme Villa Taiassa! <br/>Meillä on suuri puutarha vesiputouksineen ja pihalampineen . Siellä voit
@@ -47,7 +47,7 @@ de:
     short: Bed & Breakfast
     one:
         Welcome to the charming and peaceful Villa Taika! <br/>
-        We have created unique B&B, with 8 individually decorated rooms.
+        We have created unique B&amp;, with 8 individually decorated rooms.
         Inspired by our trips to the Orient , we brought that beauty and inspiration with us in the 
         pieces of furniture, that we selected to our rooms. <br/> 
         We hope you will be revitalisedand rested in the beauty of our surroundings! <br/>
@@ -69,7 +69,7 @@ se:
   bed:
     rooms: Huoneet
     short: Bed & Breakfast
-    one: Tervetuloa viehättävään Villa Taikaan! <br/>Olemme luoneet B&B;n, jossa jokainen huone on uniikisti sisustettu. <br/> 
+    one: Tervetuloa viehättävään Villa Taikaan! <br/>Olemme luoneet B&amp;;n, jossa jokainen huone on uniikisti sisustettu. <br/> 
         Matkoillamme Aasiaan olemme usein lumoutuneet sen kauneudesta. 
         Valitsimme huoneisiimme yksilölliset huonekalut muistuttamaan ja inspiroimaan elämän ainutlaatuisesta kauneudesta. <br/> 
         Toivomme että sinäkin nautit siitä täällä luonamme Villa Taiassa! <br/>Meillä on suuri puutarha vesiputouksineen ja pihalampineen . Siellä voit
