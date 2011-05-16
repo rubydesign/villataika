@@ -1,8 +1,8 @@
 <% news.each do |ne| %>
 <div class="newsbox">
-  <div class="box_inner">
+  <div class="boxinner">
     <% unless t(".#{ne}.image").index("missing") %>
-      <div class="captioned_image">
+      <div class="captionedimage">
         <a href="/news/large/<%=t(".#{ne}.image")%>.jpg" rel="lightbox" title="<%= t(".#{ne}.short")%>">
           <img src="/news/<%=t(".#{ne}.image")%>.jpg" height=100>
         </a>

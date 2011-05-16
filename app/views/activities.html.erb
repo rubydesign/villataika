@@ -1,7 +1,7 @@
 <% activities.each_with_index do |activity , index| %>
 
 <div class="activitybox">
-  <div class="box_inner">
+  <div class="boxinner">
       <a href="/activities/large/<%=activity%>.jpg" rel="lightbox[activity]" title="<%= t(".#{activity}.short")%>">
 	    <h2> <%= t(".#{activity}.short")%> </h2>
         <img src="/activities/<%=activity%>.jpg" alt="<%= t(".#{activity}.short")%>"/>

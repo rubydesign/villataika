@@ -166,7 +166,7 @@ height: 7px;
 background-image: url('../images/bbg1.gif');
 }
 
-#menu_end
+#menuend
 {
 height: 30px;
 background-image: url('../images/a2.gif');
@@ -348,7 +348,7 @@ font-size: 20px;
 margin-bottom: 5px
 }
 
-.box_inner
+.boxinner
 {
 border: solid 1px #fff;
 padding: 16px;
@@ -358,14 +358,14 @@ line-height: 1.4em;
 
 }
 
-#rcontent div.activitybox div.box_inner {
+#rcontent div.activitybox div.boxinner {
 padding-top: 5px;	
 padding-left: 5px;	
 padding-top: 5px;
 	text-align: justify;
 }
 
-.captioned_image
+.captionedimage
 {
 position: relative;
 padding-bottom: 15px;
@@ -373,7 +373,7 @@ float: left;
 margin-right: 17px;
 }
 
-.captioned_image div
+.captionedimage div
 {
 position: absolute;
 font-size: 9px;
@@ -436,7 +436,7 @@ div#aurinko {
 	position: relative;
 }
 
-div#aurinko_wrapper {
+div#aurinkowrapper {
 	height: 330px;
 	width: 500px;
 	margin-left:0px;
@@ -449,7 +449,7 @@ div#aurinko_wrapper {
 	padding-top: 22px;
 }
 
-div#main_text {
+div#maintext {
 	font-weight: bold; 
 	font-size: 16px;
 	color: rgb(0, 132, 149);
@@ -458,7 +458,7 @@ div#main_text {
 	float:  left;
 }
 
-.sub_text {
+.subtext {
   width:510px;
   height: 40px;
   margin-top: 10px;
@@ -501,7 +501,7 @@ div.kolmas {
   border: 2px solid #c1cabb;
 }
 
-div.room_header {
+div.roomheader {
   font-size: 120%;
   line-height: 1.2em;
   margin-bottom: 21px;
@@ -511,12 +511,12 @@ img {
 	border-style: none;
 }
 
-#rcontent div.activitybox div.box_inner a img {
+#rcontent div.activitybox div.boxinner a img {
 	float: left;
 	margin-right: 10px;
 }
 
-#rcontent div.activitybox div.box_inner a h2 {
+#rcontent div.activitybox div.boxinner a h2 {
 	margin-bottom: 10px;
 }
 
