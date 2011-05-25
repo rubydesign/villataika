@@ -11,4 +11,7 @@ Villataika::Application.routes.draw do |map|
           :page => "index",
           :locale => 'fi'
         }
+        
+        get "/en/booking.php" ,     :to => 'page#index' , :page => "booking" , :locale => "en"
+        get "/fi/booking.php" ,     :to => 'page#index' , :page => "booking" , :locale => "fi"
 end
