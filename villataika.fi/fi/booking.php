@@ -88,23 +88,23 @@
   <div id="rcol"> 
     <div id="rcontent"> 
       <?php 
-  require_once( 'google.php' );
+  require_once( '../google.php' );
   $show_form = 1 ;
-if ($_POST["email"]<>'') { 
-  if( voiko() ){
-    teesen();
-    $show_form = 0 ;
+  if(isset($_POST['submit'])) {
+    $error = voiko() ;
+    if( empty($error) ){
+      teesen();
+      $show_form = 0 ;
+      ?> 
+      Your booking was received. <br/><br/> 
+      <?php 
+    } else { 
     ?> 
-    Your message was sent. <br/><br/> 
+       Please fill out all fields, and check your email and date. <br/><br/> 
     <?php 
-  } else { 
-    ?> 
-    Your post contains errors, please fill out all fields, and check your email and date. <br/><br/> 
-    <?php 
-  }
-  ?> 
-    <?php 
-}; 
+    print $error;
+    }; 
+  }; 
 if ($show_form )   { 
     ?> 
 <br/> 
@@ -112,31 +112,39 @@ You can book by phone , +358407046699 between 10:00 and 19:00, or send us mail, 
 Please fill out all fields. If you do do not want to book a certain room, you may use Suite/Deluxe/standard for the room field. <br/> 
 Also remember that all rooms have a double bed. So if there is more than 2 of you, please add to the comment. <br/> 
  
-<form action="/feedback.php" method="post"> 
+<form action="booking.php" method="post"> 
   <table border="0" cellpadding="8" cellspacing="8"> 
     <tr> 
       <td><label for="name">Name</label>:</td> 
       <input type="hidden" name="language" value="fi" /> 
-      <td><input type="text" name="name" id="name" size="35" /></td> 
+      <td><input type="text" name="name" id="name" size="35" 
+      <?php if (isset($_POST['name']) ) print "value='" . $_POST['name'] . "'"  ; ?>  />
+      </input>
+        </td> 
       <td><label for="email">Email address</label>:</td> 
-      <td><input type="text" id="email" name="email" size="35" /></td> 
+      <td><input type="text" id="email" name="email" size="35" 
+        <?php if (isset($_POST['email']) ) print "value='" . $_POST['email'] . "'"  ; ?> /></td> 
     </tr> 
     <tr> 
       <td><label for="arrival">Date of arrival</label>:</td> 
-      <td><input type="text" id="arrival" name="arrival" size="35" /></td> 
-      <td><label for="room">Phone</label>:</td> 
-      <td><input type="text" id="phone" name="phone" size="35" /></td> 
+      <td><input type="text" id="arrival" name="arrival" size="35" 
+        <?php if (isset($_POST['arrival']) ) print "value='" . $_POST['arrival'] . "'"  ; ?> /></td> 
+      <td><label for="phone">Phone</label>:</td> 
+      <td><input type="text" id="phone" name="phone" size="35" 
+        <?php if (isset($_POST['phone']) ) print "value='" . $_POST['phone'] . "'"  ; ?> /></td> 
     </tr> 
     <tr> 
-      <td><label for="hights">Nights</label>:</td> 
-      <td><select name="hights"> <option></option> <option>1</option> <option>2</option><option>3</option> 
+      <td><label for="nights">Nights</label>:</td> 
+      <td><select name="nights"> <option></option> <option>1</option> <option>2</option><option>3</option> 
         <option>Call!</option>  </select></td> 
       <td><label for="room">Room</label>:</td> 
-      <td><input type="text" id="room" name="email" size="35" /></td> 
+      <td><input type="text" id="room" name="room" size="35" 
+        <?php if (isset($_POST['room']) ) print "value='" . $_POST['room'] . "'"  ; ?>/></td> 
     </tr> 
     <tr> 
       <td> <label for="comment">Comment</label><br /> </td> 
-      <td> <textarea rows="2" cols="35" name="comment" id="comment"></textarea> </td> 
+      <td> <textarea rows="2" cols="35" name="comment" id="comment"
+        ><?php if (isset($_POST['comment']) ) print  $_POST['comment']  ?> </textarea> </td> 
       <td colspan="2"><input type="submit" name="submit" value="Send booking" /></td> 
     </tr> 
   </table> 
