@@ -1,4 +1,7 @@
-
+/* @override 
+	http://localhost:3000/stylesheets/styles.css
+	http://localhost:3000/stylesheets/lightbox.css
+*/
 
 body
 {
@@ -86,13 +89,13 @@ margin: 0px;
 
 #menu li
 {
-background: inherit url('../images/bbg0.gif');
+  background: url('../images/li_low.jpg') no-repeat;
 padding: 0px;
 font-weight: bold;
-width: 165px;
+width: 140px;
+margin-left: -20px;
 height: 38px;
 }
-
 
 #menu ul li.active {
   background: url('../images/bbg2.gif') ;
@@ -104,16 +107,10 @@ display: block;
 position: relative;
 margin-bottom: 1px;
 text-decoration: none;
-padding-left: 25px;
-padding-top: 11px;
+padding-left: 20px;
+padding-top: 10px;
 color: #636363;
 font-size: 13px;
-}
-
-#menu li span
-{
-position: absolute;
-right: 0px;
 }
 
 #menu a:hover span
@@ -253,6 +250,7 @@ ul.divided li
 border-top: solid 1px #F5F5F5;
 margin-top: 4px;
 padding-top: 4px;
+margin-left: -30px;
 background-position: 0px 1px;
 font-size: 12px;
 }

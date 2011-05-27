@@ -33,9 +33,9 @@
   <div id="lcol">
     <div id="menu">
       <ul>
-        <% ["index" , "bed" ,"groups","map","photos","activities"].each do |p| %>
+        <% ["index" , "bed" ,"booking","groups","map","photos","activities"].each do |p| %>
           <li <%=raw('class="active"') if params[:page] == p %>>
-            <%= link_to  t(p+'.short') , "/#{@locale}/#{p}.html" %><span>&nbsp;</span>
+            <%= link_to  t(p+'.short') , "/#{@locale}/#{p}.html" %>
           </li>
         <%end%>
       </ul>
@@ -66,7 +66,6 @@
           <%= t("news." + news.first + ".short")%> 
         </a>
       </div>
-      <div class="divider"></div>
     </div>
 
   </div>
