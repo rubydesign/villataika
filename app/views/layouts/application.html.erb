@@ -35,7 +35,7 @@
       <ul>
         <% ["index" , "bed" ,"booking","groups","map","photos","activities"].each do |p| %>
           <li <%=raw('class="active"') if params[:page] == p %>>
-            <%= link_to  t(p+'.short') , "/#{@locale}/#{p}.html" %>
+            <%= link_to(t(p+'.short') , "/#{@locale}/#{p}.#{p == 'booking' ? 'php' : 'html'}")%>
           </li>
         <%end%>
       </ul>

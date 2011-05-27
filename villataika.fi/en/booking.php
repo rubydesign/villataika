@@ -40,7 +40,7 @@
             <a href="bed.html">Bed &amp; Breakfast</a>
           </li>
           <li class="active">
-            <a href="booking.html">Reservation</a>
+            <a href="booking.php">Reservation</a>
           </li>
           <li >
             <a href="groups.html">Groups</a>
@@ -110,7 +110,7 @@ if ($show_form )   {
 <br/> 
  You can book by phone , +358407046699 between 10:00 and 19:00, or send us mail, or use the form below. <br/ ><br/ > Please fill out all fields. If you do do not want to book a certain room, you may use Suite/Deluxe/standard for the room field. <br/> Also remember that all rooms have a double bed. So if there is more than 2 of you, please add to the comment. <br/> <br/><br/> 
  
-<form action="http://localhost:3000/en/booking.php" method="post"> 
+<form action="booking.php" method="post"> 
   <table border="0" cellpadding="8" cellspacing="8"> 
     <tr> 
       <td><label for="name">Full name</label>:</td> 
