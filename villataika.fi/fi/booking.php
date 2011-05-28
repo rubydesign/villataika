@@ -69,9 +69,9 @@
 
       <div class="divider"></div>
     
-        <a href="booking.html" class='selected'>  
+        <a href="booking.php" class='selected'>  
           <img src="../images/fi.gif" alt="fi"/> </a>
-        <a href="../en/booking.html" >  
+        <a href="../en/booking.php" >  
           <img src="../images/en.gif" alt="en"/> </a>
 
       <h3>
@@ -108,7 +108,7 @@
 if ($show_form )   { 
     ?> 
 <br/> 
- Voit tehdä varauksen puhelimitse +358407046699 kello 10:00 ja 19:00 välillä, lähetä s-postia  tai käytä alla olevaa kaavaketta. <br/ ><br/ >  Täytä kaikki kentät. Jos et halua varata tiettyä huonetta ,  voit käyttää eri huone kategorioita Sviitti/Deluxe/standard . <br/>  Kaikissa huoneissa on kaksoisvuode. Jos teitä on useampi tai haluatte erilliset vuoteet,  lisää se huomio kenttään. <br/>  <br/><br/> 
+ Voit tehdä varauksen puhelimitse +358407046699 kello 10:00 ja 19:00 välillä, lähetä s-postia  tai käytä alla olevaa kaavaketta. <br/ ><br/ >  Täytä kaikki kentät. Jos et halua varata tiettyä huonetta ,  voit käyttää eri huone kategorioita Sviitti/Deluxe/Standard . <br/>  Kaikissa huoneissa on kaksoisvuode. Jos teitä on useampi tai haluatte erilliset vuoteet,  lisää se huomio kenttään. <br/>  <br/><br/> 
  
 <form action="booking.php" method="post"> 
   <table border="0" cellpadding="8" cellspacing="8"> 
@@ -143,7 +143,7 @@ if ($show_form )   {
       <td> <label for="comment">Huom!</label><br /> </td> 
       <td> <textarea rows="2" cols="35" name="comment" id="comment"
         ><?php if (isset($_POST['comment']) ) print  $_POST['comment']  ?> </textarea> </td> 
-      <td colspan="2"><input type="submit" name="submit" value="Send booking" /></td> 
+      <td colspan="2"><input type="submit" name="submit" value="Lähettä varaus" /></td> 
     </tr> 
   </table> 
 </form> 
@@ -159,9 +159,9 @@ Jos haluatte maksaa tilille, tilinumeromme on Nordea 123535-65726 / Villa Taika<
 <br/> <br/> <br/> 
 Jos haluatte maksaa luottokortilla käyttäkää Payson palvelua. Tilimme on info@villataika.fi. Payson palveluun pääset alla olevaa Payson tunnusta klikkaamalla:<br/>
 <br/> 
-<a href="https://www.payson.fi/SendMoney/?De=Standard+%2f+Delux&Se=info%40villataika.fi&Cost=75%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;">Pay Standard 75 &euro;</a>
+<a href="https://www.payson.fi/SendMoney/?De=Standard+%2f+Delux&Se=info%40villataika.fi&Cost=75%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;"> Maksa 75 &euro;</a>
 
-<a href="https://www.payson.fi/SendMoney/?De=Suite&Se=info%40villataika.fi&Cost=90%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;">Pay Suite 90 &euro;</a>
+<a href="https://www.payson.fi/SendMoney/?De=Suite&Se=info%40villataika.fi&Cost=90%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;">Maksa 90 &euro;</a>
 
 
 

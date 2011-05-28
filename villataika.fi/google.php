@@ -22,6 +22,7 @@ function voiko () {
   if( empty($name)) return "Name" ;
   if( empty($phone)) return "Phone" ;
   if( empty($nights)) return "Nights" ;
+  if( empty($room)) return "Room" ;
   if( empty($arrival)) return "Arrival" ;
   if ( preg_match( "/[\r\n]/", $name )  ) return "Nights" ;
   return "";

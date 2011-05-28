@@ -6,7 +6,7 @@ fi:
     booking: "Voit tehdä varauksen puhelimitse +358407046699 kello 10:00 ja 19:00 välillä, lähetä s-postia 
                       tai käytä alla olevaa kaavaketta. <br/ ><br/ > 
             Täytä kaikki kentät. Jos et halua varata tiettyä huonetta , 
-            voit käyttää eri huone kategorioita Sviitti/Deluxe/standard . <br/> 
+            voit käyttää eri huone kategorioita Sviitti/Deluxe/Standard . <br/> 
             Kaikissa huoneissa on kaksoisvuode. Jos teitä on useampi tai haluatte erilliset vuoteet, 
             lisää se huomio kenttään. <br/> "
     name: Koko nimesi
@@ -20,6 +20,8 @@ fi:
     confirmation: Huonevaraus ei ole voimassa ennen kuin olette saaneet vahvistuksen siihen. 
     pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea 123535-65726 / Villa Taika<br/> 
           Paikanpäällä voi maksaa ainostaan käteisellä.<br/> 
+    pay_button: Maksa 
+    submit: Lähettä varaus
     payson:     Jos haluatte maksaa luottokortilla käyttäkää Payson palvelua. Tilimme on info@villataika.fi.  
                   Payson palveluun pääset alla olevaa Payson tunnusta klikkaamalla:<br/>
 en:
@@ -44,5 +46,7 @@ en:
     confirmation: Booking request are subject to confirmation. 
     pay:  If you wish to pay upon confirmation, our bank account is Nordea 123535-65726 <br/> 
           Otherwise the charge is due upon arrival and must be paid in cash.<br/> 
+    pay_button: Pay 
+    submit: Send booking
     payson:      Alternatively you can use Payson with our email.  
                   For example by using the appropriate button below:<br/>

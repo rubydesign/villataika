@@ -53,7 +53,7 @@ if ($show_form )   {
       <td> <label for="comment"><%= t('.comment')%></label><br /> </td> 
       <td> <textarea rows="2" cols="35" name="comment" id="comment"
         ><?php if (isset($_POST['comment']) ) print  $_POST['comment']  ?> </textarea> </td> 
-      <td colspan="2"><input type="submit" name="submit" value="Send booking" /></td> 
+      <td colspan="2"><input type="submit" name="submit" value="<%=t('.submit')%>" /></td> 
     </tr> 
   </table> 
 </form> 
@@ -69,9 +69,9 @@ if ($show_form )   {
 <br/> <br/> <br/> 
 <%== t('.payson')%>
 <br/> 
-<a href="https://www.payson.fi/SendMoney/?De=Standard+%2f+Delux&Se=info%40villataika.fi&Cost=75%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;">Pay Standard 75 &euro;</a>
+<a href="https://www.payson.fi/SendMoney/?De=Standard+%2f+Delux&Se=info%40villataika.fi&Cost=75%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;"> <%=t(".pay_button")%> 75 &euro;</a>
 
-<a href="https://www.payson.fi/SendMoney/?De=Suite&Se=info%40villataika.fi&Cost=90%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;">Pay Suite 90 &euro;</a>
+<a href="https://www.payson.fi/SendMoney/?De=Suite&Se=info%40villataika.fi&Cost=90%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;"><%=t(".pay_button")%> 90 &euro;</a>
 
 
 
