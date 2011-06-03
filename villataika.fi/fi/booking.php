@@ -108,7 +108,7 @@
 if ($show_form )   { 
     ?> 
 <br/> 
- Voit tehdä varauksen puhelimitse +358407046699 kello 10:00 ja 19:00 välillä, lähetä s-postia  tai käytä alla olevaa kaavaketta. <br/ ><br/ >  Täytä kaikki kentät. Jos et halua varata tiettyä huonetta ,  voit käyttää eri huone kategorioita Sviitti/Deluxe/Standard . <br/>  Kaikissa huoneissa on kaksoisvuode. Jos teitä on useampi tai haluatte erilliset vuoteet,  lisää se huomio kenttään. <br/>  <br/><br/> 
+ Voit tehdä varauksen puhelimitse +358407046689 kello 10:00 ja 19:00 välillä, lähetä s-postia  tai käytä alla olevaa kaavaketta. <br/ ><br/ >  Täytä kaikki kentät. Jos et halua varata tiettyä huonetta ,  voit käyttää eri huone kategorioita Sviitti/Deluxe/Standard . <br/>  Kaikissa huoneissa on kaksoisvuode. Jos teitä on useampi tai haluatte erilliset vuoteet,  lisää se huomio kenttään. <br/>  <br/><br/> 
  
 <form action="booking.php" method="post"> 
   <table border="0" cellpadding="8" cellspacing="8"> 
