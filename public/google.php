@@ -46,13 +46,13 @@ function teesen () {
   }
 
   $messageproper =
-    ($_POST['lang'] ? "Name" : "Nimi") . ": $name" . $content_nl .
-    ($_POST['lang'] ? "Phone" : "Puh") . ": $phone" . $content_nl .
-    ($_POST['lang'] ? "Email" : "S-posti") . ": $email" . $content_nl .
-    ($_POST['lang'] ? "Arrival" : "Pvm.") . ": $arrival" . $content_nl .
-    ($_POST['lang'] ? "Nights" : "Öitä") . ": $nights" . $content_nl .
-    ($_POST['lang'] ? "Room" : "Huone") . ": $room" . $content_nl .
-    "------------------------- comment -------------------------" . $content_nl . $content_nl .
+    ($_POST['lang'] == "en" ? "Name" : "Nimi") . ": $name" . $content_nl .
+    ($_POST['lang'] == "en" ? "Phone" : "Puh") . ": $phone" . $content_nl .
+    ($_POST['lang'] == "en" ? "Email" : "S-posti") . ": $email" . $content_nl .
+    ($_POST['lang'] == "en" ? "Arrival" : "Pvm.") . ": $arrival" . $content_nl .
+    ($_POST['lang'] == "en" ? "Nights" : "Öitä") . ": $nights" . $content_nl .
+    ($_POST['lang'] == "en" ? "Room" : "Huone") . ": $room" . $content_nl .
+    "--------------------------------------------------" . $content_nl . $content_nl .
     wordwrap( $comment, 100, $content_nl, true ) . $content_nl . $content_nl .
     "------------------------------------------------------------" . $content_nl ;
 
@@ -60,7 +60,7 @@ function teesen () {
     "From: \"$name\" <$mailto>" . $content_nl . "Reply-To: \"$name\" <$email>" . $content_nl . "X-Mailer: chfeedback.php 2.16.2" .
     $content_nl . 'MIME-Version: 1.0' . $content_nl . $content_type ;
 
-    mail($mailto, $_POST['lang'] ? "Booking " : "Varaus " . $arrival , $messageproper, $headers );
+    mail($mailto, ($_POST['lang'] == "en" ? "Booking " : "Varaus ") . $arrival , $messageproper, $headers );
 
 } ;
 
