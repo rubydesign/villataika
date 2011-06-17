@@ -46,12 +46,12 @@ function teesen () {
   }
 
   $messageproper =
-    "Name : $name" . $content_nl .
-    "Phone: $phone" . $content_nl .
-    "Email: $email" . $content_nl .
-    "Arrival: $arrival" . $content_nl .
-    "Nights: $nights" . $content_nl .
-    "Room: $room" . $content_nl .
+    $_POST['lang'] ? "Name" : "Nimi" . $name . $content_nl .
+    $_POST['lang'] ? "Phone" : "Puh" . $phone . $content_nl .
+    $_POST['lang'] ? "Email" : "S-posti" . $email . $content_nl .
+    $_POST['lang'] ? "Arrival" : "Pvm." . $arrival . $content_nl .
+    $_POST['lang'] ? "Nights" : "Öitä" . $nights . $content_nl .
+    $_POST['lang'] ? "Room" : "Huone" . $room . $content_nl .
     "------------------------- comment -------------------------" . $content_nl . $content_nl .
     wordwrap( $comment, 100, $content_nl, true ) . $content_nl . $content_nl .
     "------------------------------------------------------------" . $content_nl ;
@@ -60,7 +60,7 @@ function teesen () {
     "From: \"$name\" <$mailto>" . $content_nl . "Reply-To: \"$name\" <$email>" . $content_nl . "X-Mailer: chfeedback.php 2.16.2" .
     $content_nl . 'MIME-Version: 1.0' . $content_nl . $content_type ;
 
-    mail($mailto, "Booking from villataika.fi", $messageproper, $headers );
+    mail($mailto, $_POST['lang'] ? "Booking " : "Varaus " . $arrival , $messageproper, $headers );
 
 } ;
 
