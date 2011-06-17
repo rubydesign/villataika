@@ -114,7 +114,7 @@ if ($show_form )   {
   <table border="0" cellpadding="8" cellspacing="8"> 
     <tr> 
       <td><label for="name">Full name</label>:</td> 
-      <input type="hidden" name="language" value="fi" /> 
+      <input type="hidden" name="lang" value="en" /> 
       <td><input type="text" name="name" id="name" size="35" 
       <?php if (isset($_POST['name']) ) print "value='" . $_POST['name'] . "'"  ; ?>  />
       </input>
