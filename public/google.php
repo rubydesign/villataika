@@ -46,12 +46,12 @@ function teesen () {
   }
 
   $messageproper =
-    ($_POST['lang'] ? "Name" : "Nimi") . $name . $content_nl .
-    ($_POST['lang'] ? "Phone" : "Puh") . $phone . $content_nl .
-    ($_POST['lang'] ? "Email" : "S-posti") . $email . $content_nl .
-    ($_POST['lang'] ? "Arrival" : "Pvm.") . $arrival . $content_nl .
-    ($_POST['lang'] ? "Nights" : "Öitä") . $nights . $content_nl .
-    ($_POST['lang'] ? "Room" : "Huone") . $room . $content_nl .
+    ($_POST['lang'] ? "Name" : "Nimi") . ": $name" . $content_nl .
+    ($_POST['lang'] ? "Phone" : "Puh") . ": $phone" . $content_nl .
+    ($_POST['lang'] ? "Email" : "S-posti") . ": $email" . $content_nl .
+    ($_POST['lang'] ? "Arrival" : "Pvm.") . ": $arrival" . $content_nl .
+    ($_POST['lang'] ? "Nights" : "Öitä") . ": $nights" . $content_nl .
+    ($_POST['lang'] ? "Room" : "Huone") . ": $room" . $content_nl .
     "------------------------- comment -------------------------" . $content_nl . $content_nl .
     wordwrap( $comment, 100, $content_nl, true ) . $content_nl . $content_nl .
     "------------------------------------------------------------" . $content_nl ;
