@@ -154,7 +154,7 @@ if ($show_form )   {
  
 Huonevaraus ei ole voimassa ennen kuin olette saaneet vahvistuksen siihen. <br/> <br/> 
  
-Jos haluatte maksaa tilille, tilinumeromme on Nordea 123535-65726 / Villa Taika<br/> Paikanpäällä voi maksaa ainostaan käteisellä.<br/>
+Jos haluatte maksaa tilille, tilinumeromme on Nordea 101435-136318 / Villa Taika<br/> Paikanpäällä voi maksaa ainostaan käteisellä.<br/>
 
 <br/> <br/> <br/> 
 Jos haluatte maksaa luottokortilla käyttäkää Payson palvelua. Tilimme on info@villataika.fi. Payson palveluun pääset alla olevaa Payson tunnusta klikkaamalla:<br/>

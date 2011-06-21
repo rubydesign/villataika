@@ -154,7 +154,7 @@ if ($show_form )   {
  
 Booking request are subject to confirmation. <br/> <br/> 
  
-If you wish to pay upon confirmation, our bank account is Nordea 123535-65726 <br/> Otherwise the charge is due upon arrival and must be paid in cash.<br/>
+If you wish to pay upon confirmation, our bank account is Nordea 101435-136318 <br/> Otherwise the charge is due upon arrival and must be paid in cash.<br/>
 
 <br/> <br/> <br/> 
 Alternatively you can use Payson with our email. For example by using the appropriate button below:<br/>

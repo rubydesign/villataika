@@ -18,7 +18,7 @@ fi:
     comment: Huom!
     call: Soittakaa jos haluatte majoittua yli 3vrk.
     confirmation: Huonevaraus ei ole voimassa ennen kuin olette saaneet vahvistuksen siihen. 
-    pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea 123535-65726 / Villa Taika<br/> 
+    pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea 101435-136318 / Villa Taika<br/> 
           Paikanpäällä voi maksaa ainostaan käteisellä.<br/> 
     pay_button: Maksa 
     submit: Lähettä varaus
@@ -44,7 +44,7 @@ en:
     comment: Comment
     call: Call
     confirmation: Booking request are subject to confirmation. 
-    pay:  If you wish to pay upon confirmation, our bank account is Nordea 123535-65726 <br/> 
+    pay:  If you wish to pay upon confirmation, our bank account is Nordea 101435-136318 <br/> 
           Otherwise the charge is due upon arrival and must be paid in cash.<br/> 
     pay_button: Pay 
     submit: Send booking
