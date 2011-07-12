@@ -1,6 +1,9 @@
 en:
   photos: 
-    all: w_frogs , w_terasse, w_peony , h_aurinko_wc , h_curves , h_lootus_wc ,h_highview  
+    all: w_pavillion , w_kukkat , w_piha , w_frogs , w_terasse, w_peony , h_aurinko_wc , h_curves , h_lootus_wc ,h_highview  
+    w_pavillion: Pavillion
+    w_kukkat: Flowers in Garden
+    w_piha: Garden in Summer
     w_frogs: Dancing frogs
     w_peony: Fountain in the garden
     w_terasse: Garden terasse
@@ -10,6 +13,9 @@ en:
     h_highview: Villa Taika from above
 fi:
   photos: 
+    w_pavillion: Taika paviljonki
+    w_kukkat: Punaiset liljat
+    w_piha: Puutarhamme
     w_frogs: Tanssivat  sammakot
     w_terasse: Terassi
     w_peony: Suihkulähde
@@ -19,7 +25,9 @@ fi:
     h_highview: Villa Taika korkealta
 de:
   photos: 
-    all: w_frogs , w_terasse, w_peony , h_aurinko_wc , h_curves , h_lootus_wc ,h_highview  
+    w_pavillion: Pavillion
+    w_kukkat: Flowers in Garden
+    w_piha: Garden in Summer
     w_frogs: Dancing frogs
     w_peony: Fountain in the garden
     w_terasse: Garden terasse
@@ -29,6 +37,9 @@ de:
     h_highview: Villa Taika from above
 se:
   photos: 
+    w_pavillion: Pavillion
+    w_kukkat: Flowers in Garden
+    w_piha: Garden in Summer
     w_frogs: Tanssivat  sammakot
     w_terasse: Terassi
     w_peony: Suihkulähde
