@@ -57,22 +57,4 @@ de:
             Zusätzlich ist eine neue Wärmepumpe mit einem cop Wert von 5,6 zum Energiemix dazugekommen.
             Aber auch die elektrische Energie ist 100% erneuerbar, dank der Firma Kraft and Kultur.  
       image: renewable
-se:
-  news: 
-    short: Uutiset
-    deco: 
-      short: Edullinen majoitus kauniissa ulko aitassamme.
-      rest: Ulko aitassamme on edullinen majoitusvaihtoehto 60€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br/>
-          Perinteisen kauniin hirsi seinän kanssa on kultainen pylvässänky. Huoneeseen mahtuu 2 hlöä.
-           Suihku ja wc ovat päärakennuksessa. Halutessasi voit käyttää biologista, kemiallista wc:tä 
-      image: renovate
-    eco: 
-      short: Uusiutuva energia 
-      rest: Villa Taika käyttää vain uusiutuvia energiamuotoja <br/>
-              Olemme asentaneet uuden puupannun Villa Taikaan. Moderni puupannu tuottaa suurimman osan
-              talomme energiasta. Mutta vesikiertoinen takkamme tuo osansa talon lämmitys energiasta. <br/>
-              Lisäksi asensimme erittäin energia taloudellisen ilmalämpöpumpun aamiaissaliimme.<br/>
-              Kaikki talomme käyttämä sähkö on yrityksestä, joka myy ainoastaan tuuli-ja vesi sähköä. Yrityksen nimi on Kraft&Kultur.
-      image: renewable
-      
            

@@ -1,5 +1,3 @@
-# translation for suites,  all rooms have short , full and price
-# translation for suites,  all rooms have short , full and price
 en:
   lootus:
     short: Lotus Suite
@@ -76,24 +74,4 @@ de:
           The room has is south facing  with large windows and high ceiling that give it a spacious feel.<br/>
           There is a private bathroom with shower and a double bed. One extra bed can be arranged. <br/>
           The price for two is 85€/70€ single
-se:
-  lootus:
-    short: Lootus sviitti 
-    full: <b>Lootus sviitti </b> on viehättävä , aasialaisella tyylikkyydellä sisustettu huoneisto 40m².<br/> Siihen kuuluu oma wc ja suihku, sekä terassi , jolta pilkottaa 
-            läheinen järvi.<br/> Huoneessa on parisänky ja sinne mahtuu 3 tai 4 lisävuodetta. <br/>  <br/>
-            Sviitti sopii myös hääpareille. Hääpaketti sisältää huoneen ja lisäkoristelun kukkasilla ja kynttilöillä. 
-            Aamupala haluttaessa sään salliessa omalla terassilla. <br/>
-            Hinta on 95€ /2hh. (Hääpaketti on 135€ /2hh)
-  sun:
-    short: Aurinko sviitti 
-    full: <b>Aurinko sviitti</b> on valoisa ja tyylikäs 25m² sviitti. Perinteisellä hirsirakennus tekniikalla rakennetut kaaret
-          tuovat oman lisänsä, tyylikkäillä tiikki huonekaluilla sisustettuun huoneseen. <br/>
-          Siellä on parisänky ja sinne mahtuu mukavasti kaksikin lisävuodetta. 
-          Siinä on oma wc ja suihku.<br/>
-          Hinta on 90€ /2hh ja 75€ /1hh
-  ametist:
-    short: Ametisti huone
-    full: <b>Ametisti huone </b>on valoisa ja kaunis 15m² huone. Huonetta koristaa käsinkaiverrettu reliefi ja uniikki käsinmaalattu kaappi. <br/> Siellä on parisänky ja sinne mahtuu tarvittaessa lisävuode.
-          Huoneessa on oma wc ja suihku.<br/>
-           Hinta on 85€ /2hh ja 70€/ 1hh
     

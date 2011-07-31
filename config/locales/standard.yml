@@ -1,4 +1,3 @@
-# translation for "standard" rooms,  all rooms have short , full and price
 en:
   rose:
     short: Rose room
@@ -48,16 +47,3 @@ de:
            There is a double bed, and space for an extra bed on request. <br/>
            The price for two is 75€/ Single 60€
   
-se:
-  rose:
-    short: Ruusu huone 
-    full: <b>Ruusu huone </b>on romanttinen huone. Huoneessa on parisänky, ja mukava sohva.  
-            Sillä on yhteinen wc ja suihku viereisen Taivas huoneen kanssa.<br/>
-            Yhdessä Taivas huoneen kanssa, se sopii erinomaisesti isolle perheelle tai pienelle ryhmälle.<br/> 
-          Hinta on 75€ /2hh ja 60€/1hh
-  sky:
-    short: Taivas huone 
-    full: <b>Taivas huone </b>on rauhoittava ja  viehkeä huone. Sillä on yhteinen wc ja suihku viereisen Ruusu huoneen kanssa.  
-          Huoneessa on parisänky, ja sinne saa lisävuoteen tai kaksi tarvittaessa..
-          Yhdessä Ruusu huoneen kanssa, se sopii erinomaisesti isolle perheelle tai pienelle ryhmälle.<br/>  
-          Hinta on 75€ /2hh ja 60€/ 1hh
