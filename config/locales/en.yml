@@ -80,24 +80,21 @@ en:
           Orange and Green room together are a good choice for small groups, or large families, as there is 
           also a small lounge for these two rooms.<br/>
           The price for two is 75€.
-
-    tai: or
-    puh: tel
-    myos: See also
-    slogan: asian elegance
-    suites: 
-      short: Suites (w.shower)
-    deluxe: 
-      short: Deluxe (w.toilet)
-    standard: 
-      short: Standard (shared)
-    photos:
-      short: Photos
-    index:
-      short: Home
-      bold: Asian elegance in the beauty of natural surroundings.
-      text:  is a charming Bed&Breakfast  and 
-                course-center in Antskog, near Fiskars, just one hours drive from Helsinki. 
+  tai: or
+  puh: tel
+  myos: See also
+  slogan: asian elegance
+  suites: 
+    short: Suites (w.shower)
+  deluxe: 
+    short: Deluxe (w.toilet)
+  standard: 
+    short: Standard (shared)
+  index:
+    short: Home
+    bold: Asian elegance in the beauty of natural surroundings.
+    text:  is a charming Bed&Breakfast  and 
+              course-center in Antskog, near Fiskars, just one hours drive from Helsinki. 
   groups: 
     short: Groups
     right: In many ways Villa Taika is well suited to accomodate courses and other group happenings.<br/><br/>
@@ -153,6 +150,7 @@ en:
       image: renewable
   photos: 
     all: w_pavillion , w_kukkat , w_piha , w_frogs , w_terasse, w_peony , h_aurinko_wc , h_curves , h_lootus_wc ,h_highview  
+    short: Photos
     w_pavillion: Pavillion
     w_kukkat: Flowers in Garden
     w_piha: Garden in Summer

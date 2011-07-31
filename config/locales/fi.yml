@@ -80,23 +80,21 @@ fi:
             Vihreä-ja Oranssi huone sopivat hyvin pienille ryhmille
             tai isolle perheelle yhteiskäytössä. Huoneiden välissä on myös sievä oleskelutila. <br/>
             Hinta on 75€ /2hh/ 60€ 1hh
-    tai: tai
-    puh: puh
-    myos: Katso myös
-    slogan: taianomaista tyylikkyyttä
-    suites:
-      short: Sviitit (suihkulla)
-    deluxe: 
-      short: Deluxe (wc:llä)
-    standard: 
-      short: Standard (jaettu)
-    photos:
-      short: Kuvat
-    index:
-      short: Kotisivu
-      bold: Taianomaista tyylikkyyttä Aasiasta ja luonnonkauniin ympäristön rauhaa.
-      text:   on kaunis ja viehättävä Bed&Breakfast -paikka sekä 
-                kurssikeskus Antskogissa, 4,5 km Fiskarsista Karjalohjalle päin. 
+  tai: tai
+  puh: puh
+  myos: Katso myös
+  slogan: taianomaista tyylikkyyttä
+  suites:
+    short: Sviitit (suihkulla)
+  deluxe: 
+    short: Deluxe (wc:llä)
+  standard: 
+    short: Standard (jaettu)
+  index:
+    short: Kotisivu
+    bold: Taianomaista tyylikkyyttä Aasiasta ja luonnonkauniin ympäristön rauhaa.
+    text:   on kaunis ja viehättävä Bed&Breakfast -paikka sekä 
+              kurssikeskus Antskogissa, 4,5 km Fiskarsista Karjalohjalle päin. 
   groups: 
     short: Ryhmille
     right: 
@@ -146,6 +144,7 @@ fi:
               Kaikki talomme käyttämä sähkö on yrityksestä, joka myy ainoastaan tuuli-ja vesi sähköä. Yrityksen nimi on Kraft&Kultur.
       image: renewable
   photos: 
+    short: Kuvat
     w_pavillion: Taika paviljonki
     w_kukkat: Punaiset liljat
     w_piha: Puutarhamme

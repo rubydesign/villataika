@@ -84,23 +84,21 @@ de:
           Grünes und Organges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den 
           kleinen Vorraum und Dusche für sich haben. <br/>
           Der Preis für 2 ist 75€ / Einzel 60€
-    tai: oder
-    puh: Tel
-    myos: Siehe auch
-    slogan: Asatische eleganz
-    suites: 
-      short: Suites (mit Dusche)
-    deluxe: 
-      short: Deluxe (mit Toilette)
-    standard: 
-      short: Standard (shared)
-    photos:
-      short: Photos
-    index:
-      short: Home
-      bold: Asiatische eleganz inmiten unberührter Natur.
-      text:  ist ein charmantes Bed&Breakfast in Antskog, nahe Fiskars, knapp über eine Autostunde 
-            von Helsinki entfernt. 
+  tai: oder
+  puh: Tel
+  myos: Siehe auch
+  slogan: Asatische eleganz
+  suites: 
+    short: Suites (mit Dusche)
+  deluxe: 
+    short: Deluxe (mit Toilette)
+  standard: 
+    short: Standard (shared)
+  index:
+    short: Home
+    bold: Asiatische eleganz inmiten unberührter Natur.
+    text:  ist ein charmantes Bed&Breakfast in Antskog, nahe Fiskars, knapp über eine Autostunde 
+          von Helsinki entfernt. 
   groups: 
     short: Gruppen
     right: Villa Taika eignet sich gut für Kurse oder andere Gruppenaktivitäten.<br/><br/>
@@ -155,6 +153,7 @@ de:
             Aber auch die elektrische Energie ist 100% erneuerbar, dank der Firma Kraft and Kultur.  
       image: renewable
   photos: 
+    short: Photos
     w_pavillion: Pavillion
     w_kukkat: Blumen im Garten
     w_piha: Garten im Sommer
