@@ -1,0 +1,233 @@
+de:
+  activities: 
+    all: swim , forest , row , garden , fiskars , hanko , raasepori , groups
+    short: Aktivitäten
+    swim:
+      short: Schwimmen im sauberen Seen
+      rest:  In fussnähe befinden sich mehrere Bademöglichkeiten. Die näheste See, Isosimmi, ist etwa 200m 
+        entfernt. Mehrere Seen haben Sandstrand und können per Fahrrad (kostenlos) erreicht werden.
+    forest:
+      short: Sparziergang im Naturschutzgebiet.
+      rest: Das Natrschutzgebiet um den Isosimmmi See fängt eine hundert Meter von unserem Haus entfernt an und
+            ersteckt sich über mehrere Kilometer. Auch grössere Excursionen können per Fahrrad unternommen werden
+            die kostenlos von Villa Taika geliehen werden können.
+    row:
+      short: Rudern und/oder Fischen, Zeit zum entspannen
+      rest: Ein Ruderboot kann für eine kleine Gebühr geliehen werden. Damit lässt sich auf dem Nah delegenen 
+            See fischen, oder auf eine entspannte Tour gehen. Für gruppen könne auch Lanutours arrangiert werden.
+    garden:
+      short: Enspannen und Ruhe
+      rest: Wir haben einen grossen und mit Liebe angelegten garten der zum Entspannen einläd. Mehrer 
+            Sitzgelegenheiten laden ein, und das geplätscher des Wasserfalls lillt und entspannt.
+    fiskars:
+      short: Fiskars & Bilnas dörfer
+      rest: Das liebevoll restaurierten Handwerks- zentrum Fiskars ist nur eine kurze Fahrt entfernt, 
+          und bietet lokales Handwerk nicht nur zum Kauf, aber auch dirkt zum angucken. Mehrer Workshops 
+          sind zur besichtigung offen. 
+          Bilnas ist ebenfalls eine Altes Eisenwerk-Dorf und befindet sich knapp über 10 Minuten entfernt.
+    hanko:
+      short: Tammisaari und Hanko, alte Städte
+      rest: Tammisaari und Hanko sind beide schöne alte Städte am Meer. Mit vielen alten Holzhäusern und schönen
+            Fussgängerzonen sind sie ideal für Tagesreisen.
+    raasepori:
+      short: Raasepori und Mustio
+      rest: Das alte Schloss von Raasepori, eines der ältesten in Finnland, giebt der Region den Namen. Es befindet 
+            sich etwa eine halbe Sunde entfent. 
+            Das alte Manorhaus in Mustio ist auch sehr nah und lädt mit seinen grossen Gärten und Cafees zum weilen ein.
+    groups:
+      short: Gruppenaktivitäten.
+      rest: Unser <a href="http://www.kdadventure.com/fi/activities/kursseja/">Nachbar</a>, arraangiert für 
+            Gruppen eine Anzahl von Aktivitäten. Zum Beispiel Kano-trips, Kohlen-Laufen, Themen-abende und
+            Wildernis-Kurse.
+  booking:
+    short: Buchung
+    received: Ihre Buchung wurde empfangen.
+    error: Bitte alle Felder ausfüllen, auch Email und Datum. 
+    booking: Sie können per email buchen, das Formular ausfüllen, oder uns zwischen 10:00 and 19:00
+              unter  +358407046689 anrufen. <br/> <br/> 
+              Für das Formular werden alle Felder benötigt. Als Zimmer kann auch eine Kategorie angegeben werden
+              (also Suite/Deluxe,Standard). Alle Zimmer sind mit einem Doppelbett ausgestattet, bitte geben Sie
+              eventuell Extra-Betten im Komentar Feld an.
+    name: Vor und Nachname
+    email: Email Addresse
+    arrival: Ankunftsdatum
+    phone: Telefon
+    nights: Nächte
+    room: Zimmer
+    comment: Komentar
+    call: Anruf
+    confirmation: Die Buchung wird innerhalb eines Arbeitstages bestätigt.
+    pay:  |
+        Sie könnnen nach der Bestätigung per Überweisung bezahlen: Kontonummer Nordea 101435-136318 <br/> 
+            Ansonsten können Sie bei Ankunft in Bar bezahlen.<br/> 
+          Bei Buchungen von zwei oder mehr Nächten ist eine Anzahlung von 25% zur Buuchungsbestätigung fällig.
+    pay_button: Bezahlen 
+    submit: Buchen
+    payson:  Alernativ können Sie einen der Payson Buttons um bezahlen benutzen, oder auch über PayPal and unsere
+            email addresse überweisen.
+  green:
+    short: Grünes Zimmer
+    full: Das <b>Grüne Zimmer</b> hat eine ruhige Atmsphere und einen schönen Blick auf den Garten <br/>
+          Zusätzlich zu dem vorhanden Doppelbett ist Platzt für eine Extra-Bett. Hinter den Dachwinkel passen
+          auch zwei Kinder die das "höhlengeühl" lieben.<br/>
+          Im Zimmer ist eine Toilette und eine Dusche wird mit dem Orangen Zimmer gemeinsam benutzt. <br>
+          Grünes und Organges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den 
+          kleinen Vorraum und Dusche für sich haben. <br/>
+          Der Preis für 2 ist 75€ / Einzel 60€
+  orange:
+    short: Oranges Zimmer
+    full: Das Orange Zimmer hat eine warme, gemütliche Atmosphere mit asiatischem Touch.
+          Zusätzlich zu dem vorhanden Doppelbett ist Platzt für eine Extra-Bett. Hinter den Dachwinkel passen
+          auch zwei Kinder die das "höhlengeühl" lieben.<br/>
+          Das Zimmer hat aus dem ersten Stock einen schönen Blick auf den Garten und umliegende Natur.
+          Im Zimmer ist eine Toilette und eine Dusche wird mit dem grünen Zimmer gemeinsam benutzt. <br>
+          Grünes und Organges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den 
+          kleinen Vorraum und Dusche für sich haben. <br/>
+          Der Preis für 2 ist 75€ / Einzel 60€
+    tai: oder
+    puh: Tel
+    myos: Siehe auch
+    slogan: Asatische eleganz
+    suites: 
+      short: Suites (mit Dusche)
+    deluxe: 
+      short: Deluxe (mit Toilette)
+    standard: 
+      short: Standard (shared)
+    photos:
+      short: Photos
+    index:
+      short: Home
+      bold: Asiatische eleganz inmiten unberührter Natur.
+      text:  ist ein charmantes Bed&Breakfast in Antskog, nahe Fiskars, knapp über eine Autostunde 
+            von Helsinki entfernt. 
+  groups: 
+    short: Gruppen
+    right: Villa Taika eignet sich gut für Kurse oder andere Gruppenaktivitäten.<br/><br/>
+          <ul> 
+            <li> grosser Gruppen-Saal </li>
+            <li> grosser Garten </li>
+            <li> gutes Sound und Video Equipment</li>
+            <li> Decken und Kissen</li>
+            <li> grosse Sauna mit Becken</li>
+            <li> 20-30 Schlafplatze</li>
+            <li> seperates Zimmer für Ausbilder</li>
+            <li> Aktivitäten in der Nähe</li>
+            <li> vegetarisches Essen</li>
+          </ul>
+    bottom: |-
+      Unser Saal ist auf schöne Weise eingerichtet und gross genug für viele Aktivitäten, zb Yoga, Tanzen,
+      Körperarbeit oder andere Gruppenarbeit. <br/>
+      Der  Garten ist gross und offen und eignet sich gut für ruhge Aktivitäten wir Yoga oder Meditation, 
+      und bietet auch genug Sitzmöglichkeiten (auch bedacht) für Gruppen. <br/>
+      Der Saal ist ausgerüstet mit einem Hochqualitativen Audio System, und auch ein Videoprojektor ist 
+      vorhanden. <br/>
+      Für ruhige Arbeit und/oder Pausen stehen Decken und Kissen zur Verfügung. <br/>
+      Die Sauna ist auch für grösserer Gruppen geeignet und zum abkühlen haben wir einen kleinen Pool. <br/>
+      In den 8 Zimmern können bequem 20 und mit Extra-Betten bis zu 30 Personen übernachten.<br/>
+      Zusätzlich zu den lokalen Resaurants bieten wir auch vegetarisches Essem im Haus an. <br/>
+      Preise sind von vielen Faktoren abhängig, bitte setzen Sie sich mit uns in Verbindung um ein geeignetes
+      Packet zu schnüren. Speziell abhängig von Gruppengrösse, Jahreszeit und Mahlzeiten sind Peise zwischen 50 
+      bis 65 pro Person und Tag für Vollpension mit Saalbenutzung üblich. <br/> <br/>
+  map: 
+    short: Karte
+    one:  <b>Villa Taika</b>  befindet sich in dem Dorf Antskog, 4km nördlich von Fiskars, ca 100km west von 
+          Helsinki. 
+    two: Villa Taika ist ein grosses weisses Haus auf einem kleinen Hügel, direkt an der Stasse durch Antskog.
+    three: Von Fiskars kommend ist Villa Taika das <em>dritte</em> Haus auf der rechten Seite.
+    four: Direkt vom Haus kann man zwei Seen sehen, und die Natur lädt zum Spazierengehen ein. 
+  news: 
+    all: deco , eco
+    short: Neues
+    deco: 
+        short: Erschwingliche Unterkunft  im renovierten Blockhaus
+        rest: Wir haben Teil des Hofgebebäudes renoviert und ein schönes Blockhaus - Zimmer mit Himmelbett
+              ausgestattet. Das einfache aber bezaubernde Zimmer kostet 65€ für zwei Personen. <br/>
+              Toilette und Dusche befinden sich im Hautgebäude.
+        image: renovate
+    eco: 
+      short: Ököenergie. 
+      rest: Villa Taika ist jetzt komplett auf erneuerbare Energie umgestiegen <br/>
+            Zusätlich zu dem schon vor einigen Jahren installiertem Wasserführendem Kamin, haben wir 
+            eine neuen Holzkessel installiert. Der moderne Holzvergaser glänzt mit einem Wirkungsgrad von bis 
+            zu 91%. <br/>
+            Zusätzlich ist eine neue Wärmepumpe mit einem cop Wert von 5,6 zum Energiemix dazugekommen.
+            Aber auch die elektrische Energie ist 100% erneuerbar, dank der Firma Kraft and Kultur.  
+      image: renewable
+  photos: 
+    w_pavillion: Pavillion
+    w_kukkat: Blumen im Garten
+    w_piha: Garten im Sommer
+    w_frogs: Tanzende Frösche
+    w_peony: Brunnen im Garten
+    w_terasse: Terasse im Garten
+    h_aurinko_wc: Sonnen-Suite
+    h_curves: Sonnen-Suite
+    h_lootus_wc: Lotus suite 
+    h_highview: Villa Taika von hoch oben
+  bed:
+    rooms: Rooms
+    short: Bed & Breakfast
+    one:
+        Welcome to the charming and peaceful Villa Taika! <br/>
+        We have created unique B&amp;, with 8 individually decorated rooms.
+        Inspired by our trips to the Orient , we brought that beauty and inspiration with us in the 
+        pieces of furniture, that we selected to our rooms. <br/> 
+        We hope you will be revitalisedand rested in the beauty of our surroundings! <br/>
+
+        In the backyard we have a garden with the pond and waterfall.
+        You can relax in the garden by listening to the soothing sound of the water or make trips to the 
+        nearby tourist sights.
+        The Billnäs 15km, Mustio castle 15km, beautiful towns of Tammisaari 35 km and Hanko 65km
+    two:
+        The room price is for two people, between 75 and 95€ , and extra beds cost 25€. <br/>
+        The price includes breakfast served between 8:30-10:00, bed-linen and towels. <br/>  
+        You can sign into your room between 14-19 . Please let us know what time
+        you'll be arriving! <br/>
+        Checkout by 12 o'clock 
+    suites: 3 suites with own shower 85-95 €
+    deluxe: 2 rooms with toilet ensuite 75€
+    standard: 2 rooms which share one shower 75€
+  rose:
+    short: Rose room
+    full: The <b>Rose room </b> is a cosy room with a romantic atmosphere. <br/>
+          It has a double bed and a cosy sofa for two. <br/>
+          It shares a toilet and shower with the next door Sky room. <br/>
+          Together with the sky room it is an ideal choice for large families or small groups up to five, as 
+          both rooms with their bathroom form an apartment.<br/>
+          The price for two is 75€/ Sinle 60€
+  sky:
+    short: Sky room
+    full: The <b>Sky room </b> is a  charming  room with a peaceful atmosphere. <br/>
+           It shares a toilet and shower with the next door Rose room.  <br/>
+           Together with the sky room it is an ideal choice for large families or small groups up to five, as 
+           both rooms with their bathroom form an apartment.<br/>
+           There is a double bed, and space for an extra bed on request. <br/>
+           The price for two is 75€/ Single 60€
+  lootus:
+    short: Lotus Suite
+    full:  The <b>Lotus Suite</b>  is a charming and spacious flat of about 40 m², with asian elegance. <br/>  
+            It has it's own bathroom with shower and toilet, and a <b>private terasse</b>. <br/>
+            One can get a glimpse of the  nearby lake, and the terasse is a perfect place to enjoy the morning 
+            in the sun. <br/>
+            There is a double bed, and plenty of space for up to three extra beds on request. <br/> 
+            The suite is also very well suited for wedding couples. We offer a <b>wedding package</b> which includes 
+            extra decoration with flowers and candles, and breakfeast can be served privately 
+            to the room or terasse.<br/>
+            The room price for two is 95€. (Weddingpackage is 135€ for two)
+  sun:
+    short: Sun suite 
+    full: The <b>Sun suite</b> is an elegant, sunny and spacious room. <br/>
+          Traditional timberframing gives the room a rustic touch which counterpoints the elegant 
+          interiour with beautiful teak furniture.<br/>
+          Facing south with large windows there is a sunny and light feeling in the room. Alsoit feels spacious 
+          as the ceilings are over 3m high.<br/> 
+          Shower and toilet are ensuite. 
+          There is a double bed and a space to fit two extra beds.<br/>
+          The price for two is 90€/75€ single
+  ametist:
+    short: Amethyst room
+    full: The <b>Amethyst</b> room is a light and sunny 15m² room with handcarved relief. <br/>
+          The room has is south facing  with large windows and high ceiling that give it a spacious feel.<br/>
+          There is a private bathroom with shower and a double bed. One extra bed can be arranged. <br/>
+          The price for two is 85€/70€ single

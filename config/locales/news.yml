@@ -1,4 +1,3 @@
-# News file 
 en:
   news: 
     all: deco , eco
@@ -36,8 +35,6 @@ fi:
               Lisäksi asensimme erittäin energia taloudellisen ilmalämpöpumpun aamiaissaliimme.<br/>
               Kaikki talomme käyttämä sähkö on yrityksestä, joka myy ainoastaan tuuli-ja vesi sähköä. Yrityksen nimi on Kraft&Kultur.
       image: renewable
-      
-
 de:
   news: 
     all: deco , eco
@@ -57,4 +54,3 @@ de:
             Zusätzlich ist eine neue Wärmepumpe mit einem cop Wert von 5,6 zum Energiemix dazugekommen.
             Aber auch die elektrische Energie ist 100% erneuerbar, dank der Firma Kraft and Kultur.  
       image: renewable
-           

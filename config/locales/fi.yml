@@ -1,0 +1,207 @@
+fi:
+  all: swim , forest , row , garden , fiskars , hanko , raasepori , groups
+  activities: 
+    short: Tekemistä
+    swim: 
+      short: Uimista läheisissä järvissä
+      rest: Lähin järvi on Isosimi, jonka uimapaikkaan on 200m. Villa Taian lähiympäristössä on muitakin järviä,
+        joista monet sopivat myös perheen pienimpienkin polskutteluun. Niihin on vain muutaman minuutin matka autolla 
+        tai polkupyörällä.
+    forest:
+      short: Kävelyä tai pyöräilyä lähimetsissä
+      rest: Metsissä löytyy pikkupolkuja, joilla voi patikoida tai pyöräillä.
+            Voit tehdä lyhyitäkin retkiä läheiseen Iso-Simin luonnonsuojelualueelle.  
+            Tuo retkipyörä mukanasi, mutta meiltä saat pyörän lainaksi, jos haluat vaikka Fiskarsiin pyöräillä
+    row:
+      short: Soutelua
+      rest: On mahdollista vuokrata edullisesti soutuvene ja soudella läheisellä järvellä.
+              Isosimin luonnonsuojelualue järvineen on hiljainen ja rauhoittava kokemus.
+    garden:
+      short: Puutarha
+      rest: Puutarhassamme on monia levähdyspaikkoja, joissa voit istuksia, vaikka kirjaa lukemassa
+              ja nauttia olostasi vesiputouksen solistessa rauhoittavsti.
+    fiskars:
+      short: Fiskarsin ruukki
+      rest: Fiskarsin ruukki on ihana elämys . Siellä on pikku liikkeitä, jotka myyvät paikallisten 
+            käsityöläisten valmistamia kauniita esineitä. Myös hienot taidenäyttelyt rikastuttavat päivääsi.
+            Fiskarsissa Ihanat kahvilat ja ravintolat tarjoavat maukasta ruokaa tai kahvia ja pikkupurtavaa.
+            Sinne on vain 5 minuutin automatka
+    hanko:
+      short: Tammisaari ja Hanko
+      rest: Tammisaari ja Hanko ovat molemmat idyllisiä kaupunkeja meren rannalla. Niihin voi mennä vaikka
+              päiväretkelle nauttimaan merellisestä tunnelmasta ja ihastelemaan kaunista puutalo miljöötä.
+              Tammisaareen on puolen tunnin automatka ja Hankoon pääsee hieman alle tunnissa.
+    raasepori:
+      short: Raaseporin linna ja Mustio
+      rest: Raaseporin vanhat ja komeat linnarauniot ovat alle puolentunnin matkan päässä.
+       Ja upea Mustion linna ja sen kaunis puutarha vain, 20 min ajomatkan päässä.Mustiossa on myös 
+       tunnelmallinen ravintola,jossa voi aterioida tai juoda kupposen kahvia.
+    groups:
+      short: Ryhmille
+      rest: <a href="http://www.kdadventure.com/fi/activities/kursseja/">KD Adventure</a> 
+           Naapurissamme toimiva yritys voi järjestää ryhmille toimintaa. Vaikkapa luontoretkiä, kanoottiretkiä, 
+           paintballia  tai tulisilla hiilillä kävelyä uskaliaimmille. 
+  booking:
+    short: Varaus
+    received: Olemme vastaanottaneet varauksesi
+    error: Voitko ystävällisesti täyttää kaikki kentät. Tarkista s-postiosoitteesi ja päivämäärä, kiitos.
+    booking: "Voit tehdä varauksen puhelimitse +358407046689 kello 10:00 ja 19:00 välillä, lähetä s-postia 
+                      tai käytä alla olevaa kaavaketta. <br/ ><br/ > 
+            Täytä kaikki kentät. Jos et halua varata tiettyä huonetta , 
+            voit käyttää eri huone kategorioita Sviitti/Deluxe/Standard . <br/> 
+            Kaikissa huoneissa on kaksoisvuode. Jos teitä on useampi tai haluatte erilliset vuoteet, 
+            lisää se huomio kenttään. <br/> "
+    name: Koko nimesi
+    email: Sähköposti osoitteesi
+    arrival: saapumispäivä
+    phone: Puhelinnumerosi
+    nights: Öiden määrä 
+    room: Huone
+    comment: Huom!
+    call: Soittakaa jos haluatte majoittua yli 3vrk.
+    confirmation: Huonevaraus ei ole voimassa ennen kuin olette saaneet vahvistuksen siihen. 
+    pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea 101435-136318 / Villa Taika<br/> 
+          Paikanpäällä voi maksaa ainostaan käteisellä.<br/> 
+    pay_button: Maksa 
+    submit: Lähettä varaus
+    payson:     Jos haluatte maksaa luottokortilla käyttäkää Payson palvelua. Tilimme on info@villataika.fi.  
+                  Payson palveluun pääset alla olevaa Payson tunnusta klikkaamalla:<br/>
+  green:
+    short:  Vihreä huone 
+    full: <b>Vihreä huone </b>on tunnelmallinen ja rauhaisa 20m2 huone. Siellä on parisänky ja sinne mahtuu lisävuode.
+              Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. <br/> 
+              Yläkerran huoneesta on kaunis näkymä puutarhaan. <br/>Vihreä-ja Oranssi huone sopivat hyvin pienille
+              ryhmille tai isolle perheelle yhteiskäytössä. Huoneiden välissä on myös sievä oleskelutila. <br/>
+              Hinta on 75€ /2hh/60€ 1hh
+  orange:
+    short: Oranssi huone 
+    full: <b>Oranssi huone </b>on viihtyisä ja  20m2 huone. Siellä on parisänky ja sinne mahtuu kaksikin lisävuodetta. <br/>
+            Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. <br/> Yläkerran huoneesta on kaunis näkymä puutarhaan. <br/>
+            Vihreä-ja Oranssi huone sopivat hyvin pienille ryhmille
+            tai isolle perheelle yhteiskäytössä. Huoneiden välissä on myös sievä oleskelutila. <br/>
+            Hinta on 75€ /2hh/ 60€ 1hh
+    tai: tai
+    puh: puh
+    myos: Katso myös
+    slogan: taianomaista tyylikkyyttä
+    suites:
+      short: Sviitit (suihkulla)
+    deluxe: 
+      short: Deluxe (wc:llä)
+    standard: 
+      short: Standard (jaettu)
+    photos:
+      short: Kuvat
+    index:
+      short: Kotisivu
+      bold: Taianomaista tyylikkyyttä Aasiasta ja luonnonkauniin ympäristön rauhaa.
+      text:   on kaunis ja viehättävä Bed&Breakfast -paikka sekä 
+                kurssikeskus Antskogissa, 4,5 km Fiskarsista Karjalohjalle päin. 
+  groups: 
+    short: Ryhmille
+    right: 
+           <ul> 
+            <li> iso ryhmätila</li>
+            <li> iso puutarha</li>
+            <li> korkealuokkaiset äänentoisto laitteet</li>
+            <li> videotykki</li>
+            <li> istuintyynyjä ja peittoja salissa</li>
+            <li> puulämmitteinen sauna</li>
+            <li> majoitus 20-30 hlö </li>
+            <li> opettajalle oma huone</li>
+            <li> kasvisruoka</li>
+           </ul>
+    bottom:       Ryhmätila on 75 m2. Kauniisti sisustettu ryhmätilamme sopii joogaan, tanssiin, kehotyöskentelyyn etc.  <br/>
+          Voimme majoittaa 25 ihmistä mukavasti 8:aan huoneeseemme, mutta tarvittaessa 30 mahtuu lisävuoteisiimme.<br/>
+          Ryhmätilaa on mahdollista käyttää myös majoitukseen.<br/>
+          ryhmätilassa on korkealuokkaiset äänentoisto laitteet ja videotykki tarvittaessa.<br/>
+          Tarjoamme täysipainoista kasvisruokaa, joka on valmistettu rakkaudella..<br/>
+          Pihamme on iso ja avoin. Sitä voi käyttää hiljaisiin ryhmäharjoituksiin.<br/>
+          Kurssin aikana on mahdollista saunoa puulämmitteisessä saunassamme.<br/>
+          Hinnasta ja yksityiskohdista voimme neuvotella. Täysihoito on 50-65€, riippuen ryhmän koosta ja ruokatoiveista.<br/>
+    
+          Talomme sijaitsee erittäin luonnonkauniissa ympäristössä. 
+          Kävelymatkan päässä on 5 eri järveä ja luonnonsuojelualue. 
+          Ota yhteyttä!
+  map: 
+    short: Kartta
+    one: Villa Taika  sijaitsee Antskogissa 4km Fiskarsista  Karjalohjalle päin.
+    two: Villa Taika on vanha, valkoinen kansakoulu Antskogin päätien varressa.
+    three: Fiskarsista päin olemme kolmas talo oikealla Antskogissa. 
+    four: Talon molemmilta puolilta näkyy läheiset järvet. Ympärillä on kauniit kävelymaastot.
+  news: 
+    short: Uutiset
+    deco: 
+      short: Edullinen majoitus kauniissa ulko aitassamme.
+      rest: Ulko aitassamme on edullinen majoitusvaihtoehto 65€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br/>
+          Perinteisen kauniin hirsi seinän kanssa on kultainen pylvässänky. Huoneeseen mahtuu 2 hlöä.
+           Suihku ja wc ovat päärakennuksessa. Halutessasi voit käyttää biologista, kemiallista wc:tä 
+      image: renovate
+    eco: 
+      short: Uusiutuva energia 
+      rest: Villa Taika käyttää vain uusiutuvia energiamuotoja <br/>
+              Olemme asentaneet uuden puupannun Villa Taikaan. Moderni puupannu tuottaa suurimman osan
+              talomme energiasta. Mutta vesikiertoinen takkamme tuo osansa talon lämmitys energiasta. <br/>
+              Lisäksi asensimme erittäin energia taloudellisen ilmalämpöpumpun aamiaissaliimme.<br/>
+              Kaikki talomme käyttämä sähkö on yrityksestä, joka myy ainoastaan tuuli-ja vesi sähköä. Yrityksen nimi on Kraft&Kultur.
+      image: renewable
+  photos: 
+    w_pavillion: Taika paviljonki
+    w_kukkat: Punaiset liljat
+    w_piha: Puutarhamme
+    w_frogs: Tanssivat  sammakot
+    w_terasse: Terassi
+    w_peony: Suihkulähde
+    h_aurinko_wc: Aurinko wc
+    h_curves: Aurinko sviitin kaiverrukset
+    h_lootus_wc: Lootus WC
+    h_highview: Villa Taika korkealta
+  bed:
+    rooms: Huoneet
+    short: Bed & Breakfast
+    one: Tervetuloa viehättävään Villa Taikaan! <br/>Olemme luoneet B&amp;;n, jossa jokainen huone on uniikisti sisustettu. <br/> 
+        Matkoillamme Aasiaan olemme usein lumoutuneet sen kauneudesta. 
+        Valitsimme huoneisiimme yksilölliset huonekalut muistuttamaan ja inspiroimaan elämän ainutlaatuisesta kauneudesta. <br/> 
+        Toivomme että sinäkin nautit siitä täällä luonamme Villa Taiassa! <br/>Meillä on suuri puutarha vesiputouksineen ja pihalampineen . Siellä voit
+        nauttia olostasi vesiputouksen solinaa kuunnellen. <br/> 
+        <br/> Tulopäivänä huoneeseen voi saapua klo 14-19. Ilmoitathan saapumisajan etukäteen!! Huone luovutetaan klo 12 mennessä.<br/>Voit myös tehdä retkiä lähiympäristöön. Billnäsin ruukki 15km, Mustion linna 15km, Tammisaari 35km.
+    two:
+        Huoneen hinta on kahdelle ja lisävuode on 25€. 
+        Huoneen hintaan kuuluu aamupala (tarjoillaan klo 8:30-10:00), liinavaatteet ja pyyhkeet. 
+        Huoneiden hinnat ovat 75-95 € .
+        Voimme majoittaa jopa 25-30 hengen ryhmän.
+        Peruutus on tehtävä 48h ennen .
+    suites: 3 sviittiä omalla suihkulla 85/90/95
+    deluxe: 2 huonetta omalla wc:llä (yläkerrassa) 75€/2hh ja 60€/1hh 
+    standard: 2 huonetta, jotka jakavat yhteisen suihkun, 75€/2hh ja 60€/1hh
+  rose:
+    short: Ruusu huone 
+    full: <b>Ruusu huone </b>on romanttinen huone. Huoneessa on parisänky, ja mukava sohva.  
+            Sillä on yhteinen wc ja suihku viereisen Taivas huoneen kanssa.<br/>
+            Yhdessä Taivas huoneen kanssa, se sopii erinomaisesti isolle perheelle tai pienelle ryhmälle.<br/> 
+          Hinta on 75€ /2hh ja 60€/1hh
+  sky:
+    short: Taivas huone 
+    full: <b>Taivas huone </b>on rauhoittava ja  viehkeä huone. Sillä on yhteinen wc ja suihku viereisen Ruusu huoneen kanssa.  
+          Huoneessa on parisänky, ja sinne saa lisävuoteen tai kaksi tarvittaessa..
+          Yhdessä Ruusu huoneen kanssa, se sopii erinomaisesti isolle perheelle tai pienelle ryhmälle.<br/>  
+          Hinta on 75€ /2hh ja 60€/ 1hh
+  lootus:
+    short: Lootus sviitti 
+    full: <b>Lootus sviitti </b> on viehättävä , aasialaisella tyylikkyydellä sisustettu huoneisto 40m².<br/> Siihen kuuluu oma wc ja suihku, sekä terassi , jolta pilkottaa 
+            läheinen järvi.<br/> Huoneessa on parisänky ja sinne mahtuu 3 tai 4 lisävuodetta. <br/>  <br/>
+            Sviitti sopii myös hääpareille. Hääpaketti sisältää huoneen ja lisäkoristelun kukkasilla ja kynttilöillä. 
+            Aamupala haluttaessa sään salliessa omalla terassilla. <br/>
+            Hinta on 95€ /2hh. (Hääpaketti on 135€ /2hh)
+  sun:
+    short: Aurinko sviitti 
+    full: <b>Aurinko sviitti</b> on valoisa ja tyylikäs 25m² sviitti. Perinteisellä hirsirakennus tekniikalla rakennetut kaaret
+          tuovat oman lisänsä, tyylikkäillä tiikki huonekaluilla sisustettuun huoneseen. <br/>
+          Siellä on parisänky ja sinne mahtuu mukavasti kaksikin lisävuodetta. 
+          Siinä on oma wc ja suihku.<br/>
+          Hinta on 90€ /2hh ja 75€ /1hh
+  ametist:
+    short: Ametisti huone
+    full: <b>Ametisti huone </b>on valoisa ja kaunis 15m² huone. Huonetta koristaa käsinkaiverrettu reliefi ja uniikki käsinmaalattu kaappi. <br/> Siellä on parisänky ja sinne mahtuu tarvittaessa lisävuode.
+          Huoneessa on oma wc ja suihku.<br/>
+           Hinta on 85€ /2hh ja 70€/ 1hh
