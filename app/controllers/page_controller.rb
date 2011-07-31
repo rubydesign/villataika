@@ -11,7 +11,7 @@ class PageController < ApplicationController
   
   def locale
     @locale = params[:locale] 
-    @locales = [ "en" , "fi"]
+    @locales = [ "en" , "fi" , "de"]
     I18n.locale = @locale
   end
 

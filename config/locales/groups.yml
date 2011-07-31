@@ -57,34 +57,33 @@ fi:
           Ota yhteyttä!
 de:
   groups: 
-    short: Groups
-    right: In many ways Villa Taika is well suited to accomodate courses and other group happenings.<br/><br/>
+    short: Gruppen
+    right: Villa Taika eignet sich gut für Kurse oder andere Gruppenaktivitäten.<br/><br/>
           <ul> 
-            <li> large group room</li>
-            <li> large garden</li>
-            <li> high quality sound + video</li>
-            <li> blankets and cushions</li>
-            <li> wood heated sauna + pool</li>
-            <li> accomodate 20-30 people</li>
-            <li> extra teacher room</li>
-            <li> nearby activities</li>
-            <li> vegetarian food</li>
+            <li> grosser Gruppen-Saal </li>
+            <li> grosser Garten </li>
+            <li> gutes Sound und Video Equipment</li>
+            <li> Decken und Kissen</li>
+            <li> grosse Sauna mit Becken</li>
+            <li> 20-30 Schlafplatze</li>
+            <li> seperates Zimmer für Ausbilder</li>
+            <li> Aktivitäten in der Nähe</li>
+            <li> vegetarisches Essen</li>
           </ul>
-    bottom: 
-      Our beautifully decorated group space has a good size to allow many activities with enough space, be it
-      yoga, dancing, body work or other group work. <br/>
-      Our garden is large and open, and well suited for quiet activities . <br/>
-      The group space is also well equipped with a high quality steoro system and a video projector is 
-      available if needed. <br/>
-      For quiet group work we have blankets and sitting cousions for participants. <br/>
-      During courses it is possible to use our large, wood heated sauna, and our small pool. <br/>
-      On the courses we can accomodate 25 people comfortably in our 8 rooms, but up to 30 is possible using
-      extra beds, and we also have a seperate room for the teacher<br/>
-      There are many local activities for groups that are not courses, see our <a href="/en/activities.html">activities
-      page</a>. <br/>
-      We offer vegetarian or vegan food, prepared with love. <br/>
-      Prices and details subject to negotiation. Full board prices with use of group room and sauna range 
-      from 50-65€, with prices depending on group size and food requirements. <br/> <br/>
+    bottom: |-
+      Unser Saal ist auf schöne Weise eingerichtet und gross genug für viele Aktivitäten, zb Yoga, Tanzen,
+      Körperarbeit oder andere Gruppenarbeit. <br/>
+      Der  Garten ist gross und offen und eignet sich gut für ruhge Aktivitäten wir Yoga oder Meditation, 
+      und bietet auch genug Sitzmöglichkeiten (auch bedacht) für Gruppen. <br/>
+      Der Saal ist ausgerüstet mit einem Hochqualitativen Audio System, und auch ein Videoprojektor ist 
+      vorhanden. <br/>
+      Für ruhige Arbeit und/oder Pausen stehen Decken und Kissen zur Verfügung. <br/>
+      Die Sauna ist auch für grösserer Gruppen geeignet und zum abkühlen haben wir einen kleinen Pool. <br/>
+      In den 8 Zimmern können bequem 20 und mit Extra-Betten bis zu 30 Personen übernachten.<br/>
+      Zusätzlich zu den lokalen Resaurants bieten wir auch vegetarisches Essem im Haus an. <br/>
+      Preise sind von vielen Faktoren abhängig, bitte setzen Sie sich mit uns in Verbindung um ein geeignetes
+      Packet zu schnüren. Speziell abhängig von Gruppengrösse, Jahreszeit und Mahlzeiten sind Peise zwischen 50 
+      bis 65 pro Person und Tag für Vollpension mit Saalbenutzung üblich. <br/> <br/>
 se:
   groups: 
     short: Ryhmille

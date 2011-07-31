@@ -50,3 +50,30 @@ en:
     submit: Send booking
     payson:      Alternatively you can use Payson with our email.  
                   For example by using the appropriate button below:<br/>
+de:
+  booking:
+    short: Buchung
+    received: Ihre Buchung wurde empfangen.
+    error: Bitte alle Felder ausfüllen, auch Email und Datum. 
+    booking: Sie können per email buchen, das Formular ausfüllen, oder uns zwischen 10:00 and 19:00
+              unter  +358407046689 anrufen. <br/> <br/> 
+              Für das Formular werden alle Felder benötigt. Als Zimmer kann auch eine Kategorie angegeben werden
+              (also Suite/Deluxe,Standard). Alle Zimmer sind mit einem Doppelbett ausgestattet, bitte geben Sie
+              eventuell Extra-Betten im Komentar Feld an.
+    name: Vor und Nachname
+    email: Email Addresse
+    arrival: Ankunftsdatum
+    phone: Telefon
+    nights: Nächte
+    room: Zimmer
+    comment: Komentar
+    call: Anruf
+    confirmation: Die Buchung wird innerhalb eines Arbeitstages bestätigt.
+    pay:  |
+        Sie könnnen nach der Bestätigung per Überweisung bezahlen: Kontonummer Nordea 101435-136318 <br/> 
+            Ansonsten können Sie bei Ankunft in Bar bezahlen.<br/> 
+          Bei Buchungen von zwei oder mehr Nächten ist eine Anzahlung von 25% zur Buuchungsbestätigung fällig.
+    pay_button: Bezahlen 
+    submit: Buchen
+    payson:  Alernativ können Sie einen der Payson Buttons um bezahlen benutzen, oder auch über PayPal and unsere
+            email addresse überweisen.

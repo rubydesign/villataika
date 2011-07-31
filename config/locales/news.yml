@@ -41,23 +41,22 @@ fi:
 de:
   news: 
     all: deco , eco
-    short: News
+    short: Neues
     deco: 
-        short: Affordable accommodation in redocorated granery
-        rest: On the yard we have room granary 60€/ 2hh. Room is traditionally decorated. <br/>
-              Traditional log cabin that is decorated with afour poster bed. two peple can sleep in it.
-             Shower and toilet are in the main building.
+        short: Erschwingliche Unterkunft  im renovierten Blockhaus
+        rest: Wir haben Teil des Hofgebebäudes renoviert und ein schönes Blockhaus - Zimmer mit Himmelbett
+              ausgestattet. Das einfache aber bezaubernde Zimmer kostet 65€ für zwei Personen. <br/>
+              Toilette und Dusche befinden sich im Hautgebäude.
         image: renovate
     eco: 
-      short: Ecological energy. 
-      rest: Villa Taika now uses only renewable enery <br/>
-            We have installed a new wood heating sytem. A modern wood gasification stove now produces most of the 
-            energy neeeded. But also a water circulating fireplace contributes to the heating of the house. <br/>
-            Additionally we installed a very energy efficient heat pump in our breakfast lounge.<br/>
-            The electricity powering the pump, and indeed the whole house is 100% renwable, like wind and
-            water power, bought from Kraft and Kultur.  
+      short: Ököenergie. 
+      rest: Villa Taika ist jetzt komplett auf erneuerbare Energie umgestiegen <br/>
+            Zusätlich zu dem schon vor einigen Jahren installiertem Wasserführendem Kamin, haben wir 
+            eine neuen Holzkessel installiert. Der moderne Holzvergaser glänzt mit einem Wirkungsgrad von bis 
+            zu 91%. <br/>
+            Zusätzlich ist eine neue Wärmepumpe mit einem cop Wert von 5,6 zum Energiemix dazugekommen.
+            Aber auch die elektrische Energie ist 100% erneuerbar, dank der Firma Kraft and Kultur.  
       image: renewable
-         
 se:
   news: 
     short: Uutiset

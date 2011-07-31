@@ -86,43 +86,44 @@ fi:
 de:
   activities: 
     all: swim , forest , row , garden , fiskars , hanko , raasepori , groups
-    short: Activities
+    short: Aktivitäten
     swim:
-      short: Swimming in clean lakes
-      rest: There are several opertunities to go swimming. The closest beach on Isosimi lake is about 200m walk.
-          There are three more family friendly beaches a few minutes drive away by car or bicycle. 
+      short: Schwimmen im sauberen Seen
+      rest:  In fussnähe befinden sich mehrere Bademöglichkeiten. Die näheste See, Isosimmi, ist etwa 200m 
+        entfernt. Mehrere Seen haben Sandstrand und können per Fahrrad (kostenlos) erreicht werden.
     forest:
-      short: Walk or cycle through woods
-      rest: There are many unpaved paths through the surrounding nature reseve. 
-            Bring your own bicycle, get one from us or walk to explore the surrounding nature. 
+      short: Sparziergang im Naturschutzgebiet.
+      rest: Das Natrschutzgebiet um den Isosimmmi See fängt eine hundert Meter von unserem Haus entfernt an und
+            ersteckt sich über mehrere Kilometer. Auch grössere Excursionen können per Fahrrad unternommen werden
+            die kostenlos von Villa Taika geliehen werden können.
     row:
-      short: Rowing or fishing, time off
-      rest: It is possible to rent the rowing boat for a small fee and spend some quiet time on 
-            the lake just a few minutes away. For groups canoe trips can be arranged.
+      short: Rudern und/oder Fischen, Zeit zum entspannen
+      rest: Ein Ruderboot kann für eine kleine Gebühr geliehen werden. Damit lässt sich auf dem Nah delegenen 
+            See fischen, oder auf eine entspannte Tour gehen. Für gruppen könne auch Lanutours arrangiert werden.
     garden:
-      short: Relax in peace
-      rest: Our lovely and large garden has several spaces to retreat, and to the beautiful sound of the 
-            waterfall you may not want to leave.
+      short: Enspannen und Ruhe
+      rest: Wir haben einen grossen und mit Liebe angelegten garten der zum Entspannen einläd. Mehrer 
+            Sitzgelegenheiten laden ein, und das geplätscher des Wasserfalls lillt und entspannt.
     fiskars:
-      short: Fiskars & Bilnas Villages
-      rest: The beautifully restored art and craft centre of Fiskars is just a 5 minutes drive away. 
-            There are handicraft shops, workshops, cafes and restaurants. 
-            Bilnas, another old ironwork centre, is just over 10 minutes drive.
+      short: Fiskars & Bilnas dörfer
+      rest: Das liebevoll restaurierten Handwerks- zentrum Fiskars ist nur eine kurze Fahrt entfernt, 
+          und bietet lokales Handwerk nicht nur zum Kauf, aber auch dirkt zum angucken. Mehrer Workshops 
+          sind zur besichtigung offen. 
+          Bilnas ist ebenfalls eine Altes Eisenwerk-Dorf und befindet sich knapp über 10 Minuten entfernt.
     hanko:
-      short: Tammisaari and Hanko, old towns
-      rest: Tammisaari and Hanko are both beautiful old towns with lots of wooden houses, by the sea. Perfect for a
-            day trip, Tammisaari is just over half an hours drive and Hanko slightly further.
+      short: Tammisaari und Hanko, alte Städte
+      rest: Tammisaari und Hanko sind beide schöne alte Städte am Meer. Mit vielen alten Holzhäusern und schönen
+            Fussgängerzonen sind sie ideal für Tagesreisen.
     raasepori:
-      short: Raasepori and Mustio
-      rest: The old stone castle of Raasepori, now the namesake of the region is close by. 
-            Also the grand castle of Mustio is just 15 minutes away where you can have a dinner or enjoy a cuppa by the lake.
+      short: Raasepori und Mustio
+      rest: Das alte Schloss von Raasepori, eines der ältesten in Finnland, giebt der Region den Namen. Es befindet 
+            sich etwa eine halbe Sunde entfent. 
+            Das alte Manorhaus in Mustio ist auch sehr nah und lädt mit seinen grossen Gärten und Cafees zum weilen ein.
     groups:
-      short: Group activities
-      rest: <a href="http://www.kdadventure.com/fi/activities/kursseja/">KD Adventure</a>, can 
-            arrange a variety of group activities, like nature courses,canoing, themed evenings, coal walking 
-            and paintball.  Best of all, they are just next door, so you can enjoy a shower and warm
-            bed in Villa Taika, after an adventourous day.
-
+      short: Gruppenaktivitäten.
+      rest: Unser <a href="http://www.kdadventure.com/fi/activities/kursseja/">Nachbar</a>, arraangiert für 
+            Gruppen eine Anzahl von Aktivitäten. Zum Beispiel Kano-trips, Kohlen-Laufen, Themen-abende und
+            Wildernis-Kurse.
 se:
   all: swim , forest , row , garden , fiskars , hanko , raasepori , groups
   activities: 

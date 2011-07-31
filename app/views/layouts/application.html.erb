@@ -53,7 +53,7 @@
 
       <div class="divider"></div>
     
-      <%["fi" , "en" ].each do |lang| %>
+      <%@locales.each do |lang| %>
         <a href="<%="/#{lang}#{this_page}"%>" <%="class='selected'" if lang == @locale%>>  
           <img src="/images/<%=lang.to_s%>.gif" alt="<%=lang.to_s%>"/> </a>
       <%end%>
@@ -87,7 +87,7 @@
   <div class="kolmas">
     Raisa Kaipainen &amp; Torsten Rüger
     <br/>
-    puh 040 704 6689
+    <%=t("puh")%> +358- (0)40 704 6689
   </div>
   <div class="kolmas">
     <a href="/<%=@locale%>/index.html">
