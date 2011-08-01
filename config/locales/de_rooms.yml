@@ -1,33 +1,30 @@
 de:
   bed:
-    rooms: Rooms
+    rooms: Zimmer
     short: Bed & Breakfast
     one:
-        Welcome to the charming and peaceful Villa Taika! <br/>
-        We have created unique B&amp;, with 8 individually decorated rooms.
-        Inspired by our trips to the Orient , we brought that beauty and inspiration with us in the 
-        pieces of furniture, that we selected to our rooms. <br/> 
-        We hope you will be revitalisedand rested in the beauty of our surroundings! <br/>
-
-        In the backyard we have a garden with the pond and waterfall.
-        You can relax in the garden by listening to the soothing sound of the water or make trips to the 
-        nearby tourist sights.
-        The Billnäs 15km, Mustio castle 15km, beautiful towns of Tammisaari 35 km and Hanko 65km
+        Willkommen in der charmanten Atmosphere der Villa Taika! <br/>
+        Inspiriert von unseren Reisen in den Orient, brachten wir die Schönheit und Magie mit uns 
+        und haben so unser einzigartiges B&B mit 8 individuell eingerichteten Zimmern kreiert. <br/> 
+        Wir hoffen Sie werden neu belebt und gut geruht durch unsere wunderschöne Umgebung!<br/>
+        
+        In der Nähe sind mehrere Sehenswürdigkeiten, so kann man leicht den Tag in Fiskars (5km), Bilnäs (15km),
+        Musto (15km), Tammisaari (35km) oder Hanko (65km) verbringen. Oder enspannen Sie sich einfach im 
+        liebevoll angelegten Gartem zum Pläzschern des Wasserfalles. <br/>
     two:
-        The room price is for two people, between 75 and 95€ , and extra beds cost 25€. <br/>
-        The price includes breakfast served between 8:30-10:00, bed-linen and towels. <br/>  
-        You can sign into your room between 14-19 . Please let us know what time
-        you'll be arriving! <br/>
-        Checkout by 12 o'clock 
-    suites: 3 suites with own shower 85-95 €
-    deluxe: 2 rooms with toilet ensuite 75€
-    standard: 2 rooms which share one shower 75€
+      Die Preise für ein Doppelzimmer sind zwischen 75 and 95€ für 2 Personen, aber mehrere Zimmer sind geräumig 
+      genug für ein drittes oder sogar viertes Bett (25€). <br/>
+      Frühstück , zwischen 8:30-10:00, ist im Preis inbegriffen. <br/>
+      Check-in ist zwischen 14:00 - 19:00 und Check-out bis 12:00 wenn nicht anders vereinbart.  <br/>
+    suites: 3 suites mit Dusche und Toilette 85-95 €
+    deluxe: 2 Zimmer mit eigener Toilette 75€
+    standard: 2 Zimmer (teilen Dusche/Toilette) 75€
   tai: oder
   puh: Tel
   myos: Siehe auch
   slogan: Asatische eleganz
   suites: 
-    short: Suites (mit Dusche)
+    short: Suites (ensuite)
   deluxe: 
     short: Deluxe (mit Toilette)
   standard: 
@@ -45,7 +42,7 @@ de:
           Im Zimmer ist eine Toilette und eine Dusche wird mit dem Orangen Zimmer gemeinsam benutzt. <br>
           Grünes und Organges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den 
           kleinen Vorraum und Dusche für sich haben. <br/>
-          Der Preis für 2 ist 75€ / Einzel 60€
+          Der Preis für 2 ist 75€ / Einzelbelegung 60€
   orange:
     short: Oranges Zimmer
     full: Das Orange Zimmer hat eine warme, gemütliche Atmosphere mit asiatischem Touch.
@@ -55,48 +52,44 @@ de:
           Im Zimmer ist eine Toilette und eine Dusche wird mit dem grünen Zimmer gemeinsam benutzt. <br>
           Grünes und Organges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den 
           kleinen Vorraum und Dusche für sich haben. <br/>
-          Der Preis für 2 ist 75€ / Einzel 60€
+          Der Preis für 2 ist 75€ / Einzelbelegung 60€
   rose:
-    short: Rose room
-    full: The <b>Rose room </b> is a cosy room with a romantic atmosphere. <br/>
-          It has a double bed and a cosy sofa for two. <br/>
-          It shares a toilet and shower with the next door Sky room. <br/>
-          Together with the sky room it is an ideal choice for large families or small groups up to five, as 
-          both rooms with their bathroom form an apartment.<br/>
-          The price for two is 75€/ Sinle 60€
+    short: Rosenzimmer
+    full: Das <b>Rosenzimmer </b> ist ein gemütliches Zimmer mit romantischer Atmosphäre. <br/>
+          Es verfügt über ein Doppelbett und ein gemütliches Sofa für zwei Personen. <br/>
+          Die Dusche und Toilette befinden sich direkt nebenann und werden mit dem Blauen Zimmer geteilt. <br/>
+          Die benachbarten Rosen- und Blauen-zimmer bieten zusammen eine gute Einheit für kleine Gruppen oder 
+          grosse Familien.<br/>
+          Der Preis für 2 ist 75€ / Einzelbelegung 60€
   sky:
-    short: Sky room
-    full: The <b>Sky room </b> is a  charming  room with a peaceful atmosphere. <br/>
-           It shares a toilet and shower with the next door Rose room.  <br/>
-           Together with the sky room it is an ideal choice for large families or small groups up to five, as 
-           both rooms with their bathroom form an apartment.<br/>
-           There is a double bed, and space for an extra bed on request. <br/>
-           The price for two is 75€/ Single 60€
+    short: Blaues Zimmer 
+    full: Das <b>Blaues Zimmer </b> hat eine ruhige Atmosphere. <br/>
+          Es teilt Dusche und Bad mit dem Rosenzimmer nebeann. Es befindet sich ein Doppelbett im Zimmer und es
+          ist ein Extrabett vorhanden.  <br/>
+          Die benachbarten Rosen- und Blauen-zimmer bieten zusammen eine gute Einheit für kleine Gruppen oder 
+          grosse Familien.<br/>
+          Der Preis für 2 ist 75€ / Einzelbelegung 60€
   lootus:
     short: Lotus Suite
-    full:  The <b>Lotus Suite</b>  is a charming and spacious flat of about 40 m², with asian elegance. <br/>  
-            It has it's own bathroom with shower and toilet, and a <b>private terasse</b>. <br/>
-            One can get a glimpse of the  nearby lake, and the terasse is a perfect place to enjoy the morning 
-            in the sun. <br/>
-            There is a double bed, and plenty of space for up to three extra beds on request. <br/> 
-            The suite is also very well suited for wedding couples. We offer a <b>wedding package</b> which includes 
-            extra decoration with flowers and candles, and breakfeast can be served privately 
-            to the room or terasse.<br/>
-            The room price for two is 95€. (Weddingpackage is 135€ for two)
+    full:  Die <b>Lotus Suite</b> ist ein sehr geräumigiges Zimmer, eher Appartement, mit asiatischer Eleganz.<br/>
+          Zusätzlich zum eigenen Badezimmer, und Vorraum, bietet Sie genug Platz für zwei Betten und dabei noch
+          genug Platz zum Sizen. Ausserdem ist eine <b> private Terasse </b> angeschlossen, 
+          auf der sich auch im Herbst noch die Morgensoonne geniessen lässt.<br/>
+          Der Preis für 2 ist 95€.
   sun:
-    short: Sun suite 
-    full: The <b>Sun suite</b> is an elegant, sunny and spacious room. <br/>
-          Traditional timberframing gives the room a rustic touch which counterpoints the elegant 
-          interiour with beautiful teak furniture.<br/>
-          Facing south with large windows there is a sunny and light feeling in the room. Alsoit feels spacious 
-          as the ceilings are over 3m high.<br/> 
-          Shower and toilet are ensuite. 
-          There is a double bed and a space to fit two extra beds.<br/>
-          The price for two is 90€/75€ single
+    short: Sonnen Suite 
+    full: Die <b>Sonnen Suite</b> ist ein sehr elegantes und sonniges Zimmer. <br/>
+          Traditonelles englisches timber-framing giebt dem Raum einen rusikalen Hauch der die elegante 
+          Atmosphäre mit Teak Möbel kontrapunktiert.<br/>
+          Die grossen süd-gerichteten Fenster und hohe Decke verleihen dem Zimmer ein leichtes, sonniges 
+          Gefühl.<br/> 
+          Dusche und Toilette sind ensuite und zusätlich zum Doppelbett ist Platz für ein Extra-Bett.<br/>
+          Der Preis für 2 ist 90€ / Einzelbelegung 75€
   ametist:
     short: Amethyst room
-    full: The <b>Amethyst</b> room is a light and sunny 15m² room with handcarved relief. <br/>
-          The room has is south facing  with large windows and high ceiling that give it a spacious feel.<br/>
-          There is a private bathroom with shower and a double bed. One extra bed can be arranged. <br/>
-          The price for two is 85€/70€ single
+    full: Das <b>Amethyst Zimmer</b> ist ein sonnig, helles Zimmer mit hand geschnitztem Relief. <br/>
+          Das Zimmer ist nach Süden gerichtet und durch die grossen Fenster entsteht eine sehr geraümges 
+          Gefühl.<br/>
+          Eine eigene Dusche und Toilette befindet geht direkt von der eigenen kleinen Eingangshalle ab. <br/>
+          Der Preis für 2 ist 85€ / Einzelbelegung 70€
   

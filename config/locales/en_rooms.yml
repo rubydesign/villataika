@@ -4,10 +4,10 @@ en:
     short: Bed & Breakfast
     one:
         Welcome to the charming and peaceful Villa Taika! <br/>
-        We have created unique B&amp;B, with 8 individually decorated rooms.
+        We have created a unique B&amp;B, with 8 individually decorated rooms.
         Inspired by our trips to the Orient , we brought that beauty and inspiration with us in the 
         pieces of furniture, that we selected to our rooms. <br/> 
-        We hope you will be revitalisedand rested in the beauty of our surroundings! <br/>
+        We hope you will be revitalised and rested in the beauty of our surroundings! <br/>
 
         In the backyard we have a garden with the pond and waterfall.
         You can relax in the garden by listening to the soothing sound of the water or make trips to the 
@@ -18,7 +18,8 @@ en:
         The price includes breakfast served between 8:30-10:00, bed-linen and towels. <br/>  
         You can sign into your room between 14-19 . Please let us know what time
         you'll be arriving! <br/>
-        Checkout by 12 o'clock 
+        Checkout by 12 o'clock. <br/>
+        Stays of 2 or more nights require 25% downpayment.
     suites: 3 suites with own shower 85-95 €
     deluxe: 2 rooms with toilet ensuite 75€
     standard: 2 rooms which share one shower 75€
@@ -62,7 +63,7 @@ en:
           It shares a toilet and shower with the next door Sky room. <br/>
           Together with the sky room it is an ideal choice for large families or small groups up to five, as 
           both rooms with their bathroom form an apartment.<br/>
-          The price for two is 75€/ Sinle 60€
+          The price for two is 75€/ Single 60€
   sky:
     short: Sky room
     full: The <b>Sky room </b> is a  charming  room with a peaceful atmosphere. <br/>
@@ -95,7 +96,7 @@ en:
           The price for two is 90€/75€ single
   ametist:
     short: Amethyst room
-    full: The <b>Amethyst</b> room is a light and sunny 15m² room with handcarved relief. <br/>
+    full: The <b>Amethyst</b> room is a light and sunny room with handcarved relief. <br/>
           The room has is south facing  with large windows and high ceiling that give it a spacious feel.<br/>
           There is a private bathroom with shower and a double bed. One extra bed can be arranged. <br/>
           The price for two is 85€/70€ single
