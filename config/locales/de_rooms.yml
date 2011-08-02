@@ -3,7 +3,7 @@ de:
     rooms: Zimmer
     short: Bed & Breakfast
     one:
-        Willkommen in der charmanten Atmosphere der Villa Taika! <br/>
+        Willkommen in der charmanten Atmosphäre der Villa Taika! <br/><br/>
         Inspiriert von unseren Reisen in den Orient, brachten wir die Schönheit und Magie mit uns 
         und haben so unser einzigartiges B&B mit 8 individuell eingerichteten Zimmern kreiert. <br/> 
         Wir hoffen Sie werden neu belebt und gut geruht durch unsere wunderschöne Umgebung!<br/>
@@ -22,30 +22,30 @@ de:
   tai: oder
   puh: Tel
   myos: Siehe auch
-  slogan: Asatische eleganz
+  slogan: Asatische Eleganz
   suites: 
     short: Suites (ensuite)
   deluxe: 
     short: Deluxe (mit Toilette)
   standard: 
-    short: Standard (shared)
+    short: Standard 
   index:
     short: Home
-    bold: Asiatische eleganz inmiten unberührter Natur.
-    text:  ist ein charmantes Bed&Breakfast in Antskog, nahe Fiskars, knapp über eine Autostunde 
+    bold: Asiatische Eleganz inmiten unberührter Natur.
+    text:  ist ein charmantes Bed & Breakfast in Antskog, nahe Fiskars, knapp über eine Autostunde 
           von Helsinki entfernt. 
   green:
     short: Grünes Zimmer
     full: Das <b>Grüne Zimmer</b> hat eine ruhige Atmsphere und einen schönen Blick auf den Garten <br/>
           Zusätzlich zu dem vorhanden Doppelbett ist Platzt für eine Extra-Bett. Hinter den Dachwinkel passen
           auch zwei Kinder die das "höhlengeühl" lieben.<br/>
-          Im Zimmer ist eine Toilette und eine Dusche wird mit dem Orangen Zimmer gemeinsam benutzt. <br>
+          Im Zimmer ist eine Toilette und eine Dusche wird mit dem Orangen Zimmer gemeinsam benutzt. <br/>
           Grünes und Organges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den 
           kleinen Vorraum und Dusche für sich haben. <br/>
           Der Preis für 2 ist 75€ / Einzelbelegung 60€
   orange:
     short: Oranges Zimmer
-    full: Das Orange Zimmer hat eine warme, gemütliche Atmosphere mit asiatischem Touch.
+    full: Das Orange Zimmer hat eine warme, gemütliche Atmosphäre mit asiatischem Touch.
           Zusätzlich zu dem vorhanden Doppelbett ist Platzt für eine Extra-Bett. Hinter den Dachwinkel passen
           auch zwei Kinder die das "höhlengeühl" lieben.<br/>
           Das Zimmer hat aus dem ersten Stock einen schönen Blick auf den Garten und umliegende Natur.
@@ -63,7 +63,7 @@ de:
           Der Preis für 2 ist 75€ / Einzelbelegung 60€
   sky:
     short: Blaues Zimmer 
-    full: Das <b>Blaues Zimmer </b> hat eine ruhige Atmosphere. <br/>
+    full: Das <b>Blaues Zimmer </b> hat eine ruhige, entspannende Atmosphäre. <br/>
           Es teilt Dusche und Bad mit dem Rosenzimmer nebeann. Es befindet sich ein Doppelbett im Zimmer und es
           ist ein Extrabett vorhanden.  <br/>
           Die benachbarten Rosen- und Blauen-zimmer bieten zusammen eine gute Einheit für kleine Gruppen oder 
@@ -72,15 +72,15 @@ de:
   lootus:
     short: Lotus Suite
     full:  Die <b>Lotus Suite</b> ist ein sehr geräumigiges Zimmer, eher Appartement, mit asiatischer Eleganz.<br/>
-          Zusätzlich zum eigenen Badezimmer, und Vorraum, bietet Sie genug Platz für zwei Betten und dabei noch
-          genug Platz zum Sizen. Ausserdem ist eine <b> private Terasse </b> angeschlossen, 
+          Zusätzlich zum eigenen Badezimmer, Schlaf- und Vorraum, bietet Sie genug Platz für zwei Betten und dabei 
+          noch genug Platz zum Sizen. Ausserdem ist eine <b> private Terasse </b> angeschlossen, 
           auf der sich auch im Herbst noch die Morgensoonne geniessen lässt.<br/>
           Der Preis für 2 ist 95€.
   sun:
     short: Sonnen Suite 
     full: Die <b>Sonnen Suite</b> ist ein sehr elegantes und sonniges Zimmer. <br/>
           Traditonelles englisches timber-framing giebt dem Raum einen rusikalen Hauch der die elegante 
-          Atmosphäre mit Teak Möbel kontrapunktiert.<br/>
+          Atmosphäre mit Teakmöbeln kontrapunktiert.<br/>
           Die grossen süd-gerichteten Fenster und hohe Decke verleihen dem Zimmer ein leichtes, sonniges 
           Gefühl.<br/> 
           Dusche und Toilette sind ensuite und zusätlich zum Doppelbett ist Platz für ein Extra-Bett.<br/>

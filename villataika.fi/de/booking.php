@@ -12,10 +12,10 @@
   <link href="../favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /> 
   
   <meta name="keywords" content="Bed and breakfast majoitus hotel Fiskars häät  Suite" />
-  <meta name="description" content="Bed and Breakfast Villa Taika : asian elegance Reservation" />
+  <meta name="description" content="Bed and Breakfast Villa Taika : Asatische Eleganz Buchung" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Language" content="en"/>  
-  <title>Bed &amp; Breakfast Villa Taika : Reservation</title>
+  <meta http-equiv="Content-Language" content="de"/>  
+  <title>Bed &amp; Breakfast Villa Taika : Buchung</title>
   
 </head>
 
@@ -27,7 +27,7 @@
       <div class="centre">
         <img src="../images/logo_iso.png" alt="Villa Taika logo"/>
       </div>
-      <div id="slogan">asian elegance</div>
+      <div id="slogan">Asatische Eleganz</div>
   </div>
 
   <div id="lcol">
@@ -40,48 +40,48 @@
             <a href="bed.html">Bed &amp; Breakfast</a>
           </li>
           <li class="active">
-            <a href="booking.php">Reservation</a>
+            <a href="booking.php">Buchung</a>
           </li>
           <li >
-            <a href="groups.html">Groups</a>
+            <a href="groups.html">Gruppen</a>
           </li>
           <li >
-            <a href="map.html">Map</a>
+            <a href="map.html">Karte</a>
           </li>
           <li >
             <a href="photos.html">Photos</a>
           </li>
           <li >
-            <a href="activities.html">Activities</a>
+            <a href="activities.html">Aktivitäten</a>
           </li>
       </ul>
     </div>
     <div id="menuend"></div>
     <div id="lcontent">
       <h3 class="first"> 
-          <span>Rooms</span>
+          <span>Zimmer</span>
       </h3>
       <ul class="divided">
-        <li><a href="suites.html">Suites (w.shower)</a></li>
-        <li><a href="deluxe.html">Deluxe (w.toilet)</a></li>
-        <li><a href="standard.html">Standard (shared)</a></li>
+        <li><a href="suites.html">Suites (ensuite)</a></li>
+        <li><a href="deluxe.html">Deluxe (mit Toilette)</a></li>
+        <li><a href="standard.html">Standard</a></li>
       </ul>
 
       <div class="divider"></div>
     
-        <a href="booking.php" class='selected'>
+        <a href="../en/booking.php" >
           <img src="../images/en.gif" alt="en"/> </a>
         <a href="../fi/booking.php" >
           <img src="../images/fi.gif" alt="fi"/> </a>
-        <a href="../de/booking.php" >
+        <a href="booking.php" class='selected'>
           <img src="../images/de.gif" alt="de"/> </a>
 
       <h3>
-        <a href="news.html">  <span>News</span> </a>
+        <a href="news.html">  <span>Neues</span> </a>
       </h3>
       <div id="news"> 
         <a href="news.html"> 
-          Affordable accommodation in redocorated granery 
+          Rustikale Unterkunft im renovierten Blockhaus 
         </a>
       </div>
     </div>
@@ -99,53 +99,53 @@
       teesen();
       $show_form = 0 ;
       ?> 
-      Your booking was received. <br/><br/> 
+      Ihre Buchung wurde empfangen. <br/><br/> 
       <?php 
     } else { 
     ?> 
-       Please fill out all fields, and check your email and date. <br/>
+       Bitte alle Felder ausfüllen, auch Email und Datum. <br/>
     <?php 
     }; 
   }; 
 if ($show_form )   { 
     ?> 
 <br/> 
- You can book by phone , +358407046689 between 10:00 and 19:00, or send us mail, or use the form below. <br/ ><br/ > Please fill out all fields. If you do do not want to book a certain room, you may use Suite/Deluxe/standard for the room field. <br/> Also remember that all rooms have a double bed. So if there is more than 2 of you, please add to the comment. <br/> <br/><br/> 
+ Sie können per email buchen, das Formular ausfüllen, oder uns zwischen 10:00 and 19:00 unter  +358407046689 anrufen. <br/> <br/> Für das Formular werden alle Felder benötigt. Als Zimmer kann auch eine Kategorie angegeben werden (also Suite/Deluxe,Standard). Alle Zimmer sind mit einem Doppelbett ausgestattet, bitte geben Sie eventuell Extra-Betten im Komentar Feld an. <br/><br/> 
  
 <form action="booking.php" method="post"> 
   <table border="0" cellpadding="8" cellspacing="8"> 
     <tr> 
-      <td><label for="name">Full name</label>:</td> 
-      <input type="hidden" name="lang" value="en" /> 
+      <td><label for="name">Vor und Nachname</label>:</td> 
+      <input type="hidden" name="lang" value="de" /> 
       <td><input type="text" name="name" id="name" size="35" 
       <?php if (isset($_POST['name']) ) print "value='" . $_POST['name'] . "'"  ; ?>  />
       </input>
         </td> 
-      <td><label for="email">Email address</label>:</td> 
+      <td><label for="email">Email Addresse</label>:</td> 
       <td><input type="text" id="email" name="email" size="35" 
         <?php if (isset($_POST['email']) ) print "value='" . $_POST['email'] . "'"  ; ?> /></td> 
     </tr> 
     <tr> 
-      <td><label for="arrival">Date of arrival</label>:</td> 
+      <td><label for="arrival">Ankunftsdatum</label>:</td> 
       <td><input type="text" id="arrival" name="arrival" size="35" 
         <?php if (isset($_POST['arrival']) ) print "value='" . $_POST['arrival'] . "'"  ; ?> /></td> 
-      <td><label for="phone">Phone</label>:</td> 
+      <td><label for="phone">Telefon</label>:</td> 
       <td><input type="text" id="phone" name="phone" size="35" 
         <?php if (isset($_POST['phone']) ) print "value='" . $_POST['phone'] . "'"  ; ?> /></td> 
     </tr> 
     <tr> 
-      <td><label for="nights">Nights</label>:</td> 
+      <td><label for="nights">Nächte</label>:</td> 
       <td><select name="nights"> <option></option> <option>1</option> <option>2</option><option>3</option> 
-        <option>Call</option>  </select></td> 
-      <td><label for="room">Room</label>:</td> 
+        <option>Anruf</option>  </select></td> 
+      <td><label for="room">Zimmer</label>:</td> 
       <td><input type="text" id="room" name="room" size="35" 
         <?php if (isset($_POST['room']) ) print "value='" . $_POST['room'] . "'"  ; ?>/></td> 
     </tr> 
     <tr> 
-      <td> <label for="comment">Comment</label><br /> </td> 
+      <td> <label for="comment">Komentar</label><br /> </td> 
       <td> <textarea rows="2" cols="35" name="comment" id="comment"
         ><?php if (isset($_POST['comment']) ) print  $_POST['comment']  ?> </textarea> </td> 
-      <td colspan="2"><input type="submit" name="submit" value="Send booking" /></td> 
+      <td colspan="2"><input type="submit" name="submit" value="Buchen" /></td> 
     </tr> 
   </table> 
 </form> 
@@ -154,16 +154,19 @@ if ($show_form )   {
 }; 
 ?> 
  
-Booking request are subject to confirmation. <br/> <br/> 
+Die Buchung wird innerhalb eines Arbeitstages bestätigt. <br/> <br/> 
  
-If you wish to pay upon confirmation, our bank account is Nordea 101435-136318 <br/> Otherwise the charge is due upon arrival and must be paid in cash.<br/>
+Sie könnnen nach der Bestätigung per Überweisung bezahlen: Kontonummer Nordea 101435-136318 <br/> 
+Ansonsten können Sie bei Ankunft in Bar bezahlen.<br/> 
+Bei Buchungen von zwei oder mehr Nächten ist eine Anzahlung von 25% zur Buchungsbestätigung fällig.
+
 
 <br/> <br/> <br/> 
-Alternatively you can use Payson with our email. For example by using the appropriate button below:<br/>
+Alernativ können Sie einen der Payson Buttons um bezahlen benutzen, oder auch über PayPal and unsere email addresse überweisen.
 <br/> 
-<a href="https://www.payson.fi/SendMoney/?De=Standard+%2f+Delux&Se=info%40villataika.fi&Cost=75%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;"> Pay 75 &euro;</a>
+<a href="https://www.payson.fi/SendMoney/?De=Standard+%2f+Delux&Se=info%40villataika.fi&Cost=75%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;"> Bezahlen 75 &euro;</a>
 
-<a href="https://www.payson.fi/SendMoney/?De=Suite&Se=info%40villataika.fi&Cost=90%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;">Pay 90 &euro;</a>
+<a href="https://www.payson.fi/SendMoney/?De=Suite&Se=info%40villataika.fi&Cost=90%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;">Bezahlen 90 &euro;</a>
 
 
 
@@ -182,7 +185,7 @@ Alternatively you can use Payson with our email. For example by using the approp
   <div class="kolmas">
     Raisa Kaipainen &amp; Torsten Rüger
     <br/>
-    tel +358- (0)40 704 6689
+    Tel +358- (0)40 704 6689
   </div>
   <div class="kolmas">
     <a href="index.html">

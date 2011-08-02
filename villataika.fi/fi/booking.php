@@ -69,10 +69,12 @@
 
       <div class="divider"></div>
     
-        <a href="booking.php" class='selected'>  
-          <img src="../images/fi.gif" alt="fi"/> </a>
-        <a href="../en/booking.php" >  
+        <a href="../en/booking.php" >
           <img src="../images/en.gif" alt="en"/> </a>
+        <a href="booking.php" class='selected'>
+          <img src="../images/fi.gif" alt="fi"/> </a>
+        <a href="../de/booking.php" >
+          <img src="../images/de.gif" alt="de"/> </a>
 
       <h3>
         <a href="news.html">  <span>Uutiset</span> </a>
@@ -180,7 +182,7 @@ Jos haluatte maksaa luottokortilla käyttäkää Payson palvelua. Tilimme on inf
   <div class="kolmas">
     Raisa Kaipainen &amp; Torsten Rüger
     <br/>
-    puh 040 704 6689
+    puh +358- (0)40 704 6689
   </div>
   <div class="kolmas">
     <a href="index.html">
