@@ -12,7 +12,7 @@
   <link href="../favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" /> 
   
   <meta name="keywords" content="Bed and breakfast majoitus hotel Fiskars häät  Suite" />
-  <meta name="description" content="Bed and Breakfast Villa Taika : Asatische Eleganz Buchung" />
+  <meta name="description" content="Bed and Breakfast Villa Taika : Asiatische Eleganz Buchung" />
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta http-equiv="Content-Language" content="de"/>  
   <title>Bed &amp; Breakfast Villa Taika : Buchung</title>
@@ -27,7 +27,7 @@
       <div class="centre">
         <img src="../images/logo_iso.png" alt="Villa Taika logo"/>
       </div>
-      <div id="slogan">Asatische Eleganz</div>
+      <div id="slogan">Asiatische Eleganz</div>
   </div>
 
   <div id="lcol">
@@ -110,7 +110,7 @@
 if ($show_form )   { 
     ?> 
 <br/> 
- Sie können per email buchen, das Formular ausfüllen, oder uns zwischen 10:00 and 19:00 unter  +358407046689 anrufen. <br/> <br/> Für das Formular werden alle Felder benötigt. Als Zimmer kann auch eine Kategorie angegeben werden (also Suite/Deluxe,Standard). Alle Zimmer sind mit einem Doppelbett ausgestattet, bitte geben Sie eventuell Extra-Betten im Komentar Feld an. <br/><br/> 
+ Sie können per email buchen, das Formular ausfüllen, oder uns zwischen 10:00 and 19:00 unter  +358 40 704 6689 anrufen. <br/> <br/> Für das Formular werden alle Felder benötigt. Als Zimmer kann auch eine Kategorie angegeben werden (also Suite / Deluxe / Standard). Alle Zimmer sind mit einem Doppelbett ausgestattet, bitte geben Sie eventuell Extra-Betten im Kommentar Feld an. <br/><br/> 
  
 <form action="booking.php" method="post"> 
   <table border="0" cellpadding="8" cellspacing="8"> 
@@ -142,7 +142,7 @@ if ($show_form )   {
         <?php if (isset($_POST['room']) ) print "value='" . $_POST['room'] . "'"  ; ?>/></td> 
     </tr> 
     <tr> 
-      <td> <label for="comment">Komentar</label><br /> </td> 
+      <td> <label for="comment">Kommentar</label><br /> </td> 
       <td> <textarea rows="2" cols="35" name="comment" id="comment"
         ><?php if (isset($_POST['comment']) ) print  $_POST['comment']  ?> </textarea> </td> 
       <td colspan="2"><input type="submit" name="submit" value="Buchen" /></td> 
@@ -162,7 +162,7 @@ Bei Buchungen von zwei oder mehr Nächten ist eine Anzahlung von 25% zur Buchung
 
 
 <br/> <br/> <br/> 
-Alernativ können Sie einen der Payson Buttons um bezahlen benutzen, oder auch über PayPal and unsere email addresse überweisen.
+Alernativ können Sie einen der Payson Buttons um bezahlen benutzen, oder auch über PayPal und unsere email addresse überweisen.
 <br/> 
 <a href="https://www.payson.fi/SendMoney/?De=Standard+%2f+Delux&Se=info%40villataika.fi&Cost=75%2c00&Currency=EUR&&Sp=1" title="Payson internetbetalningar" style="width: 170px; height: 55px; background: url('https://www.payson.se/sites/all/files/images/external/PayBtn_BgImg_Clean.png') no-repeat scroll 0% 0% transparent; display: block; text-indent: 45px; padding-top: 15px; text-decoration: none; font-size: 13px; font-family: Arial; font-weight: bold; color: #00245D;"> Bezahlen 75 &euro;</a>
 
