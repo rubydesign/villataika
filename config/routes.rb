@@ -2,6 +2,10 @@ Villataika::Application.routes.draw do |map|
 
   root :controller => "page", :action => "index" , :locale => "fi"
 
+  get "/:locale/booking.html" ,     :to => 'booking#booking' 
+  post "/:locale/booking.html" ,     :to => 'booking#booking'  
+  get "/:locale/confirm.html" ,     :to => 'booking#confirm'  
+
   get '/(:locale)/:page.html',
         :to => 'page#index',
         :constraints => {
@@ -12,5 +16,4 @@ Villataika::Application.routes.draw do |map|
           :locale => 'fi'
         }
         
-        get "/:locale/booking.php" ,     :to => 'page#index' , :page => "booking" 
 end

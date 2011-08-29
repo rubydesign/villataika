@@ -35,7 +35,7 @@
       <ul>
         <% ["index" , "bed" ,"booking","groups","map","photos","activities"].each do |p| %>
           <li <%=raw('class="active"') if params[:page] == p %>>
-            <%= link_to(t(p+'.short') , "/#{@locale}/#{p}.#{p == 'booking' ? 'php' : 'html'}")%>
+            <%= link_to(t(p+'.short') , "/#{@locale}/#{p}.html")%>
           </li>
         <%end%>
       </ul>
@@ -54,7 +54,7 @@
       <div class="divider"></div>
     
       <%@locales.each do |lang| %>
-        <a href="<%="/#{lang}#{this_page}"%>" <%="class='selected'" if lang == @locale%>>
+        <a href="<%="/#{lang}/#{@page}.html"%>" <%="class='selected'" if lang == @locale%>>
           <img src="/images/<%=lang.to_s%>.gif" alt="<%=lang.to_s%>"/> </a>
       <%end%>
 

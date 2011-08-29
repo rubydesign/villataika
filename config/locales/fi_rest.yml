@@ -58,7 +58,6 @@ fi:
     nights: Öiden määrä 
     room: Huone
     comment: Huom!
-    call: Soittakaa jos haluatte majoittua yli 3vrk.
     confirmation: Huonevaraus ei ole voimassa ennen kuin olette saaneet vahvistuksen siihen. 
     pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea 101435-136318 / Villa Taika<br/> 
           Paikanpäällä voi maksaa ainostaan käteisellä.<br/> 

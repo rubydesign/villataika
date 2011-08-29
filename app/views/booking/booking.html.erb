@@ -1,0 +1,51 @@
+ <%== t('booking.booking')%> <br/>
+ 
+ <% if flash[:errors] %>
+ <br/>
+   <div class="flash errors">
+     <%== t('booking.error')%> <br/>
+   <% flash[:errors].each do |field , message| %>
+      <%= t("booking.#{field}") %> <%= message %><br/>
+   <%end%>
+    </div>
+ <% end %>
+ 
+<form action="booking.html" method="post"> 
+  <table border="0" cellpadding="8" cellspacing="8"> 
+    <tr> 
+      <td><label for="name"><%= t('booking.name')%></label>:</td> 
+      <td><input type="text" name="booking[name]" size="35"   value="<%=@booking.name%>"  />
+        </td> 
+      <td><label for="email"><%= t('booking.email')%></label>:</td> 
+      <td><input type="text" name="booking[email]" size="35" value="<%=@booking.email%>" /></td> 
+    </tr> 
+    <tr> 
+      <td><label for="arrival"><%= t('booking.arrival')%></label>:</td> 
+      <td><input type="text" name="booking[arrival]" size="35" value="<%=@booking.arrival%>" /></td> 
+      <td><label for="phone"><%= t('booking.phone')%></label>:</td> 
+      <td><input type="text" name="booking[phone]" size="35" value="<%=@booking.phone%>" /> </td> 
+    </tr> 
+    <tr> 
+      <td><label for="nights"><%= t('booking.nights')%></label>:</td> 
+      <td>
+          <select name="booking[nights]"> 
+            <% ["1"  , "2" , "3" , "4" , "5" , "6" , "7"].each do |ni| %>
+            <option <%=='selected="selected"' if @booking.nights == ni %>><%=ni%></option> 
+            <%end%>
+            <option><%= t('booking.call')%></option>
+          </select></td> 
+      <td><label for="room"><%= t('booking.room')%></label>:</td> 
+      <td><input type="text"  name="booking[room]" size="35" @booking.room %> </td> 
+    </tr> 
+    <tr> 
+      <td> <label for="comment"><%= t('booking.comment')%></label><br /> </td> 
+      <td> <textarea rows="2" cols="35" name="booking[comment]" 
+        ><%=@booking.comment%></textarea> </td> 
+      <td colspan="2"><input type="submit" name="submit" value="<%=t('booking.submit')%>" /></td> 
+    </tr> 
+  </table> 
+</form> 
+
+<%== t('booking.confirmation')%> <br/> <br/> 
+ 
+<%== t('booking.pay')%>

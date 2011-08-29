@@ -1,0 +1,5 @@
+
+<%[:name, :email , :phone , :room , :arrival , :nights ,  :comment].each do |att| %>
+<% val = eval "@booking.#{att}" %>
+<%= t("booking.#{att}") %> : <%= val %>
+<% end %>

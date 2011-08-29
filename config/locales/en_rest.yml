@@ -54,10 +54,11 @@ en:
     nights: Nights
     room: Room
     comment: Comment
-    call: Call
-    confirmation: Booking request are subject to confirmation. 
-    pay:  If you wish to pay upon confirmation, our bank account is Nordea 101435-136318 <br/> 
-          Otherwise the charge is due upon arrival and must be paid in cash.<br/> 
+    confirmation: Booking request are subject to confirmation. Bookings over 1 night require a pre-payment of 25%.
+    pay:  |-
+        If you wish to pay upon confirmation, our bank account is Nordea 101435-136318 <br/>
+        Payments may also be made by PayPal to our email info@villataika.fi <br/>  
+        Otherwise the charge is due upon arrival and must be paid in cash.<br/> 
     pay_button: Pay 
     submit: Send booking
     payson:      Alternatively you can use Payson with our email.  

@@ -1,8 +1,4 @@
 module ApplicationHelper  
-  def this_page
-    page = params["page"] || "index"
-    page == "booking" ? "/booking.php" : "/#{page}.html"
-  end
   
   def photos
     dir "photos"
