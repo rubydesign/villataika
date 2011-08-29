@@ -6,7 +6,6 @@ class BookingController < ApplicationController
     if request.post?
       @booking = Booking.new params[:booking] 
       if @booking.valid?
-        flash.notice = "received"
         redirect_to :action => :confirm 
         BookingMailer.confirm(@booking).deliver
         return 
