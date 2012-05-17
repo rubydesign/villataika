@@ -99,11 +99,17 @@ en:
     three: Coming from Fiskars it is the third house on the right in the Antskog village.
     four: We have lakeview from both sides of the house, and there is beautiful nature around for walks.
   news: 
-    all: deco , eco
+    all: saffron , deco , eco
     short: News
+    saffron: 
+      short: Wonderful new Saffron suite!
+      rest: Beautiful eastern pilars decorate the Saffron suite and  the raised ceiling
+            brings a wonderful sense of space.<br>
+            It has a ensuite, sunshine wc and shower :) 
+      image: saffron
     deco: 
         short: Affordable accommodation in redocorated granery
-        rest: On the yard we have room granary 65€/ 2hh. Room is traditionally decorated. <br/>
+        rest: On the yard we have room granary 70€/ 2hh. Room is traditionally decorated. <br/>
               Traditional log cabin that is decorated with afour poster bed. two peple can sleep in it.
              Shower and toilet are in the main building.
         image: renovate

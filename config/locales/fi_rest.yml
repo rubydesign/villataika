@@ -106,9 +106,15 @@ fi:
     four: Talon molemmilta puolilta näkyy läheiset järvet. Ympärillä on kauniit kävelymaastot.
   news: 
     short: Uutiset
+    saffron: 
+      short: Uusi ihana Saffron sviitti!
+      rest: Saffron sviittiä koristaa kauniit itämaiset maäntypylväät. <br/>
+          Ja kohotettu katto tuo upeaa tilantunnetta.
+           Siinä on oma aurinkoisenvärinen wc ja suihku :) 
+      image: saffron
     deco: 
       short: Edullinen majoitus kauniissa ulko aitassamme.
-      rest: Ulko aitassamme on edullinen majoitusvaihtoehto 65€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br/>
+      rest: Ulko aitassamme on edullinen majoitusvaihtoehto 70€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br/>
           Perinteisen kauniin hirsi seinän kanssa on kultainen pylvässänky. Huoneeseen mahtuu 2 hlöä.
            Suihku ja wc ovat päärakennuksessa. Halutessasi voit käyttää biologista, kemiallista wc:tä 
       image: renovate

@@ -102,12 +102,11 @@ de:
     three: Von Fiskars kommend ist Villa Taika das <em>dritte</em> Haus auf der rechten Seite.
     four: Direkt vom Haus kann man zwei Seen sehen, und die Natur lädt zum Spazierengehen ein. 
   news: 
-    all: deco , eco
     short: Neues
     deco: 
         short: Rustikale Unterkunft im renovierten Blockhaus
         rest: Wir haben Teil des Hofgebebäudes renoviert und ein schönes Blockhaus-Zimmer mit Himmelbett
-              ausgestattet. Das einfache aber bezaubernde Zimmer kostet 65€ für zwei Personen. <br/>
+              ausgestattet. Das einfache aber bezaubernde Zimmer kostet 70€ für zwei Personen. <br/>
               Toilette und Dusche befinden sich im Hauptgebäude.
         image: renovate
     eco: 
