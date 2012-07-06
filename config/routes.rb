@@ -1,5 +1,7 @@
 Villataika::Application.routes.draw do |map|
 
+  resources :bookings
+
   root :controller => "page", :action => "index" , :locale => "fi"
 
   get "/:locale/booking.html" ,     :to => 'booking#booking' 
