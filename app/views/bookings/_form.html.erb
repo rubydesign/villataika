@@ -1,3 +1,5 @@
+<%=render "matrix"%>
+
 <%= form_for(@booking) do |f| %>
   <% if @booking.errors.any? %>
     <div id="error_explanation">
@@ -16,8 +18,8 @@
     <%= f.text_field :email %>
   </div>
   <div class="field">
-    <%= f.label :arriving %><br />
-    <%= f.date_select :arriving %>
+    <%= f.label :days %><br />
+    <%= select_tag :days , options_for_select( (1..5) ) %>
   </div>
   <div class="field">
     <%= f.label :name %><br />
@@ -35,9 +37,9 @@
     <%= f.label :phone %><br />
     <%= f.text_field :phone %>
   </div>
-  <div class="field">
-    <%= f.label :leaving %><br />
-    <%= f.date_select :leaving %>
+  <div> 
+    <%= hidden_field :booking , :room %>
+    <%= hidden_field :booking , :arriving %>
   </div>
   <div class="actions">
     <%= f.submit %>

@@ -20,8 +20,9 @@ ActiveRecord::Schema.define(:version => 20120706121952) do
     t.string   "town"
     t.string   "phone"
     t.date     "leaving"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.integer  "room_id"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
   create_table "rooms", :force => true do |t|

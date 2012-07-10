@@ -20,8 +20,8 @@
       <td><input type="text" name="booking[email]" size="35" value="<%=@booking.email%>" /></td> 
     </tr> 
     <tr> 
-      <td><label for="arrival"><%= t('booking.arrival')%></label>:</td> 
-      <td><input type="text" name="booking[arrival]" size="35" value="<%=@booking.arrival%>" /></td> 
+      <td><label for="arriving"><%= t('booking.arriving')%></label>:</td> 
+      <td><input type="text" name="booking[arriving]" size="35" value="<%=@booking.arriving%>" /></td> 
       <td><label for="phone"><%= t('booking.phone')%></label>:</td> 
       <td><input type="text" name="booking[phone]" size="35" value="<%=@booking.phone%>" /> </td> 
     </tr> 
@@ -30,7 +30,7 @@
       <td>
           <select name="booking[nights]"> 
             <% ["1"  , "2" , "3" , "4" , "5" , "6" , "7"].each do |ni| %>
-            <option <%=='selected="selected"' if @booking.nights == ni %>><%=ni%></option> 
+            <option <%=='selected="selected"' if @booking.leaving == @booking.arriving + ni.to_i.day %>><%=ni%></option> 
             <%end%>
             <option><%= t('booking.call')%></option>
           </select></td> 

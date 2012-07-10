@@ -1,4 +1,4 @@
-Villataika::Application.routes.draw do |map|
+Villataika::Application.routes.draw do 
 
   resources :bookings
 
