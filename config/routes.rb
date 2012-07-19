@@ -1,5 +1,6 @@
 Villataika::Application.routes.draw do 
 
+  get "/bookings/confirm" ,     :to => 'booking#confirm' 
   resources :bookings
 
   root :controller => "page", :action => "index" , :locale => "fi"

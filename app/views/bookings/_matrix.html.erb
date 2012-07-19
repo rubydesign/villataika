@@ -1,18 +1,22 @@
-<table>
+<table class=book-month>
   <tr>
-    <td> <a href="new?start=<%=start - 30.day%>"> month < </a> </td>
-    <td> <a href="new?start=<%=start - 7.day%>"> week < </a> </td>
-    <td> <%=start%> -- <%=start + 10.day%></td>
-    <td> <a href="new?start=<%=start + 7.day%>"> week > </a> </td>
-    <td> <a href="new?start=<%=start + 30.day%>"> month > </a> </td>
+    <td width=58px>  </td>
+	<td> <a href="new?start=<%=start - 30.day%>"> month </a> <%= image_tag "arrow-2.gif" %> </td>
+    <td> <a href="new?start=<%=start - 7.day%>"> week </a> <%= image_tag "arrow-2.gif" %> </td>
+    <td> <%=start%> <%= image_tag "line.gif" %>  <%=start + 10.day%></td>
+    <td> <a href="new?start=<%=start + 7.day%>"> week </a> <%= image_tag "arrow.gif" %> </td>
+    <td> <a href="new?start=<%=start + 30.day%>"> month </a> <%= image_tag "arrow.gif" %> </td>
   </tr>
 </tr>
-<table>
+<table class=book>
   <thead>
     <th> </th>
     <% days.each do |day| %>
     <th>
+		noin
+<!-- 
       <%= day %>
+	-->
     </th>
     <%end%>
   </thead>
@@ -20,24 +24,24 @@
   <tbody>
     <% rooms.each do |room| %>
     <tr>
-      <td>
+      <td class=book-room>
         <%= room %>
       </td>
       <% days.each do |day| %>
-      <th>
+      <th class=book-cell>
         <%==div(room,day)%>
         <% if room_free(room,day) %>
         <a href="#">
-          <%= image_tag "ok.jpeg"  , :height => "32px" , :width => "32px" %>
+          <%= image_tag "ok.jpg"  , :height => "34px" , :width => "70px" %>
           </a>
         <%else%>
-          <%= image_tag "not.jpeg"  , :height => "32px" , :width => "32px"%>
+          <%= image_tag "not.jpg"  , :height => "34px" , :width => "70px"%>
         <%end%>
       </th>
       <%end%>
     </tr>
     <%end%>
-  </tbody>
+	</tbody>
 </table>
 
 <div>

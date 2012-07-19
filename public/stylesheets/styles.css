@@ -3,6 +3,7 @@
 	http://localhost:3000/stylesheets/lightbox.css
 */
 
+
 body
 {
   font-size: 14px;
@@ -500,4 +501,51 @@ border-bottom: solid 1px #c0dce0;
   float: left;
   width : 100%;
   margin-bottom: 10px;
+}
+
+.book-month
+{
+font-family: arial,sans-serif;
+padding-bottom: 6px;
+}
+
+.book
+{
+font-family: arial,sans-serif;
+}
+
+.book-cell, .book-room
+{
+border-top: dotted 1px #c0dce0;
+padding-top: 4px;
+}
+
+.book-room
+{
+font-family: georgia,serif;
+font-weight:bold;  
+color:#008495;
+}
+
+.dotted
+{
+border-top: dotted 2px #c0dce0;
+margin-top: 2px;
+padding-top: 8px;
+padding-bottom: 12px;
+}
+
+
+.field-frame
+{
+	width:250px;
+	float:left;	
+	padding-bottom:12px;
+}
+
+.field-frame-2
+{
+	width:100px;
+	float:left;
+	padding-bottom:12px;
 }

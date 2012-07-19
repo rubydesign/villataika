@@ -2,7 +2,11 @@ class BookingsController < ApplicationController
 
   # GET /bookings
   def index
-    @bookings = Booking.all
+    if( request.method == "POST")
+      redirct :action => "confirm"
+    else
+      @bookings = Booking.all
+    end
   end
 
   # GET /bookings/1
@@ -10,6 +14,9 @@ class BookingsController < ApplicationController
     @booking = Booking.find(params[:id])
   end
 
+  def confirm
+    
+  end
   # GET /bookings/new
   def new
     @booking = Booking.new
