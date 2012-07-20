@@ -1,5 +1,6 @@
 class BookingsController < ApplicationController
-
+  before_filter :get_bookings , :only => [:rooms , :booking]
+  
   # GET /bookings
   def index
     @bookings = Booking.all
@@ -10,11 +11,27 @@ class BookingsController < ApplicationController
     @booking = Booking.find(params[:id])
   end
 
-  # GET /bookings/new
-  def new
-    @booking = Booking.new
+  def booking
+    @page = "booking"
+    if request.post?
+      @booking = Booking.new params[:booking] 
+      if @booking.valid?
+        redirect_to :action => :confirm 
+        BookingMailer.confirm(@booking).deliver
+        return 
+      else
+        flash.now[:errors] = @booking.errors
+        puts @booking.errors
+      end
+    end
+    @booking ||= Booking.new 
+    puts "name " + @booking.name.to_s
   end
 
+  def rooms
+    render :partial => "rooms" , :layout => false
+  end
+  
   # GET /bookings/1/edit
   def edit
     @booking = Booking.find(params[:id])
@@ -46,5 +63,15 @@ class BookingsController < ApplicationController
     @booking = Booking.find(params[:id])
     @booking.destroy
     redirect_to(bookings_url) 
+  end
+  
+  private
+  def get_bookings
+    arriving = params[:arriving] ? Date.parse(params[:arriving]) : Date.today
+    @bookings = {}
+    Room.all.each do |room|
+      @bookings[room.name] = (rand * 5).to_i
+    end
+    
   end
 end

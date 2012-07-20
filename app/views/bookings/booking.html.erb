@@ -9,7 +9,27 @@
    <%end%>
     </div>
  <% end %>
- 
+ <table border="0" cellpadding="8" cellspacing="8" width="100%"> 
+<tr>
+
+ <td colspan=2><label for="nights"><%= t('booking.nights')%></label>:</td> 
+ <td colspan=2>
+     <select id="nights" name="booking[nights]"> 
+       <% ["1"  , "2" , "3" , "4" , "5" , "6" , "7"].each do |ni| %>
+       <option <%=='selected="selected"' if @booking.leaving == @booking.arriving + ni.to_i.day %>><%=ni%></option> 
+       <%end%>
+       <option><%= t('booking.call')%></option>
+     </select></td> 
+       <td colspan=2><label for="arriving"><%= t('booking.arriving')%></label>:</td> 
+       <td colspan=2><input type="text" id="arriving" name="booking[arriving]" size="35" value="<%=@booking.arriving%>" /></td> 
+     </tr>
+     <tr>
+       <div id="rooms">
+        <%= render "bookings/room_day"%>
+       </div>
+     </tr>
+ </table> 
+
 <form action="booking.html" method="post"> 
   <table border="0" cellpadding="8" cellspacing="8"> 
     <tr> 

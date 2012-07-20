@@ -1,14 +1,19 @@
 Villataika::Application.routes.draw do 
 
-  resources :bookings
-
   root :controller => "page", :action => "index" , :locale => "fi"
 
-  get "/:locale/booking.html" ,     :to => 'booking#booking' 
-  post "/:locale/booking.html" ,     :to => 'booking#booking'  
-  get "/:locale/confirm.html" ,     :to => 'booking#confirm'  
+  scope "/:locale" do 
+    namespace :villa do
+      resources :bookings      
+    end
 
-  get '/(:locale)/:page.html',
+    get "/bookings/rooms.html" ,     :to => 'bookings#rooms' 
+
+    get "/booking.html" ,     :to => 'bookings#booking' 
+    post "/booking.html" ,     :to => 'bookings#booking'  
+    get "/confirm.html" ,     :to => 'bookings#confirm'  
+
+    get '/:page.html',
         :to => 'page#index',
         :constraints => {
           :locale => /[a-z]{2}/,
@@ -17,5 +22,6 @@ Villataika::Application.routes.draw do
           :page => "index",
           :locale => 'fi'
         }
+      end
         
 end
