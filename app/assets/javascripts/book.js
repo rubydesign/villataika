@@ -8,5 +8,6 @@ $(document).ready(function() {
   $('#nights_selected').change(function() {
     nights($(this).val());
   });
+  $("#arriving").datepicker();
 });
 

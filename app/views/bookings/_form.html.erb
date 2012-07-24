@@ -13,35 +13,37 @@
     </div>
   <% end %>
 
-  <div class="field">
+<div>
+  <div class="dotted">
+	  <div class="field-frame">
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+</div>
+  <div class="field-frame">
     <%= f.label :email %><br />
     <%= f.text_field :email %>
   </div>
-  <div class="field">
-    <%= f.label :days %><br />
-    <%= select_tag :days , options_for_select( (1..5) ) %>
-  </div>
-  <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="field">
-    <%= f.label :street %><br />
-    <%= f.text_field :street %>
-  </div>
-  <div class="field">
-    <%= f.label :town %><br />
-    <%= f.text_field :town %>
-  </div>
-  <div class="field">
+  <div class="field-frame">
     <%= f.label :phone %><br />
     <%= f.text_field :phone %>
+</div>
+</div>
+<div>
+  <div class="field-frame">
+    <%= f.label :info %><br />
+    <%= f.text_field :phone %>
+  </div>
+  <div class="field-frame-2">
+    <%= f.label :days %><br />
+    <%= select_tag :days , options_for_select( (1..5) ) %><br />
   </div>
   <div> 
     <%= hidden_field :booking , :room %>
     <%= hidden_field :booking , :arriving %>
   </div>
-  <div class="actions">
+  <div class="field-frame"><br />
     <%= f.submit %>
+  </div>
+  </div>
   </div>
 <% end %>

@@ -3,7 +3,11 @@ class BookingsController < ApplicationController
   
   # GET /bookings
   def index
-    @bookings = Booking.all
+    if( request.method == "POST")
+      redirct :action => "confirm"
+    else
+      @bookings = Booking.all
+    end
   end
 
   # GET /bookings/1
@@ -27,6 +31,13 @@ class BookingsController < ApplicationController
     end
     @booking ||= Booking.new 
     puts "name " + @booking.name.to_s
+
+  def confirm
+    
+  end
+  # GET /bookings/new
+  def new
+    @booking = Booking.new
   end
 
   def rooms_day
