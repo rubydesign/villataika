@@ -40,27 +40,15 @@
       <td><input type="text" name="booking[email]" size="35" value="<%=@booking.email%>" /></td> 
     </tr> 
     <tr> 
-      <td><label for="arriving"><%= t('booking.arriving')%></label>:</td> 
-      <td><input type="text" name="booking[arriving]" size="35" value="<%=@booking.arriving%>" /></td> 
       <td><label for="phone"><%= t('booking.phone')%></label>:</td> 
       <td><input type="text" name="booking[phone]" size="35" value="<%=@booking.phone%>" /> </td> 
-    </tr> 
-    <tr> 
-      <td><label for="nights"><%= t('booking.nights')%></label>:</td> 
-      <td>
-          <select name="booking[nights]"> 
-            <% ["1"  , "2" , "3" , "4" , "5" , "6" , "7"].each do |ni| %>
-            <option <%=='selected="selected"' if @booking.leaving == @booking.arriving + ni.to_i.day %>><%=ni%></option> 
-            <%end%>
-            <option><%= t('booking.call')%></option>
-          </select></td> 
-      <td><label for="room"><%= t('booking.room')%></label>:</td> 
-      <td><input type="text"  name="booking[room]" size="35" @booking.room %> </td> 
-    </tr> 
-    <tr> 
+      <input type="hidden" name="booking[arriving]" , value="@arriving">
+      <input type="hidden" name="booking[nights]" , value="1">
+      <input type="hidden" name="booking[room]" , value="none">
       <td> <label for="comment"><%= t('booking.comment')%></label><br /> </td> 
-      <td> <textarea rows="2" cols="35" name="booking[comment]" 
-        ><%=@booking.comment%></textarea> </td> 
+      <td> <textarea rows="2" cols="35" name="booking[comment]" ><%=@booking.comment%></textarea> </td> 
+    </tr>
+    <tr>
       <td colspan="2"><input type="submit" name="submit" value="<%=t('booking.submit')%>" /></td> 
     </tr> 
   </table> 
