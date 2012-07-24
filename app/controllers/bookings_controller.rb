@@ -31,7 +31,8 @@ class BookingsController < ApplicationController
     end
     @booking ||= Booking.new 
     puts "name " + @booking.name.to_s
-
+  end
+  
   def confirm
     
   end
