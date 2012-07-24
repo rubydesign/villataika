@@ -1,5 +1,5 @@
 class BookingsController < ApplicationController
-  before_filter :get_bookings , :only => [:rooms , :booking]
+  before_filter :get_bookings , :only => [:rooms_day , :booking]
   
   # GET /bookings
   def index
@@ -12,6 +12,7 @@ class BookingsController < ApplicationController
   end
 
   def booking
+    @days = params[:days] ? params[:days].to_i : 1
     @page = "booking"
     if request.post?
       @booking = Booking.new params[:booking] 
@@ -28,8 +29,8 @@ class BookingsController < ApplicationController
     puts "name " + @booking.name.to_s
   end
 
-  def rooms
-    render :partial => "rooms" , :layout => false
+  def rooms_day
+    render "rooms_day" , :layout => false
   end
   
   # GET /bookings/1/edit
@@ -70,7 +71,7 @@ class BookingsController < ApplicationController
     arriving = params[:arriving] ? Date.parse(params[:arriving]) : Date.today
     @bookings = {}
     Room.all.each do |room|
-      @bookings[room.name] = (rand * 5).to_i
+      @bookings[room.name] = rand > 0.5 ? true : false  
     end
     
   end

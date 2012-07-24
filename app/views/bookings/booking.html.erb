@@ -14,19 +14,19 @@
 
  <td colspan=2><label for="nights"><%= t('booking.nights')%></label>:</td> 
  <td colspan=2>
-     <select id="nights" name="booking[nights]"> 
+    
+     <select id='nights_selected' name="nights"> 
        <% ["1"  , "2" , "3" , "4" , "5" , "6" , "7"].each do |ni| %>
        <option <%=='selected="selected"' if @booking.leaving == @booking.arriving + ni.to_i.day %>><%=ni%></option> 
        <%end%>
        <option><%= t('booking.call')%></option>
-     </select></td> 
+     </select>
+     </td> 
        <td colspan=2><label for="arriving"><%= t('booking.arriving')%></label>:</td> 
        <td colspan=2><input type="text" id="arriving" name="booking[arriving]" size="35" value="<%=@booking.arriving%>" /></td> 
      </tr>
-     <tr>
-       <div id="rooms">
-        <%= render "bookings/room_day"%>
-       </div>
+     <tr class="rooms_day">
+        <%= render :template => "bookings/rooms_day"  %>
      </tr>
  </table> 
 

@@ -7,7 +7,7 @@ Villataika::Application.routes.draw do
       resources :bookings      
     end
 
-    get "/bookings/rooms.html" ,     :to => 'bookings#rooms' 
+    get "/bookings/rooms_day.html" ,     :to => 'bookings#rooms_day' 
 
     get "/booking.html" ,     :to => 'bookings#booking' 
     post "/booking.html" ,     :to => 'bookings#booking'  
