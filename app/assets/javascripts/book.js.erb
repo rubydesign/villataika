@@ -1,15 +1,15 @@
 function nights( nights ) { 
-  $('.rooms_day').load('./bookings/rooms_day.html');
-//  alert( $('.rooms_day').html);
+  $('#rooms_day').load('./bookings/rooms_day.html');
+//  alert( $('#rooms_day').html);
 }
 function date_select( date , inst ) { 
-  $('.rooms_day').load('./bookings/rooms_day.html');
+  $('#rooms_day').load('./bookings/rooms_day.html');
 //  alert( $('.rooms_day').html);
 }
-function set_room(room){
-//  $(this).class("active");
-  room.fadeOut("slow")
-  alert(room);
+function set_room(){
+  $("#rooms_day .selected").removeClass("selected");
+  $(this).addClass( "selected");
+  $("#room").val($(this).attr("id"));
 }
 //$(alert("hi"))
 $(document).ready(function() { 
@@ -23,7 +23,7 @@ $(document).ready(function() {
       onSelect: function(dateText, inst) { nights(2) ;}
        } 
     );
-  $(".free").live("click",  function(){ set_room(this);} );
+  $(".free").live("click",  set_room );
 });
 
  

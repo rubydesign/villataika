@@ -5,3 +5,7 @@
 .taken{
   background: yellow;
 }
+
+.selected{
+  background: white;
+}
