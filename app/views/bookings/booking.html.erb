@@ -17,7 +17,7 @@
     <td colspan=2><label for="nights"><%= t('booking.nights')%></label>:</td> 
     <td colspan=2>
     
-      <select id='nights_selected' name="booking[nights]"> 
+      <select class='nights' name="booking[nights]"> 
         <% ["1"  , "2" , "3" , "4" , "5" , "6" , "7"].each do |ni| %>
         <option <%=='selected="selected"' if @booking.leaving == @booking.arriving + ni.to_i.day %>><%=ni%></option> 
         <%end%>
@@ -42,7 +42,7 @@
     <td colspan=2><input type="text" name="booking[phone]" size="35" value="<%=@booking.phone%>" /> </td> 
     <td colspan=2> <label for="comment"><%= t('booking.comment')%></label><br /> </td> 
     <td colspan=2> <textarea rows="2" cols="35" name="booking[comment]" ><%=@booking.comment%></textarea> </td> 
-    <input type="hidden" name="booking[room]" value="none" id="room">
+    <input type="hidden" name="booking[room]" value="none" id="room"  value="<%=params[:room]%>">
   </tr>
   <tr>
     <td colspan="2"><input type="submit" name="submit" value="<%=t('booking.submit')%>" /></td> 

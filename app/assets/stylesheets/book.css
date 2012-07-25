@@ -1,11 +1,11 @@
 .free{
-  background: green;
+  background: #B0FFB3;
 }
 
 .taken{
-  background: yellow;
+  background: #FCA2B5;
 }
 
 .selected{
-  background: white;
+  background: yellow;
 }

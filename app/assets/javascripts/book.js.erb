@@ -1,9 +1,16 @@
+function load_url(){
+  var nights = $("select.nights option:selected").val() ;
+  var arriving = $("#arriving").val() ;
+  var room = $("#room").val();
+//  alert(room);
+  return "./bookings/rooms_day.html?nights=" + nights + "&arriving=" + arriving + "&room=" + room;
+};
 function nights( nights ) { 
-  $('#rooms_day').load('./bookings/rooms_day.html');
+  $('#rooms_day').load(load_url());
 //  alert( $('#rooms_day').html);
 }
 function date_select( date , inst ) { 
-  $('#rooms_day').load('./bookings/rooms_day.html');
+  $('#rooms_day').load(load_url());
 //  alert( $('.rooms_day').html);
 }
 function set_room(){
@@ -14,9 +21,7 @@ function set_room(){
 //$(alert("hi"))
 $(document).ready(function() { 
 //  alert($('#nights_selected').length + ' elements!');
-  $('#nights_selected').change(function() {
-    nights($(this).val());
-  });
+  $('.nights').change(nights);
   $( "#arriving" ).datepicker(
     {
       minDate: 0 ,
