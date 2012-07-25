@@ -6,6 +6,11 @@ function date_select( date , inst ) {
   $('.rooms_day').load('./bookings/rooms_day.html');
 //  alert( $('.rooms_day').html);
 }
+function set_room(room){
+//  $(this).class("active");
+  room.fadeOut("slow")
+  alert(room);
+}
 //$(alert("hi"))
 $(document).ready(function() { 
 //  alert($('#nights_selected').length + ' elements!');
@@ -18,7 +23,7 @@ $(document).ready(function() {
       onSelect: function(dateText, inst) { nights(2) ;}
        } 
     );
-
+  $(".free").live("click",  function(){ set_room(this);} );
 });
 
  
