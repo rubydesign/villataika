@@ -22,7 +22,7 @@ function set_room(){
 $(document).ready(function() { 
 //  alert($('#nights_selected').length + ' elements!');
   $('.nights').change(nights);
-  $( "#arriving" ).datepicker(
+  $( "#arriving_on" ).datepicker(
     {
       minDate: 0 ,
       onSelect: function(dateText, inst) { nights(2) ;}

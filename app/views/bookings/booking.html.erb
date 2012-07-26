@@ -25,7 +25,7 @@
       </select>
     </td> 
     <td colspan=2><label for="arriving"><%= t('booking.arriving')%></label>:</td> 
-    <td colspan=2><input type="text" id="arriving" name="booking[arriving]" size="35" value="<%=@booking.arriving%>" /></td> 
+    <td colspan=2><input type="text" id="arriving_on" name="booking[arriving]" size="35" value="<%=@booking.arriving%>" /></td> 
   </tr>
   <tr id="rooms_day">
     <%= render :template => "bookings/rooms_day"  %>
