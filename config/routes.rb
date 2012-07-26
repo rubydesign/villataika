@@ -3,7 +3,7 @@ Villataika::Application.routes.draw do
   root :controller => "page", :action => "index" , :locale => "fi"
 
   scope "/:locale" do 
-    namespace :villa do
+    scope "villa" do
       resources :bookings      
     end
 
