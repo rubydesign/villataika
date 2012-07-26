@@ -527,6 +527,34 @@ font-weight:bold;
 color:#008495;
 }
 
+.ok, .not
+{
+	width:65px;
+	height:25px;
+	padding:3px;
+	text-align:left;
+	font-weight: normal;
+	font-size: 9px;
+	float:left;	
+}
+
+.ok
+{
+	background-color: #dffbc3;
+}
+
+.not
+{
+background-color: #f6d7d7;
+}
+
+.name
+{ 	
+width:40px;
+float:right;	
+
+}
+
 .dotted
 {
 border-top: dotted 2px #c0dce0;
