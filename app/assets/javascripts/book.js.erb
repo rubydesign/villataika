@@ -1,31 +1,25 @@
-function load_url(){
+// change the table for one day availibility 
+function change_availibility(  ) { 
   var nights = $("select.nights option:selected").val() ;
-  var arriving = $("#arriving").val() ;
+  var arriving = $("#arriving_on").val() ;
   var room = $("#room").val();
-//  alert(room);
-  return "./bookings/rooms_day.html?nights=" + nights + "&arriving=" + arriving + "&room=" + room;
-};
-function nights( nights ) { 
-  $('#rooms_day').load(load_url());
-//  alert( $('#rooms_day').html);
+  $('#rooms_day').load("./bookings/rooms_day.html?nights=" + nights + "&arriving=" + arriving + "&room=" + room);
 }
-function date_select( date , inst ) { 
-  $('#rooms_day').load(load_url());
-//  alert( $('.rooms_day').html);
-}
+
+// change class on selected room (and back)
 function set_room(){
   $("#rooms_day .selected").removeClass("selected");
   $(this).addClass( "selected");
   $("#room").val($(this).attr("id"));
 }
-//$(alert("hi"))
+
+// attach above change function to elements when document is loaded
 $(document).ready(function() { 
-//  alert($('#nights_selected').length + ' elements!');
-  $('.nights').change(nights);
+  $('.nights').change(change_availibility);
   $( "#arriving_on" ).datepicker(
     {
       minDate: 0 ,
-      onSelect: function(dateText, inst) { nights(2) ;}
+      onSelect: change_availibility
        } 
     );
   $(".free").live("click",  set_room );
