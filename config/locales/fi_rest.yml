@@ -43,17 +43,18 @@ fi:
            paintballia  tai tulisilla hiilillä kävelyä uskaliaimmille. 
   booking:
     short: Varaus
+    header: Huonevaraus
     received: Olemme vastaanottaneet varauksesi
     error: Voitko ystävällisesti täyttää kaikki kentät. Tarkista s-postiosoitteesi ja päivämäärä, kiitos.
-    booking: "Voit tehdä varauksen puhelimitse (+358) 40 704 6689 kello 10:00 ja 19:00 välillä, lähetä s-postia 
-                      tai käytä alla olevaa kaavaketta. <br/ ><br/ > 
+    booking: "Voit tehdä varauksen puhelimitse 040 704 6689 kello 10:00 ja 19:00 välillä, lähettämällä s-postia 
+                      tai käyttämällä alla olevaa kaavaketta. <br/ ><br/ > 
             Täytä kaikki kentät. Jos et halua varata tiettyä huonetta, 
             voit käyttää eri huonekategorioita Sviitti/Deluxe/Standard. <br/> 
             Kaikissa huoneissa on kaksoisvuode. Jos teitä on useampi tai haluatte erilliset vuoteet, 
             lisää se huomiokenttään. <br/> "
     name: Koko nimesi
-    email: Sähköposti osoitteesi
-    arrival: saapumispäivä
+    email: Sähköposti-osoitteesi
+    arrival: Saapumispäivä
     phone: Puhelinnumerosi
     nights: Öiden määrä 
     room: Huone
@@ -62,7 +63,7 @@ fi:
     pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea 101435-136318 / Villa Taika<br/> 
           Paikanpäällä voi maksaa ainostaan käteisellä.<br/> 
     pay_button: Maksa 
-    submit: Lähettä varaus
+    submit: Lähetä varaus
     payson:     Jos haluatte maksaa luottokortilla käyttäkää Payson palvelua. Tilimme on info@villataika.fi.  
                   Payson palveluun pääset alla olevaa Payson tunnusta klikkaamalla:<br/>
   groups: 

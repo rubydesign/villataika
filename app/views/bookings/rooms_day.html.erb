@@ -1,6 +1,6 @@
 <% @bookings.each do |room , free| %>
   <td>
-    <div class="<%=free ? 'free' : 'taken'%>" id="<%=room%>">
+    <div class="<%=free ? 'free' : 'taken'%>">
       <%if free%>
       <a href="#"> <%=room%> </a>
       <%else%>

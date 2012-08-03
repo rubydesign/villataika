@@ -1,4 +1,8 @@
- <%== t('booking.booking')%> <br/>
+<h4>
+ <%== t('booking.header')%>
+</h4>
+
+<%== t('booking.booking')%> <br/>
  
  <% if flash[:errors] %>
  <br/>
@@ -9,6 +13,8 @@
    <%end%>
     </div>
  <% end %>
+
+<div class="bookform">
 <form action="booking.html" method="post"> 
 
 <table border="0px" cellpadding="8" cellspacing="8" width="100%"> 
@@ -24,11 +30,15 @@
         <option><%= t('booking.call')%></option>
       </select>
     </td> 
-    <td colspan=2><label for="arriving"><%= t('booking.arriving')%></label>:</td> 
+    <td colspan=2><label for="arrival"><%= t('booking.arrival')%></label>:</td> 
     <td colspan=2><input type="text" id="arriving_on" name="booking[arriving]" size="35" value="<%=@booking.arriving%>" /></td> 
   </tr>
   <tr id="rooms_day">
+	<td colspan=8>
+	<table>Huone:
     <%= render :template => "bookings/rooms_day"  %>
+	</table>
+	</td>
   </tr>
 
   <tr> 
@@ -50,11 +60,11 @@
   </tr> 
 </table> 
 </form> 
-
+</div>
+<br/>
 <%== t('booking.confirmation')%> <br/> <br/> 
  
 <%== t('booking.pay')%>
-
 
 <!-- Google Code for book Conversion Page -->
 <script type="text/javascript">

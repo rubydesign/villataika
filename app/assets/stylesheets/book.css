@@ -1,9 +1,19 @@
+.free, .taken {
+padding:2px;
+padding-top:4px;
+width:70px;
+text-align:center;
+border-radius: 5px;
+margin-right:16px;
+}
+
 .free{
-  background: #B0FFB3;
+	background-image: url('book-bg.gif');
 }
 
 .taken{
-  background: #FCA2B5;
+	background-image: url('book-bg-2.gif');
+	color:#CC0033;
 }
 
 .selected{
@@ -71,6 +81,13 @@ border-top: dotted 2px #c0dce0;
 margin-top: 2px;
 padding-top: 8px;
 padding-bottom: 12px;
+}
+
+.bookform
+{
+	border-top: dotted 2px #c0dce0;
+	border-bottom: dotted 2px #c0dce0;
+	background-image: url('form-bg.gif');
 }
 
 
