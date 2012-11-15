@@ -62,7 +62,7 @@ fi:
     pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea 101435-136318 / Villa Taika<br/> 
           Paikanpäällä voi maksaa ainostaan käteisellä.<br/> 
     pay_button: Maksa 
-    submit: Lähettä varaus
+    submit: Lähetä varaus
     payson:     Jos haluatte maksaa luottokortilla käyttäkää Payson palvelua. Tilimme on info@villataika.fi.  
                   Payson palveluun pääset alla olevaa Payson tunnusta klikkaamalla:<br/>
   groups: 
