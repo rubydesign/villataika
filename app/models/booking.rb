@@ -17,18 +17,11 @@ class Booking < ActiveRecord::Base
   def update_attributes has = {}
     nights = has.delete "nights"
     if nights.blank?
-      @leaving = @arriving + 1 unless @leaving    
+      self.leaving = self.arriving + 1 unless @leaving    
     else
-      @leaving = @arriving + nights.to_i 
+      self.leaving = self.arriving + nights.to_i 
     end
     super(has)
   end
-  
-  def initialize_old has = {}
-    return unless has
-    [:name, :email , :room , :arriving , :leaving , :phone , :comment].each do |att|
-      val = has[att]
-      eval "self.#{att} = val"
-    end
-  end
+
 end

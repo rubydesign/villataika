@@ -22,8 +22,8 @@ class BookingsController < ApplicationController
       @booking = Booking.new
       @booking.update_attributes(params[:booking]) 
       if @booking.valid?
-        redirect_to :action => :confirm 
         BookingMailer.confirm(@booking).deliver
+        redirect_to :action => :confirm 
         return 
       else
         flash.now[:errors] = @booking.errors
