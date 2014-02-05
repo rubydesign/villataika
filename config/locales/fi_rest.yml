@@ -54,10 +54,11 @@ fi:
             lisää se huomiokenttään. <br/> "
     name: Koko nimesi
     email: Sähköposti-osoitteesi
-    arrival: Saapumispäivä
+    arriving: Saapumispäivä
     phone: Puhelinnumerosi
     nights: Öiden määrä 
     room: Huone
+    room_wish: Huone toive
     comment: Huom!
     confirmation: Huonevaraus ei ole voimassa ennen kuin olette saaneet vahvistuksen siihen. 
     pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea 101435-136318 / Villa Taika<br/> 

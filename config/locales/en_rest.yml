@@ -49,10 +49,11 @@ en:
             please add to the comment. <br/> 
     name: Full name
     email: Email address
-    arrival: Date of arrival
+    arriving: Date of arrival
     phone: Phone
     nights: Nights
     room: Room
+    room_wish: Room wish
     comment: Comment
     confirmation: Booking request are subject to confirmation. Bookings over 1 night require a pre-payment of 25%.
     pay:  |-

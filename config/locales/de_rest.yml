@@ -51,10 +51,11 @@ de:
               eventuelle Extra-Betten im Kommentar Feld an.
     name: Vor und Nachname
     email: Email Addresse
-    arrival: Ankunftsdatum
+    arriving: Ankunftsdatum
     phone: Telefon
     nights: Nächte
     room: Zimmer
+    room_wish: Gewuenschtes Zimmer
     comment: Kommentar
     confirmation: |-
         Die Buchung wird innerhalb eines Arbeitstages bestätigt. <br/>
