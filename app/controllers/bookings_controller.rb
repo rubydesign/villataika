@@ -81,8 +81,6 @@ class BookingsController < ApplicationController
   def get_bookings
     arriving = params[:arriving] ? Date.parse(params[:arriving]) : Date.today
     @bookings = {}
-    Room.all.each do |room|
-      @bookings[room.name] = rand > 0.5 ? true : false  
-    end
+    @rooms = Room.all
   end
 end

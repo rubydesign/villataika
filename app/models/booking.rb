@@ -9,15 +9,19 @@ class Booking < ActiveRecord::Base
   validates_presence_of :room 
   validates_presence_of :leaving 
   
+  def initialize
+    super
+    @arriving = Date.today + 1 unless @arriving
+  end
+  
   def update_attributes has = {}
     nights = has.delete "nights"
-    super(has)
-    @arriving = Date.today unless @arriving
-    if nights
-      @leaving = @arriving + nights 
+    if nights.blank?
+      @leaving = @arriving + 1 unless @leaving    
     else
-      @leaving = Date.today + 1 unless @leaving    
+      @leaving = @arriving + nights.to_i 
     end
+    super(has)
   end
   
   def initialize_old has = {}
