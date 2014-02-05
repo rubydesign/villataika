@@ -43,24 +43,26 @@ fi:
            paintballia  tai tulisilla hiilillä kävelyä uskaliaimmille. 
   booking:
     short: Varaus
+    header: Huonevaraus
     received: Olemme vastaanottaneet varauksesi
     error: Voitko ystävällisesti täyttää kaikki kentät. Tarkista s-postiosoitteesi ja päivämäärä, kiitos.
-    booking: "Voit tehdä varauksen puhelimitse +358407046689 kello 10:00 ja 19:00 välillä, lähetä s-postia 
-                      tai käytä alla olevaa kaavaketta. <br/ ><br/ > 
-            Täytä kaikki kentät. Jos et halua varata tiettyä huonetta , 
-            voit käyttää eri huone kategorioita Sviitti/Deluxe/Standard . <br/> 
+    booking: "Voit tehdä varauksen puhelimitse 040 704 6689 kello 10:00 ja 19:00 välillä, lähettämällä s-postia 
+                      tai käyttämällä alla olevaa kaavaketta. <br/ ><br/ > 
+            Täytä kaikki kentät. Jos et halua varata tiettyä huonetta, 
+            voit käyttää eri huonekategorioita Sviitti/Deluxe/Standard. <br/> 
             Kaikissa huoneissa on kaksoisvuode. Jos teitä on useampi tai haluatte erilliset vuoteet, 
-            lisää se huomio kenttään. <br/> "
+            lisää se huomiokenttään. <br/> "
     name: Koko nimesi
-    email: Sähköposti osoitteesi
-    arrival: saapumispäivä
+    email: Sähköposti-osoitteesi
+    arriving: Saapumispäivä
     phone: Puhelinnumerosi
     nights: Öiden määrä 
     room: Huone
+    room_wish: Huone toive
     comment: Huom!
     confirmation: Huonevaraus ei ole voimassa ennen kuin olette saaneet vahvistuksen siihen. 
     pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea 101435-136318 / Villa Taika<br/> 
-          Paikanpäällä voi maksaa ainostaan käteisellä.<br/> 
+          Paikanpäällä voi maksaa käteisellä tai kortilla.<br/> 
     pay_button: Maksa 
     submit: Lähetä varaus
     payson:     Jos haluatte maksaa luottokortilla käyttäkää Payson palvelua. Tilimme on info@villataika.fi.  
@@ -87,7 +89,7 @@ fi:
           Tarjoamme täysipainoista kasvisruokaa, joka on valmistettu rakkaudella..<br/>
           Pihamme on iso ja avoin. Sitä voi käyttää hiljaisiin ryhmäharjoituksiin.<br/>
           Kurssin aikana on mahdollista saunoa puulämmitteisessä saunassamme.<br/>
-          Hinnasta ja yksityiskohdista voimme neuvotella. Täysihoito on 55-75€, riippuen ryhmän koosta ja ruokatoiveista.<br/>
+          Hinnasta ja yksityiskohdista voimme neuvotella. Täysihoito on 55-80€, riippuen ryhmän koosta ja ruokatoiveista.<br/>
     
           Talomme sijaitsee erittäin luonnonkauniissa ympäristössä. 
           Kävelymatkan päässä on 5 eri järveä ja luonnonsuojelualue. <br/>
@@ -114,7 +116,7 @@ fi:
       image: saffron
     deco: 
       short: Edullinen majoitus kauniissa ulko aitassamme.
-      rest: Ulko aitassamme on edullinen majoitusvaihtoehto 70€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br/>
+      rest: Ulko aitassamme on edullinen majoitusvaihtoehto 75€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br/>
           Perinteisen kauniin hirsi seinän kanssa on kultainen pylvässänky. Huoneeseen mahtuu 2 hlöä.
            Suihku ja wc ovat päärakennuksessa. Halutessasi voit käyttää biologista, kemiallista wc:tä 
       image: renovate

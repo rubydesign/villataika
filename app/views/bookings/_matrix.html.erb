@@ -1,0 +1,57 @@
+<table class=book-month>
+  <tr>
+    <td width=58px>  </td>
+	<td> <a href="new?start=<%=start - 30.day%>"> month </a> <%= image_tag "arrow-2.gif" %> </td>
+    <td> <a href="new?start=<%=start - 7.day%>"> week </a> <%= image_tag "arrow-2.gif" %> </td>
+    <td> <%=start%> <%= image_tag "line.gif" %>  <%=start + 10.day%>&nbsp;&nbsp;&nbsp;</td>
+    <td> <a href="new?start=<%=start + 7.day%>"> week </a> <%= image_tag "arrow.gif" %> </td>
+    <td> <a href="new?start=<%=start + 30.day%>"> month </a> <%= image_tag "arrow.gif" %> </td>
+  </tr>
+</tr>
+<table class=book>
+  <thead>
+    <th> </th>
+    <% days.each do |day| %>
+    <th>
+		ma 23.7
+<!-- 
+      <%= day %>
+	-->
+    </th>
+    <%end%>
+  </thead>
+  
+  <tbody>
+    <% rooms.each do |room| %>
+    <tr>
+      <td class=book-room>
+        <%= room %>
+      </td>
+      <% days.each do |day| %>
+      <th class=book-cell>
+        <%==div(room,day)%>
+        <% if room_free(room,day) %>
+        <a href="#">
+		<div class=ok>
+          <%= image_tag "ok.png"  , :height => "18px" , :width => "18px" %>
+  		</div>
+     	</a>
+        <%else%>
+		<div class=not>
+          <%= image_tag "not.png"  , :height => "18px" , :width => "18px"%>
+		<div class=name>
+			etunimi sukunimi 
+		</div>
+	</div>
+        <%end%>
+      </th>
+      <%end%>
+    </tr>
+    <%end%>
+	</tbody>
+</table>
+
+<div>
+<div id="room"> Choose </div>
+<div id="arriving"> date </div>
+</div>

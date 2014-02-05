@@ -46,14 +46,16 @@ de:
     booking: Sie können per email buchen, das Formular ausfüllen, oder uns zwischen 10:00 and 19:00
               unter  +358 40 704 6689 anrufen. <br/> <br/> 
               Für das Formular werden alle Felder benötigt. Als Zimmer kann auch eine Kategorie angegeben werden 
-              (also Suite / Deluxe / Standard). Alle Zimmer sind mit einem Doppelbett ausgestattet, bitte geben Sie
+              (also Suite / Deluxe / Standard). <br/>
+              Alle Zimmer sind mit einem Doppelbett ausgestattet, bitte geben Sie
               eventuelle Extra-Betten im Kommentar Feld an.
     name: Vor und Nachname
     email: Email Addresse
-    arrival: Ankunftsdatum
+    arriving: Ankunftsdatum
     phone: Telefon
     nights: Nächte
     room: Zimmer
+    room_wish: Gewuenschtes Zimmer
     comment: Kommentar
     confirmation: |-
         Die Buchung wird innerhalb eines Arbeitstages bestätigt. <br/>
@@ -106,7 +108,7 @@ de:
     deco: 
         short: Rustikale Unterkunft im renovierten Blockhaus
         rest: Wir haben Teil des Hofgebebäudes renoviert und ein schönes Blockhaus-Zimmer mit Himmelbett
-              ausgestattet. Das einfache aber bezaubernde Zimmer kostet 70€ für zwei Personen. <br/>
+              ausgestattet. Das einfache aber bezaubernde Zimmer kostet 75€ für zwei Personen. <br/>
               Toilette und Dusche befinden sich im Hauptgebäude.
         image: renovate
     eco: 

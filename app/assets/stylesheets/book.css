@@ -1,0 +1,109 @@
+.free, .taken {
+padding:2px;
+padding-top:4px;
+width:70px;
+text-align:center;
+border-radius: 5px;
+margin-right:16px;
+}
+
+.free{
+	background-color: #0EFD0E;
+}
+
+.errors{
+  background-color: #FFE1D5;
+}
+.taken{
+	background-color: orange;
+	color:#CC0033;
+}
+
+.selected{
+  background: yellow;
+}
+
+.book-month
+{
+font-family: arial,sans-serif;
+padding-bottom: 6px;
+}
+
+.book
+{
+font-family: arial,sans-serif;
+}
+
+.book-cell, .book-room
+{
+border-top: dotted 1px #c0dce0;
+padding-top: 4px;
+}
+
+.book-room
+{
+font-family: georgia,serif;
+font-weight:bold;  
+color:#008495;
+}
+
+.ok, .not
+{
+	width:65px;
+	height:25px;
+	padding:3px;
+	padding-top:5px;
+	text-align:left;
+	font-weight: normal;
+	font-size: 9px;
+	float:left;	
+}
+
+.ok
+{
+/*	background-color: #dffbc3; */
+	background-image: url('book-bg.gif');
+}
+
+.not
+{
+/*	background-color: #f6d7d7; */
+	background-image: url('book-bg-2.gif');
+}
+
+.name
+{ 	
+width:40px;
+float:right;	
+
+}
+
+.dotted
+{
+border-top: dotted 2px #c0dce0;
+margin-top: 2px;
+padding-top: 8px;
+padding-bottom: 12px;
+}
+
+.bookform
+{
+	border-top: dotted 2px #c0dce0;
+	border-bottom: dotted 2px #c0dce0;
+	background-image: url('form-bg.gif');
+}
+
+
+.field-frame
+{
+	width:250px;
+	float:left;	
+	padding-bottom:12px;
+}
+
+.field-frame-2
+{
+	width:100px;
+	float:left;
+	padding-bottom:12px;
+}

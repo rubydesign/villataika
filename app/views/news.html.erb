@@ -3,7 +3,7 @@
   <div class="boxinner">
     <% unless t(".#{ne}.image").index("missing") %>
       <div class="captionedimage">
-        <a href="/news/large/<%=t(".#{ne}.image")%>.jpg" rel="lightbox" title="<%= t(".#{ne}.short")%>">
+        <a href="/news/large/<%=t(".#{ne}.image")%>.jpg" class="lightbox" title="<%= t(".#{ne}.short")%>">
           <img src="/news/<%=t(".#{ne}.image")%>.jpg" height=100>
         </a>
       </div>

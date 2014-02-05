@@ -12,13 +12,13 @@ de:
         Mustio (15km), Tammisaari (35km) oder Hanko (65km) verbringen. Oder enspannen Sie sich einfach im 
         liebevoll angelegten Garten zum Plätschern des Wasserfalles. <br/>
     two:
-      Die Preise für ein Doppelzimmer sind zwischen 75 and 95€ für 2 Personen, aber mehrere Zimmer sind geräumig 
+      Die Preise für ein Doppelzimmer sind zwischen 75 and 105€ für 2 Personen, aber mehrere Zimmer sind geräumig 
       genug für ein drittes oder sogar viertes Bett (25€). <br/>
       Frühstück, zwischen 8:30–10:00, ist im Preis inbegriffen. <br/>
       Check-in ist zwischen 14:00–19:00 und Check-out bis 12:00 wenn nicht anders vereinbart.  <br/>
-    suites: 3 suites mit Dusche und Toilette 90–95 €
-    deluxe: 2 Zimmer mit eigener Toilette 75€
-    standard: 2 Zimmer (teilen Dusche/Toilette) 75€
+    suites: 3 suites mit Dusche und Toilette 95/110 €
+    deluxe: 2 Zimmer mit eigener Toilette 80€
+    standard: 2 Zimmer (teilen Dusche/Toilette) 80€
   tai: oder
   puh: Tel
   myos: Siehe auch
@@ -42,7 +42,7 @@ de:
           Im Zimmer ist eine Toilette und eine Dusche wird mit dem Orangen Zimmer gemeinsam benutzt. <br/>
           Grünes und Oranges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den 
           kleinen Vorraum und Dusche für sich haben. <br/>
-          Der Preis für 2 ist 75€ / Einzelbelegung 60€
+          Der Preis für 2 ist 80€ / Einzelbelegung 65€
   orange:
     short: Oranges Zimmer
     full: Das <b>Orange Zimmer</b> hat eine warme, gemütliche Atmosphäre mit asiatischem Touch.
@@ -52,7 +52,7 @@ de:
           Im Zimmer ist eine Toilette und eine Dusche wird mit dem grünen Zimmer gemeinsam benutzt. <br>
           Grünes und Organges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den 
           kleinen Vorraum und Dusche für sich haben. <br/>
-          Der Preis für 2 ist 75€ / Einzelbelegung 60€
+          Der Preis für 2 ist 80€ / Einzelbelegung 65€
   rose:
     short: Rosenzimmer
     full: Das <b>Rosenzimmer </b> ist ein gemütliches Zimmer mit romantischer Atmosphäre. <br/>
@@ -60,7 +60,7 @@ de:
           Die Dusche und Toilette befinden sich direkt nebenann und werden mit dem Blauen Zimmer geteilt. <br/>
           Die benachbarten Rosen- und Blauen Zimmer bieten zusammen eine gute Einheit für kleine Gruppen oder 
           grosse Familien.<br/>
-          Der Preis für 2 ist 75€ / Einzelbelegung 60€
+          Der Preis für 2 ist 80€ / Einzelbelegung 65€
   sky:
     short: Blaues Zimmer 
     full: Das <b>Blaue Zimmer </b> hat eine ruhige, entspannende Atmosphäre. <br/>
@@ -68,14 +68,14 @@ de:
           ist ein Extrabett vorhanden.  <br/>
           Die benachbarten Rosen- und Blauen Zimmer bieten zusammen eine gute Einheit für kleine Gruppen oder 
           grosse Familien.<br/>
-          Der Preis für 2 ist 75€ / Einzelbelegung 60€
+          Der Preis für 2 ist 80€ / Einzelbelegung 65€
   lootus:
     short: Lotus Suite
     full:  Die <b>Lotus Suite</b> ist ein sehr geräumigiges Zimmer, eher Appartement, mit asiatischer Eleganz.<br/>
           Zusätzlich zum eigenen Badezimmer, Schlaf- und Vorraum, bietet Sie genug Platz für zwei Betten und dabei 
           noch genug Platz zum Sizen. Ausserdem ist eine <b> private Terasse </b> angeschlossen, 
           auf der sich auch im Herbst noch die Morgensonne geniessen lässt.<br/>
-          Der Preis für 2 ist 95€.
+          Der Preis für 2 ist 105€.
   sun:
     short: Sonnen Suite 
     full: Die <b>Sonnen Suite</b> ist ein sehr elegantes und sonniges Zimmer. <br/>
@@ -84,12 +84,12 @@ de:
           Die grossen süd-gerichteten Fenster und hohe Decke verleihen dem Zimmer ein leichtes, sonniges 
           Gefühl.<br/> 
           Dusche und Toilette sind ensuite und zusätlich zum Doppelbett ist Platz für ein Extra-Bett.<br/>
-          Der Preis für 2 ist 90€ / Einzelbelegung 75€
+          Der Preis für 2 ist 95€ / Einzelbelegung 80€
   saffron:
     short: Saffron Suite
     full: Die <b>Saffron Suite</b> ist ein sonnig, helles Zimmer mit hand geschnitztem Relief. <br/>
           Das Zimmer ist nach Süden gerichtet und durch die grossen Fenster entsteht eine sehr geraümiges 
           Gefühl.<br/>
           Eine eigene Dusche und Toilette geht direkt von der eigenen kleinen Eingangshalle ab. <br/>
-          Der Preis für 2 ist 90€ / Einzelbelegung 75€
+          Der Preis für 2 ist 95€ / Einzelbelegung 80€
   
