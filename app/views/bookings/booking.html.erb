@@ -4,39 +4,44 @@
 
 <%== t('booking.booking')%> <br/>
  
- <% if flash[:errors] %>
- <br/>
-   <div class="flash errors">
-     <%== t('booking.error')%> <br/>
-   <% flash[:errors].each do |field , message| %>
-      <%= t("booking.#{field}") %> <%= message %><br/>
-   <%end%>
-    </div>
- <% end %>
-
 <div class="bookform">
 <form action="booking.html" method="post"> 
+  <% if flash[:errors] %>
+  <br/>
+    <div class="flash errors">
+    <% flash[:errors].each do |field , message| %>
+       <%= t("booking.#{field}") %> <%== message %><br/>
+    <%end%>
+     </div>
+  <% end %>
 
 <table border="0px" cellpadding="8" cellspacing="8" width="100%"> 
   <tr>
+    <td colspan=2><label for="arrival"><%= t('booking.arrival')%></label>:</td> 
+    <td colspan=2><input type="text" id="arriving_on" name="booking[arriving]" size="35" value="<%=@booking.arriving%>" /></td> 
 
     <td colspan=2><label for="nights"><%= t('booking.nights')%></label>:</td> 
     <td colspan=2>
     
       <select class='nights' name="booking[nights]"> 
         <% ["1"  , "2" , "3" , "4" , "5" , "6" , "7"].each do |ni| %>
-        <option <%=='selected="selected"' if @booking.leaving == @booking.arriving + ni.to_i.day %>><%=ni%></option> 
+        <option <%=='selected="selected"' if @booking.leaving == @booking.arriving.to_s + ni.to_i.day.to_s %>><%=ni.to_s%></option> 
         <%end%>
         <option><%= t('booking.call')%></option>
       </select>
     </td> 
-    <td colspan=2><label for="arrival"><%= t('booking.arrival')%></label>:</td> 
-    <td colspan=2><input type="text" id="arriving_on" name="booking[arriving]" size="35" value="<%=@booking.arriving%>" /></td> 
   </tr>
   <tr id="rooms_day">
 	<td colspan=8>
-	<table>Huone:
-    <%= render :template => "bookings/rooms_day"  %>
+	<table>
+    <tr>
+      <td>
+        Huone toive*:
+      </td>
+    </tr>
+    <tr>
+      <%= render :template => "bookings/rooms_day"  %>
+    </tr>
 	</table>
 	</td>
   </tr>
@@ -52,7 +57,7 @@
     <td colspan=2><input type="text" name="booking[phone]" size="35" value="<%=@booking.phone%>" /> </td> 
     <td colspan=2> <label for="comment"><%= t('booking.comment')%></label><br /> </td> 
     <td colspan=2> <textarea rows="2" cols="35" name="booking[comment]" ><%=@booking.comment%></textarea> </td> 
-    <input type="hidden" name="booking[room]" value="none" id="room"  value="<%=params[:room]%>">
+    <input type="hidden" name="booking[room]" id="room"  value="<%=params[:room]%>">
   </tr>
   <tr>
     <td colspan="2"><input type="submit" name="submit" value="<%=t('booking.submit')%>" /></td> 
@@ -61,7 +66,7 @@
 </table> 
 </form> 
 </div>
-<br/>
+<br/><b>*</b>
 <%== t('booking.confirmation')%> <br/> <br/> 
  
 <%== t('booking.pay')%>

@@ -61,7 +61,7 @@ fi:
     comment: Huom!
     confirmation: Huonevaraus ei ole voimassa ennen kuin olette saaneet vahvistuksen siihen. 
     pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea 101435-136318 / Villa Taika<br/> 
-          Paikanpäällä voi maksaa ainostaan käteisellä.<br/> 
+          Paikanpäällä voi maksaa käteisellä tai kortilla.<br/> 
     pay_button: Maksa 
     submit: Lähetä varaus
     payson:     Jos haluatte maksaa luottokortilla käyttäkää Payson palvelua. Tilimme on info@villataika.fi.  
@@ -88,7 +88,7 @@ fi:
           Tarjoamme täysipainoista kasvisruokaa, joka on valmistettu rakkaudella..<br/>
           Pihamme on iso ja avoin. Sitä voi käyttää hiljaisiin ryhmäharjoituksiin.<br/>
           Kurssin aikana on mahdollista saunoa puulämmitteisessä saunassamme.<br/>
-          Hinnasta ja yksityiskohdista voimme neuvotella. Täysihoito on 55-75€, riippuen ryhmän koosta ja ruokatoiveista.<br/>
+          Hinnasta ja yksityiskohdista voimme neuvotella. Täysihoito on 55-80€, riippuen ryhmän koosta ja ruokatoiveista.<br/>
     
           Talomme sijaitsee erittäin luonnonkauniissa ympäristössä. 
           Kävelymatkan päässä on 5 eri järveä ja luonnonsuojelualue. <br/>
@@ -115,7 +115,7 @@ fi:
       image: saffron
     deco: 
       short: Edullinen majoitus kauniissa ulko aitassamme.
-      rest: Ulko aitassamme on edullinen majoitusvaihtoehto 70€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br/>
+      rest: Ulko aitassamme on edullinen majoitusvaihtoehto 75€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br/>
           Perinteisen kauniin hirsi seinän kanssa on kultainen pylvässänky. Huoneeseen mahtuu 2 hlöä.
            Suihku ja wc ovat päärakennuksessa. Halutessasi voit käyttää biologista, kemiallista wc:tä 
       image: renovate

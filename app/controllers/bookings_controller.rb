@@ -19,7 +19,8 @@ class BookingsController < ApplicationController
     @days = params[:days] ? params[:days].to_i : 1
     @page = "booking"
     if request.post?
-      @booking = Booking.new params[:booking] 
+      @booking = Booking.new
+      update_params(params[:booking]) 
       if @booking.valid?
         redirect_to :action => :confirm 
         BookingMailer.confirm(@booking).deliver
@@ -85,6 +86,9 @@ class BookingsController < ApplicationController
     Room.all.each do |room|
       @bookings[room.name] = rand > 0.5 ? true : false  
     end
-    
+  end
+
+  def update_params params
+    @booking.update_attributes( params )
   end
 end

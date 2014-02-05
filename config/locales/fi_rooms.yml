@@ -11,12 +11,12 @@ fi:
     two: 
         Huoneen hinta on kahdelle ja lisävuode on 25€. 
         Huoneen hintaan kuuluu aamupala (tarjoillaan klo 8:30-10:00), liinavaatteet ja pyyhkeet. 
-        Huoneiden hinnat ovat 75-95 € .
+        Huoneiden hinnat ovat 70-110 € .
         Voimme majoittaa jopa 25-30 hengen ryhmän.
         Peruutus on tehtävä 48h ennen .
-    suites: 3 sviittiä omalla suihkulla 90/90/95
-    deluxe: 2 huonetta omalla wc:llä (yläkerrassa) 75€/2hh ja 60€/1hh 
-    standard: 2 huonetta, jotka jakavat yhteisen suihkun, 75€/2hh ja 60€/1hh
+    suites: 3 sviittiä omalla suihkulla 95/105€
+    deluxe: 2 huonetta omalla wc:llä (yläkerrassa) 80€/2hh ja 65€/1hh 
+    standard: 2 huonetta, jotka jakavat yhteisen suihkun, 80€/2hh ja 65€/1hh
   tai: tai
   puh: puh
   myos: Katso myös
@@ -38,45 +38,45 @@ fi:
               Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. <br/> 
               Yläkerran huoneesta on kaunis näkymä puutarhaan. <br/>Vihreä-ja Oranssi huone sopivat hyvin pienille
               ryhmille tai isolle perheelle yhteiskäytössä. Huoneiden välissä on myös sievä oleskelutila. <br/>
-              Hinta on 75€ /2hh/60€ 1hh
+              Hinta on 80€ /2hh/65€ 1hh
   orange:
     short: Oranssi huone 
     full: <b>Oranssi huone </b>on viihtyisä ja  20m2 huone. Siellä on parisänky ja sinne mahtuu kaksikin lisävuodetta. <br/>
             Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. <br/> Yläkerran huoneesta on kaunis näkymä puutarhaan. <br/>
             Vihreä-ja Oranssi huone sopivat hyvin pienille ryhmille
             tai isolle perheelle yhteiskäytössä. Huoneiden välissä on myös sievä oleskelutila. <br/>
-            Hinta on 75€ /2hh/ 60€ 1hh
+            Hinta on 80€ /2hh/ 65€ 1hh
   rose:
     short: Ruusu huone 
     full: <b>Ruusu huone </b>on romanttinen huone. Huoneessa on parisänky, ja mukava sohva.  
             Sillä on yhteinen wc ja suihku viereisen Taivas huoneen kanssa.<br/>
             Yhdessä Taivas huoneen kanssa, se sopii erinomaisesti isolle perheelle tai pienelle ryhmälle.<br/> 
-          Hinta on 75€ /2hh ja 60€/1hh
+          Hinta on 80€ /2hh ja 65€/1hh
   sky:
     short: Taivas huone 
     full: <b>Taivas huone </b>on rauhoittava ja  viehkeä huone. Sillä on yhteinen wc ja suihku viereisen Ruusu huoneen kanssa.  
           Huoneessa on parisänky, ja sinne saa lisävuoteen tai kaksi tarvittaessa..
           Yhdessä Ruusu huoneen kanssa, se sopii erinomaisesti isolle perheelle tai pienelle ryhmälle.<br/>  
-          Hinta on 75€ /2hh ja 60€/ 1hh
+          Hinta on 80€ /2hh ja 65€/ 1hh
   lootus:
     short: Lootus sviitti 
     full: <b>Lootus sviitti </b> on viehättävä , aasialaisella tyylikkyydellä sisustettu huoneisto 40m².<br/> Siihen kuuluu oma wc ja suihku, sekä terassi , jolta pilkottaa 
             läheinen järvi.<br/> Huoneessa on parisänky ja sinne mahtuu 3 tai 4 lisävuodetta. <br/>  <br/>
             Sviitti sopii myös hääpareille. Hääpaketti sisältää huoneen ja lisäkoristelun kukkasilla ja kynttilöillä. 
             Aamupala haluttaessa sään salliessa omalla terassilla. <br/>
-            Hinta on 95€ /2hh. (Hääpaketti on 135€ /2hh)
+            Hinta on 105€ /2hh. (Hääpaketti on 150€ )
   sun:
     short: Aurinko sviitti 
     full: <b>Aurinko sviitti</b> on valoisa ja tyylikäs 25m² sviitti. Perinteisellä hirsirakennus tekniikalla rakennetut kaaret
           tuovat oman lisänsä, tyylikkäillä tiikki huonekaluilla sisustettuun huoneseen. <br/>
           Siellä on parisänky ja sinne mahtuu mukavasti kaksikin lisävuodetta. 
           Siinä on oma wc ja suihku.<br/>
-          Hinta on 90€ /2hh ja 75€ /1hh
+          Hinta on 95€ /2hh ja 80€ /1hh
   saffron:
     short: Saffron sviitti
     full: <b>Saffron sviitti</b> on valoisa ja kaunis sviitti. 
           Huonetta koristaa käsinkaiverretut pylväät, jotka tuovat itämaista tunnelmaa tyylikkääseen huoneeseen. <br/> 
           Siellä on parisänky ja sinne mahtuu helposti lisävuode, tarvittaessa kaksikin.
           Huoneessa on oma wc ja suihku.<br/>
-           Hinta on 90€ /2hh ja 75€/ 1hh
+           Hinta on 95€ /2hh ja 80€/ 1hh
   

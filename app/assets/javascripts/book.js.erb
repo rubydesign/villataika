@@ -11,17 +11,13 @@ function set_room(){
   jQuery("#rooms_day .selected").removeClass("selected");
   jQuery(this).addClass( "selected");
   jQuery("#room").val(jQuery(this).attr("id"));
+  return false;
 }
 
 // attach above change function to elements when document is loaded
 jQuery(document).ready(function() { 
   jQuery('.nights').change(change_availibility);
-  jQuery( "#arriving_on" ).datepicker(
-    {
-      minDate: 0 ,
-      onSelect: change_availibility
-       } 
-    );
+  jQuery( "#arriving_on" ).datepicker(  );
   jQuery(".free").live("click",  set_room );
   jQuery('a.lightbox').colorbox({rel: true , opacity:0.2}  );
 });

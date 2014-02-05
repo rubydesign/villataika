@@ -8,11 +8,14 @@ margin-right:16px;
 }
 
 .free{
-	background-image: url('book-bg.gif');
+	background-color: #0EFD0E;
 }
 
+.errors{
+  background-color: #FFE1D5;
+}
 .taken{
-	background-image: url('book-bg-2.gif');
+	background-color: orange;
 	color:#CC0033;
 }
 
