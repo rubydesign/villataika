@@ -1,0 +1,9 @@
+- ["green" , "orange" ].each do |room|
+  .box
+    .boxinner
+      .captionedimage
+        %a.lightbox{:href => "/images/#{room}.jpg", :title => t(room+".short")}
+          %img{:alt => t("#{room}.short"), :src => "/images/#{room}_small.jpg"}/
+      %h2
+        = t("#{room}.short")
+      = raw t("#{room}.full")

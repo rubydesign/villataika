@@ -1,0 +1,48 @@
+%table.book-month
+  %tr
+    %td{width: "58px"}
+    %td
+      %a{href: "new?start=#{start - 30.day}"} month
+      = image_tag "arrow-2.gif"
+    %td
+      %a{href: "new?start=#{start - 7.day}"} week
+      = image_tag "arrow-2.gif"
+    %td
+      = start
+      = image_tag "line.gif"
+      = start + 10.day
+      \   
+    %td
+      %a{href: "new?start=#{start + 7.day}"} week
+      = image_tag "arrow.gif"
+    %td
+      %a{href: "new?start=#{start + 30.day}"} month
+      = image_tag "arrow.gif"
+  %table.book
+    %thead
+      %th
+      - days.each do |day|
+        %th
+          ma 23.7
+          /
+            <haml_loud> day </haml_loud>
+    %tbody
+      - rooms.each do |room|
+        %tr
+          %td.book-room
+            = room
+          - days.each do |day|
+            %th.book-cell
+              = div(room,day)
+              - if room_free(room,day)
+                %a{href: "#"}
+                  .ok
+                    = image_tag "ok.png"  , :height => "18px" , :width => "18px"
+              - else
+                .not
+                  = image_tag "not.png"  , :height => "18px" , :width => "18px"
+                  .name
+                    etunimi sukunimi
+  %div
+    #room Choose
+    #arriving date

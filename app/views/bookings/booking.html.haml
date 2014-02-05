@@ -1,0 +1,35 @@
+%h4
+  = t('booking.header')
+= t('booking.booking')
+%br/
+.bookform
+  %form{action: "booking.html", method: "post"}
+    - if flash[:errors]
+      %br/
+      .flash.errors
+        - flash[:errors].each do |field , message|
+          = t("booking.#{field}")
+          = message
+          %br/
+    %table{border: "0px", cellpadding: "8", cellspacing: "8", width: "100%"}
+      %tr
+        %td>
+        2>
+        %label{for: "arrival"}>= t('booking.arrival')
+        \:
+      = succeed "2>" do
+        %td
+      %input#arriving_on{name: "booking[arriving]", size: "35", type: "text", value: ""}/
+      = @booking.arriving
+      " />
+    = succeed "2>" do
+      %td
+    = succeed ":" do
+      %label{for: "nights"}= t('booking.nights')
+  = succeed "2>" do
+    %td
+  %select.nights{name: "booking[nights]"}
+    - [1  , 2 , 3 , 4 , 5 , 6 , 7].each do |ni|
+      %option
+      = 'selected=selected' if @booking.leaving = @booking.arriving.to_s + " " + ni.to_i.day.to_s + " " + ni.to_s
+  %option= t('booking.call')

@@ -1,0 +1,11 @@
+- news.each do |ne|
+  .newsbox
+    .boxinner
+      - unless t(".#{ne}.image").index("missing")
+        .captionedimage
+          %a.lightbox{:href => "/news/large/#{t(".#{ne}.image")}.jpg", :title => t(".#{ne}.short")}
+            %img{:height => "100", :src => "/news/#{t(".#{ne}.image")}.jpg"}
+      %h2
+        = t(".#{ne}.short")
+      = raw t(".#{ne}.rest")
+  .line  &nbsp;

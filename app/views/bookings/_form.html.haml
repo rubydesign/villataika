@@ -1,0 +1,40 @@
+= render "matrix"
+= form_for(@booking) do |f|
+  - if @booking.errors.any?
+    #error_explanation
+      %h2
+        = pluralize(@booking.errors.count, "error")
+        prohibited this booking from being saved:
+      %ul
+        - @booking.errors.full_messages.each do |msg|
+          %li= msg
+  %div
+    .dotted
+      .field-frame
+        = f.label :name
+        %br/
+        = f.text_field :name
+      .field-frame
+        = f.label :email
+        %br/
+        = f.text_field :email
+      .field-frame
+        = f.label :phone
+        %br/
+        = f.text_field :phone
+    %div
+      .field-frame
+        = f.label :info
+        %br/
+        = f.text_field :phone
+      .field-frame-2
+        = f.label :days
+        %br/
+        = select_tag :days , options_for_select( (1..5) )
+        %br/
+      %div
+        = hidden_field :booking , :room
+        = hidden_field :booking , :arriving
+      .field-frame
+        %br/
+        = f.submit

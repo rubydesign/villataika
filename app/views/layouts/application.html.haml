@@ -1,0 +1,72 @@
+%html
+  %head
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+    %link{:href => "/favicon.ico", :rel => "shortcut icon", :type => "image/vnd.microsoft.icon"}/
+    %meta{:content => "Bed and breakfast majoitus hotel Fiskars häät  Suite", :name => "keywords"}/
+    %meta{:content => "Bed and Breakfast Villa Taika : #{t('slogan') + ' ' + t(@page + ".short")}", :name => "description"}/
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}/
+    %meta{:content => @locale, "http-equiv" => "Content-Language"}/
+    %title
+      Bed &amp; Breakfast Villa Taika : #{t(@page + ".short")}
+  %body
+    #main
+      #header
+        .centre
+          %img{:alt => "Villa Taika logo", :src => "/images/logo_iso.png"}/
+        #slogan= t("slogan")
+      #lcol
+        #menu
+          %ul
+            - ["index" , "bed" ,"booking","groups","map","photos","activities"].each do |p|
+              %li{ :class => "active" && (params[:page] == p) }
+                = link_to( t( p + '.short') , "/#{@locale}/#{p}.html")
+        #menuend
+        #lcontent
+          %h3.first
+            %span= t "bed.rooms"
+          %ul.divided
+            %li= link_to  t("suites.short") , "/#{@locale}/suites.html"
+            %li= link_to  t("deluxe.short") , "/#{@locale}/deluxe.html"
+            %li= link_to  t("standard.short") , "/#{@locale}/standard.html"
+          .divider
+          - @locales.each do |lang|
+            <a href="#{"/#{lang}/#{@page}.html"}" #{"class='selected'" if lang == @locale}>
+            %img{:alt => lang.to_s, :src => "/images/#{lang.to_s}.gif"}/
+          %h3
+            %a{:href => "/#{@locale}/news.html"}
+              %span= t("news.short")
+          #news
+            %a{:href => "/#{@locale}/news.html"}
+              = t("news." + news.first + ".short")
+      #rcol
+        #rcontent
+          = yield
+        .divider
+    #footer
+      .kolmas
+        %b> Villa Taika
+        , Fiskarsintie 513, Antskog
+        %br/
+        www.villataika.fi&nbsp;&nbsp;&nbsp;info@villataika.fi
+      .kolmas
+        Raisa Kaipainen &amp; Torsten Rüger
+        %br/
+        = t("puh")
+        +358- (0)40 704 6689
+      .kolmas
+        %a{:href => "/#{@locale}/index.html"}
+          %img{:alt => "", :border => "0", :height => "33", :src => "/images/logo_pien.gif", :width => "198"}/
+    .divider
+    %br/
+    %br/
+    %br/
+    :javascript
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-12603339-2', 'villataika.fi');
+      ga('send', 'pageview');

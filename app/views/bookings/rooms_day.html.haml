@@ -1,0 +1,9 @@
+- @bookings.each do |room , free|
+- free = true
+  %td
+    %div{:class => free ? 'free' : 'taken', :id => room}
+      - if free
+        %a{:href => "#"}
+          = room.capitalize
+      - else
+        = room

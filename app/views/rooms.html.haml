@@ -1,0 +1,8 @@
+.roomheader
+  = raw t "#{@room}.full"
+  %br
+  = raw t "#{@room}.price"
+  %br
+.centre
+  %a{:href => "\#{huoneet[(huoneet.index(@page) +1) % huoneet.length]}.html"}
+    %img{:alt => "\#{t(@page+'.short')}", :src => "/images/#{@room}.jpg"}/

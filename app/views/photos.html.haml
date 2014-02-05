@@ -1,0 +1,7 @@
+- photos.each do |photo|
+  %div{:class => "photobox_#{photo.split('_').first}"}
+    .eiole
+      %a.lightbox{:href => "/photos/large/#{photo}.jpg", :title => t("."+photo)}
+        %img{:alt => t("."+photo), :src => "/photos/#{photo}.jpg"}
+      %br
+      = t "."+photo
