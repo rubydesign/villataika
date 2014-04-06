@@ -14,3 +14,4 @@
 //= require jquery.ui.all
 //= require jquery.colorbox-min
 //= require book
+

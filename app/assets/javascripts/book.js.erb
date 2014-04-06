@@ -17,9 +17,7 @@ function set_room(){
 // attach above change function to elements when document is loaded
 jQuery(document).ready(function() { 
   jQuery('.nights').change(change_availibility);
-  jQuery( "#arriving_on" ).datepicker(  );
-  jQuery(".free").live("click",  set_room );
+  jQuery( "#arriving_on" ).datepicker( { dateFormat: 'dd-mm-yy' } );
+  jQuery(".free").on("click",  set_room );
   jQuery('a.lightbox').colorbox({rel: true , opacity:0.2}  );
 });
-
- 
