@@ -16,12 +16,12 @@ class Booking < ActiveRecord::Base
   
   def update_attributes has = {}
     nights = has.delete "nights"
+    super(has)
     if nights.blank?
       self.leaving = self.arriving + 1 unless @leaving    
     else
-      self.leaving = self.arriving + nights.to_i 
+      self.leaving = Date.parse(self.arriving) + nights.to_i 
     end
-    super(has)
   end
 
 end
