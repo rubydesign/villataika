@@ -1,3 +1,9 @@
+Date.class_eval do
+  def to_s
+    return strftime("%d-%m-%Y")
+  end
+end
+
 module BookingsHelper
 
   def days
