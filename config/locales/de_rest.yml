@@ -41,14 +41,16 @@ de:
             Wilderniskurse.
   booking:
     short: Buchung
+    header: Buchung   
     received: Ihre Buchung wurde empfangen.
     error: Bitte alle Felder ausfüllen, auch Email und Datum. 
-    booking: Sie können per email buchen, das Formular ausfüllen, oder uns zwischen 10:00 and 19:00
-              unter  +358 40 704 6689 anrufen. <br/> <br/> 
-              Für das Formular werden alle Felder benötigt. Als Zimmer kann auch eine Kategorie angegeben werden 
-              (also Suite / Deluxe / Standard). <br/>
-              Alle Zimmer sind mit einem Doppelbett ausgestattet, bitte geben Sie
-              eventuelle Extra-Betten im Kommentar Feld an.
+    booking1: Sie können per email buchen, das Formular ausfüllen, oder uns zwischen 10:00 and 19:00
+              unter +358 40 704 6689 anrufen.  
+    booking2: Für das Formular werden alle Felder benötigt. Als Zimmer kann auch eine Kategorie angegeben werden 
+            (also Suite / Deluxe / Standard). <br/>
+            Alle Zimmer sind mit einem Doppelbett ausgestattet, bitte geben Sie
+            eventuelle Extra-Betten im Kommentar Feld an.
+            
     name: Vor und Nachname
     email: Email Addresse
     arriving: Ankunftsdatum

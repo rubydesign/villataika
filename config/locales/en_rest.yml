@@ -41,12 +41,12 @@ en:
     short: Reservation
     received: Your booking was received.
     error: Please fill out all fields, and check your email and date.
-    booking: You can book by phone , +358407046689 between 10:00 and 19:00, or send us mail, 
-                      or use the form below. <br/ ><br/ > 
-            Please fill out all fields. If you do do not want to book a certain room, 
+    booking1: You can book by phone , +358 40 704 6689 between 10:00 and 19:00, or send us mail, 
+                      or use the form below. 
+    booking2: Please fill out all fields. If you do do not want to book a certain room, 
             you may use Suite/Deluxe/standard for the room field. <br/> 
             Also remember that all rooms have a double bed. So if there is more than 2 of you, 
-            please add to the comment. <br/> 
+            please add to the comment. 
     name: Full name
     email: Email address
     arriving: Date of arrival

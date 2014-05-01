@@ -46,19 +46,21 @@ fi:
     header: Huonevaraus
     received: Olemme vastaanottaneet varauksesi
     error: Voitko ystävällisesti täyttää kaikki kentät. Tarkista s-postiosoitteesi ja päivämäärä, kiitos.
-    booking: "Voit tehdä varauksen puhelimitse 040 704 6689 kello 10:00 ja 19:00 välillä, lähettämällä s-postia 
-                      tai käyttämällä alla olevaa kaavaketta. <br/ ><br/ > 
-            Täytä kaikki kentät. Jos et halua varata tiettyä huonetta, 
+    booking1: "Voit tehdä varauksen puhelimitse 040 704 6689 kello 10:00 ja 19:00 välillä, lähettämällä s-postia 
+                      tai käyttämällä alla olevaa kaavaketta. "
+    booking2: "Täytä kaikki kentät. Jos et halua varata tiettyä huonetta, 
             voit käyttää eri huonekategorioita Sviitti/Deluxe/Standard. <br/> 
             Kaikissa huoneissa on kaksoisvuode. Jos teitä on useampi tai haluatte erilliset vuoteet, 
-            lisää se huomiokenttään. <br/> "
+            lisää se huomiokenttään. "
+
     name: Koko nimesi
-    email: Sähköposti-osoitteesi
-    arriving: Saapumispäivä
+    email: Sähköpostiosoitteesi
+    arrival: Saapumispäivä
     phone: Puhelinnumerosi
     nights: Öiden määrä 
+    call: Soita 
     room: Huone
-    room_wish: Huone toive
+    room_wish: Huonetoive
     comment: Huom!
     confirmation: Huonevaraus ei ole voimassa ennen kuin olette saaneet vahvistuksen siihen. 
     pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea 101435-136318 / Villa Taika<br/> 
