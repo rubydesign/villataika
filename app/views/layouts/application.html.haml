@@ -11,6 +11,15 @@
     %title
       Bed &amp; Breakfast Villa Taika : #{t(@page + ".short")}
   %body
+    #fb-root
+    :javascript
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/fi_FI/sdk.js#xfbml=1&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
     #main
       #header
         .centre
@@ -20,8 +29,8 @@
         #menu
           %ul
             - ["index" , "bed" ,"booking","groups","map","photos","activities"].each do |p|
-              %li{ :class => "active" && (params[:page] == p) }
-                = link_to( t( p + '.short') , "/#{@locale}/#{p}.html")
+              <li #{raw('class="active"') if params[:page] == p}>
+              \#{link_to(t(p+'.short') , "/#{@locale}/#{p}.html")}
         #menuend
         #lcontent
           %h3.first

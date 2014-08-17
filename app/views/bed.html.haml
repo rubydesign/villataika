@@ -1,11 +1,32 @@
-- activities.each_with_index do |activity , index|
-  .activitybox
-    .boxinner
-      %a.lightbox{:href => "/activities/large/\#{activity}.jpg", :title => t(".\#{activity}.short")}
-      %h2
-        = t(".\#{activity}.short")
-      %img{:alt => t(".\#{activity}.short"), :src => "/activities/\#{activity}.jpg"}/
-      = raw t(".\#{activity}.rest")
-\= raw "
-.line> &nbsp;
-" if (index.modulo(2)) != 0
+.wide_bedbox
+  .bedbox
+    = raw t("bed.one")
+.widebox
+  %br/
+  .smallbox
+    = link_to  "/#{@locale}/suites.html" do
+      = t("suites.short")
+      <img src="/images/sun_small.jpg"
+      alt=#{t('suites.short')}
+      height="187px"  width="250px" />
+    %br/
+    = t('bed.suites')
+  .smallbox
+    = link_to "/#{@locale}/deluxe.html" do
+      = t("deluxe.short")
+      <img src="/images/orange_small.jpg"
+      alt=#{t('deluxe.short')}
+      height="187px"  width="250px" />
+    %br/
+    = t('bed.deluxe')
+  .smallbox
+    = link_to "/#{@locale}/standard.html" do
+      = t("standard.short")
+      %img{:alt => t('standard.short'), :height => "187px", :src => "/images/rose_small.jpg", :width => "250px"}/
+    %br/
+    = t('bed.standard')
+%br/
+.wide_bedbox
+  .bedbox
+    = raw t("bed.two")
+.divider
