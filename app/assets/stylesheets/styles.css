@@ -406,8 +406,8 @@ div#aurinko_pic {
   position: relative;
 }
 
-div#aurinkowrapper {
-  height: 330px;
+div#main_aurinko {
+	height: 330px;
   width: 500px;
   margin-left:0px;
   float: left;
