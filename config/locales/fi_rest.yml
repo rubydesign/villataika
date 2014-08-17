@@ -55,7 +55,7 @@ fi:
 
     name: Koko nimesi
     email: Sähköpostiosoitteesi
-    arrival: Saapumispäivä
+    arriving: Saapumispäivä
     phone: Puhelinnumerosi
     nights: Öiden määrä 
     call: Soita 

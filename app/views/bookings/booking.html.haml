@@ -1,35 +1,89 @@
 %h4
-  = t('booking.header')
-= t('booking.booking')
+  = raw t('booking.header')
+%strong
+  = raw t('booking.booking1')
+%br/
+%br/
+= raw t('booking.booking2')
+%br/
 %br/
 .bookform
-  %form{action: "booking.html", method: "post"}
+  %form{:action => "booking.html", :method => "post"}
     - if flash[:errors]
       %br/
       .flash.errors
         - flash[:errors].each do |field , message|
           = t("booking.#{field}")
-          = message
+          = raw message
           %br/
-    %table{border: "0px", cellpadding: "8", cellspacing: "8", width: "100%"}
+    %table{:border => "0px", :cellpadding => "8", :cellspacing => "8", :width => "100%"}
       %tr
-        %td>
-        2>
-        %label{for: "arrival"}>= t('booking.arrival')
-        \:
-      = succeed "2>" do
-        %td
-      %input#arriving_on{name: "booking[arriving]", size: "35", type: "text", value: ""}/
-      = @booking.arriving
-      " />
-    = succeed "2>" do
-      %td
-    = succeed ":" do
-      %label{for: "nights"}= t('booking.nights')
-  = succeed "2>" do
-    %td
-  %select.nights{name: "booking[nights]"}
-    - [1  , 2 , 3 , 4 , 5 , 6 , 7].each do |ni|
-      %option
-      = 'selected=selected' if @booking.leaving = @booking.arriving.to_s + " " + ni.to_i.day.to_s + " " + ni.to_s
-  %option= t('booking.call')
+        %td{:colspan => "2"}
+          %label{:for => "arrival"}>= t('booking.arrival')
+          \:
+        %td{:colspan => "2"}
+          %input#arriving_on{:name => "booking[arriving]", :size => "35", :type => "text", :value => @booking.arriving}/
+        %td{:colspan => "2"}
+          %label{:for => "nights"}>= t('booking.nights')
+          \:
+        %td{:colspan => "2"}
+          %select.nights{:name => "booking[nights]"}
+            - ["1"  , "2" , "3" , "4" , "5" , "6" , "7"].each do |ni|
+              <option #{raw'selected="selected"' if @booking.leaving == @booking.arriving.to_s + ni.to_i.day.to_s}>#{ni.to_s}
+            %option= t('booking.call')
+      %tr#rooms_day
+        %td{:colspan => "8"}
+          %table
+            %tr
+              %td{:colspan => "2"}
+                = t("booking.room_wish")
+                *:
+            %tr
+              = render :template => "bookings/rooms_day"
+      %tr
+        %td{:colspan => "2"}
+          %label{:for => "name"}>= t('booking.name')
+          \:
+        %td{:colspan => "2"}
+          %input{:name => "booking[name]", :size => "35", :type => "text", :value => @booking.name}/
+        %td{:colspan => "2"}
+          %label{:for => "email"}>= t('booking.email')
+          \:
+        %td{:colspan => "2"}
+          %input{:name => "booking[email]", :size => "35", :type => "text", :value => @booking.email}/
+      %tr
+        %td{:colspan => "2"}
+          %label{:for => "phone"}>= t('booking.phone')
+          \:
+        %td{:colspan => "2"}
+          %input{:name => "booking[phone]", :size => "35", :type => "text", :value => @booking.phone}/
+        %td{:colspan => "2"}
+          %label{:for => "comment"}= t('booking.comment')
+          %br/
+        %td{:colspan => "2"}
+          %textarea{:cols => "35", :name => "booking[comment]", :rows => "2"}= @booking.comment
+    %input#room{:name => "booking[room]", :type => "hidden", :value => params[:room]}/
+    %tr
+      %td{:colspan => "2"}
+        %input{:name => "submit", :type => "submit", :value => t('booking.submit')}/
+      %td{:colspan => "6"}
+%br/
+%b *
+= raw t('booking.confirmation')
+%br/
+%br/
+= raw t('booking.pay')
+/ Google Code for book Conversion Page
+:javascript
+  /*  */
+  var google_conversion_id = 1061735831;
+  var google_conversion_language = "en";
+  var google_conversion_format = "3";
+  var google_conversion_color = "ffffff";
+  var google_conversion_label = "6IfrCOWd_gEQl5uj-gM";
+  var google_conversion_value = 0;
+  /*  */
+%script{:src => "http://www.googleadservices.com/pagead/conversion.js", :type => "text/javascript"}
+%noscript
+  %div{:style => "display:inline;"}
+    %img{:alt => "", :height => "1", :src => "http://www.googleadservices.com/pagead/conversion/1061735831/?label=6IfrCOWd_gEQl5uj-gM&amp;guid=ON&amp;script=0", :style => "border-style:none;", :width => "1"}/
