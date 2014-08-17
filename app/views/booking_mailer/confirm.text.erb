@@ -1,7 +1,0 @@
-<%= t("booking.name") %> : <%= @booking.name %>
-<%= t("booking.email") %> : <%= @booking.email %>
-<%= t("booking.phone") %> : <%= @booking.phone %>
-<%= t("booking.room") %> : <%= @booking.room %>
-<%= t("booking.arriving") %> : <%= @booking.arriving %>
-<%= t("booking.nights") %> : <%= (Date.parse(@booking.leaving.to_s) - Date.parse(@booking.arriving.to_s)).to_i %>
-<%= t("booking.comment") %> : <%= @booking.comment %>
