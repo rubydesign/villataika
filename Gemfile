@@ -24,7 +24,7 @@ group :assets do
 end
 
 group :production do
-  gem 'mysql'
+#  gem 'mysql'
   gem 'uglifier', '>= 1.0'
 end
  
