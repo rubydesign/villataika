@@ -26,5 +26,4 @@ end
 group :production do
 #  gem 'mysql'
   gem 'uglifier', '>= 1.0'
-  gem "lograge"
 end
