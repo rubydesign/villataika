@@ -3,8 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '~> 3.2.15'
 
 gem "haml"
+
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3' , "1.3.10"
   gem 'quiet_assets'
 end
 gem 'email_validator'
