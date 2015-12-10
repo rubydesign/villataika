@@ -1,17 +1,17 @@
-Villataika::Application.routes.draw do 
+Rails.application.routes.draw
 
   root :controller => "page", :action => "index" , :locale => "fi"
 
-  scope "/:locale" do 
+  scope "/:locale" do
     scope "villa" do
-      resources :bookings      
+      resources :bookings
     end
 
-    get "/bookings/rooms_day.html" ,     :to => 'bookings#rooms_day' 
+    get "/bookings/rooms_day.html" ,     :to => 'bookings#rooms_day'
 
-    get "/booking.html" ,     :to => 'bookings#booking' 
-    post "/booking.html" ,     :to => 'bookings#booking'  
-    get "/confirm.html" ,     :to => 'bookings#confirm'  
+    get "/booking.html" ,     :to => 'bookings#booking'
+    post "/booking.html" ,     :to => 'bookings#booking'
+    get "/confirm.html" ,     :to => 'bookings#confirm'
 
     get '/:page.html',
         :to => 'page#index',
@@ -23,5 +23,5 @@ Villataika::Application.routes.draw do
           :locale => 'fi'
         }
       end
-        
+
 end
