@@ -8,6 +8,7 @@ group :development, :test do
   gem 'sqlite3' , "1.3.10"
   gem 'quiet_assets'
 end
+
 gem 'email_validator'
 gem 'json'
 
@@ -25,6 +26,6 @@ group :assets do
 end
 
 group :production do
-#  gem 'mysql'
+  gem 'newrelic_rpm'
   gem 'uglifier', '>= 1.0'
 end
