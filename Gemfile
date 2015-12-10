@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2.15'
+gem 'rails' 
 
 gem "haml"
 
@@ -12,18 +12,11 @@ end
 gem 'email_validator'
 gem 'json'
 
-# Gems used only for assets and not required
-# in production environments by default.
-group :assets do
-  gem 'sass-rails',   '~> 3.2'
-  gem 'coffee-rails', '~> 3.2'
-  gem 'jquery-ui-rails'
-  gem 'jquery-rails'
-  gem "therubyracer"
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-
-end
+gem 'sass-rails'
+gem 'coffee-rails'
+gem 'jquery-ui-rails'
+gem 'jquery-rails'
+gem "therubyracer"
 
 group :production do
   gem 'newrelic_rpm'
