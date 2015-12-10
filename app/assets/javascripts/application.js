@@ -12,6 +12,6 @@
 //
 //= require jquery.min
 //= require jquery_ujs
-//= require jquery.ui.datepicker
-//= require jquery.colorbox-min
+//= require jquery-ui.datepicker
+//= require jquery.colorbox
 //= require book

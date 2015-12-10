@@ -1,12 +1,15 @@
 source 'https://rubygems.org'
 
-gem 'rails' 
+gem 'rails'
 
 gem "haml"
+gem "susy"
 
 group :development, :test do
   gem 'sqlite3' , "1.3.10"
   gem 'quiet_assets'
+  gem 'byebug'
+  gem 'web-console', '~> 2.0'
 end
 
 gem 'email_validator'

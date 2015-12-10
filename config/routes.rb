@@ -1,4 +1,4 @@
-Rails.application.routes.draw
+Rails.application.routes.draw do
 
   root :controller => "page", :action => "index" , :locale => "fi"
 
@@ -22,6 +22,5 @@ Rails.application.routes.draw
           :page => "index",
           :locale => 'fi'
         }
-      end
-
+  end
 end
