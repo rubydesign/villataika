@@ -1,5 +1,6 @@
 
 @import "susy" ;
+@import "breakpoint" ;
 
 $susy: layout(12 1/2 fluid float center);
 
@@ -80,7 +81,6 @@ div.left2 {
   background: url('/images/li_low.jpg') no-repeat;
   padding: 0px;
   font-weight: bold;
-  width: 140px;
   margin-left: -20px;
   height: 38px;
 }
@@ -175,7 +175,7 @@ h4 {
 
 .rcontent {
   position: relative;
-  padding: 25px 0px 0px 20px;
+  padding-top: 25px;
 
   div.right ul {
     font-size: 1.1em;
@@ -290,19 +290,18 @@ line-height: 1.4em;
 
 }
 
-.rcontent div.activitybox div.boxinner {
-padding-top: 5px;
-padding-left: 5px;
-padding-top: 5px;
+.activitybox .boxinner {
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
   text-align: justify;
 }
 
-.captionedimage
-{
-position: relative;
-padding-bottom: 15px;
-float: left;
-margin-right: 17px;
+.captionedimage {
+  position: relative;
+  padding-bottom: 15px;
+  float: left;
+  margin-right: 17px;
 }
 
 .captionedimage div {
@@ -339,11 +338,19 @@ margin-right: 17px;
 }
 
 .lotus {
-  @include span( first 9 of 24);
+  @include span(first 1 of 24 );
+  visibility: hidden;
+  @include breakpoint(700px) {
+    visibility:visible;
+    @include span( first 9 of 24);
+  }
 }
 
 .aurinko_box {
-  @include span(last 14 of 24);
+  @include span( last 23 of 24 );
+  @include breakpoint(700px) {
+    @include span(last 14 of 24);
+  }
 }
 
 .aurinko_pic {
@@ -379,12 +386,10 @@ margin-right: 17px;
 .fb-like{
   margin-top: 15px;
 }
+
 div.kolmas {
   width: 33%;
   float: left;
-}
-
-.left {
 }
 
 .widebox {
@@ -420,28 +425,27 @@ img {
   border-style: none;
 }
 
-.rcontent div.activitybox div.boxinner a img {
+.activitybox .boxinner a img {
   float: left;
   margin-right: 10px;
 }
 
-.rcontent div.activitybox div.boxinner a h2 {
+.activitybox div.boxinner a h2 {
   margin-bottom: 10px;
 }
 
-.footer
-{
-clear: both;
-background: url('/images/a3.gif') repeat-x;
-margin: 0px auto;
-margin-bottom: 25px;
-padding-top: 18px;
-text-align: center;
-line-height: 18px;
+.footer {
+  clear: both;
+  background: url('/images/a3.gif') repeat-x;
+  margin: 0px auto;
+  margin-bottom: 25px;
+  padding-top: 18px;
+  text-align: center;
+  line-height: 18px;
 }
 
-.rcontent div.line {
-border-bottom: solid 1px #c0dce0;
+.line {
+  border-bottom: solid 1px #c0dce0;
   float: left;
   width : 100%;
   margin-bottom: 10px;
