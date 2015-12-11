@@ -1,32 +1,28 @@
 .wide_bedbox
-  .bedbox
-    = raw t("bed.one")
+  = raw t("bed.one")
 .widebox
-  %br/
-  .smallbox
+  .bedbox
     = link_to  "/#{@locale}/suites.html" do
       = t("suites.short")
-      <img src="/images/sun_small.jpg"
-      alt=#{t('suites.short')}
-      height="187px"  width="250px" />
+      = image_tag "/images/sun_small.jpg", :alt => t('suites.short'), :width => "90%"
+    %br/
     %br/
     = t('bed.suites')
-  .smallbox
+  .bedbox
     = link_to "/#{@locale}/deluxe.html" do
       = t("deluxe.short")
-      <img src="/images/orange_small.jpg"
-      alt=#{t('deluxe.short')}
-      height="187px"  width="250px" />
+      = image_tag "/images/orange_small.jpg", :alt => t('deluxe.short'), :width => "90%"
+    %br/
     %br/
     = t('bed.deluxe')
-  .smallbox
+  .bedbox
     = link_to "/#{@locale}/standard.html" do
       = t("standard.short")
-      %img{:alt => t('standard.short'), :height => "187px", :src => "/images/rose_small.jpg", :width => "250px"}/
+      = image_tag "/images/rose_small.jpg", :alt => t('standard.short'), :width => "90%"
+    %br/
     %br/
     = t('bed.standard')
 %br/
 .wide_bedbox
-  .bedbox
-    = raw t("bed.two")
+  = raw t("bed.two")
 .divider
