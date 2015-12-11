@@ -4,10 +4,9 @@ class CreateBookings < ActiveRecord::Migration
       t.string  :email
       t.date    :arriving
       t.string  :name
-      t.string  :street
-      t.string  :town
+      t.string  :comment
       t.string  :phone
-      t.date    :leaving
+      t.integer :nights
       t.integer :room_id
       t.timestamps
     end
