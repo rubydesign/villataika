@@ -49,22 +49,18 @@ strong {
   font-style: italic;
 }
 
-div.right {
-  position: relative;
-  float:left;
-  width: 230px;
-  padding-left: 15px;
-}
 
-div.left {
-  position: relative;
-  float:left;
+.left {
+  @include span(first 6 of 12);
 }
-div.left2 {
-  position: relative;
-  float: left;
-  width: 140px;
-  padding-left: 15px;
+.left2 {
+  @include span(last 6 of 12);
+  .left_img {
+    @include span(first 4 of 12);
+  }
+  .left_list {
+    @include span(last 8 of 12);
+  }
 }
 
 
