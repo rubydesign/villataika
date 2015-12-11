@@ -260,7 +260,7 @@ p {
 .box {
   position: relative;
   border-bottom: solid 1px #c0dce0;
-  height: 180px;
+  min-height: 180px;
 }
 
 .boxinner h2 {
@@ -271,14 +271,13 @@ p {
   margin-top: 0px ;
 }
 
-.boxinner
-{
-border: solid 1px #fff;
-padding: 16px;
-color: inherit;
-font-size: 13px;
-line-height: 1.4em;
-
+.boxinner {
+  border: solid 1px #fff;
+  padding: 16px;
+  color: inherit;
+  font-size: 13px;
+  line-height: 1.4em;
+  margin-bottom: 10px;
 }
 
 .activitybox .boxinner {
