@@ -1,27 +1,27 @@
 en:
-  activities: 
+  activities:
     all: swim , forest , row , garden , fiskars , hanko , raasepori , groups
     short: Activities
     swim:
       short: Swimming in clean lakes
       rest: There are several opertunities to go swimming. The closest beach on Isosimi lake is about 200m walk.
-          There are three more family friendly beaches a few minutes drive away by car or bicycle. 
+          There are three more family friendly beaches a few minutes drive away by car or bicycle.
     forest:
       short: Walk or cycle through woods
-      rest: There are many unpaved paths through the surrounding nature reseve. 
-            Bring your own bicycle, get one from us or walk to explore the surrounding nature. 
+      rest: There are many unpaved paths through the surrounding nature reseve.
+            Bring your own bicycle, get one from us or walk to explore the surrounding nature.
     row:
       short: Rowing or fishing, time off
-      rest: It is possible to rent the rowing boat for a small fee and spend some quiet time on 
+      rest: It is possible to rent the rowing boat for a small fee and spend some quiet time on
             the lake just a few minutes away. For groups canoe trips can be arranged.
     garden:
       short: Relax in peace
-      rest: Our lovely and large garden has several spaces to retreat, and to the beautiful sound of the 
+      rest: Our lovely and large garden has several spaces to retreat, and to the beautiful sound of the
             waterfall you may not want to leave.
     fiskars:
       short: Fiskars & Bilnas Villages
-      rest: The beautifully restored art and craft centre of Fiskars is just a 5 minutes drive away. 
-            There are handicraft shops, workshops, cafes and restaurants. 
+      rest: The beautifully restored art and craft centre of Fiskars is just a 5 minutes drive away.
+            There are handicraft shops, workshops, cafes and restaurants.
             Bilnas, another old ironwork centre, is just over 10 minutes drive.
     hanko:
       short: Tammisaari and Hanko, old towns
@@ -29,24 +29,24 @@ en:
             day trip, Tammisaari is just over half an hours drive and Hanko slightly further.
     raasepori:
       short: Raasepori and Mustio
-      rest: The old stone castle of Raasepori, now the namesake of the region is close by. 
+      rest: The old stone castle of Raasepori, now the namesake of the region is close by.
             Also the grand castle of Mustio is just 15 minutes away where you can have a dinner or enjoy a cuppa by the lake.
     groups:
       short: Group activities
-      rest: <a href="http://www.kdadventure.com/fi/activities/kursseja/">KD Adventure</a>, can 
-            arrange a variety of group activities, like nature courses,canoing, themed evenings, coal walking 
+      rest: <a href="http://www.kdadventure.com/fi/activities/kursseja/">KD Adventure</a>, can
+            arrange a variety of group activities, like nature courses,canoing, themed evenings, coal walking
             and paintball.  Best of all, they are just next door, so you can enjoy a shower and warm
             bed in Villa Taika, after an adventourous day.
   booking:
     short: Reservation
     received: Your booking was received.
     error: Please fill out all fields, and check your email and date.
-    booking1: You can book by phone , +358 40 704 6689 between 10:00 and 19:00, or send us mail, 
-                      or use the form below. 
-    booking2: Please fill out all fields. If you do do not want to book a certain room, 
-            you may use Suite/Deluxe/standard for the room field. <br/> 
-            Also remember that all rooms have a double bed. So if there is more than 2 of you, 
-            please add to the comment. 
+    booking1: You can book by phone , +358 40 704 6689 between 10:00 and 19:00, or send us mail,
+                      or use the form below.
+    booking2: Please fill out all fields. If you do do not want to book a certain room,
+            you may use Suite/Deluxe/standard for the room field. <br/>
+            Also remember that all rooms have a double bed. So if there is more than 2 of you,
+            please add to the comment.
     name: Full name
     email: Email address
     arriving: Date of arrival
@@ -58,16 +58,14 @@ en:
     confirmation: Booking request are subject to confirmation. Bookings over 1 night require a pre-payment of 25%.
     pay:  |-
         If you wish to pay upon confirmation, our bank account is Nordea FI61 1014 3500 1363 18 <br/>
-        Payments may also be made by PayPal to our email info@villataika.fi <br/>  
-        Otherwise the charge is due upon arrival and must be paid in cash.<br/> 
-    pay_button: Pay 
+        Payments may also be made by PayPal to our email info@villataika.fi <br/>
+        Otherwise the charge is due upon arrival and either in cash, or by credit card.<br/>
+    pay_button: Pay
     submit: Send booking
-    payson:      Alternatively you can use Payson with our email.  
-                  For example by using the appropriate button below:<br/>
-  groups: 
+  groups:
     short: Groups
     right: In many ways Villa Taika is well suited to accomodate courses and other group happenings.<br/><br/>
-          <ul> 
+          <ul>
             <li> large group room</li>
             <li> large garden</li>
             <li> high quality sound + video</li>
@@ -78,11 +76,11 @@ en:
             <li> nearby activities</li>
             <li> vegetarian food</li>
           </ul>
-    bottom: 
+    bottom:
       Our beautifully decorated group space has a good size to allow many activities with enough space, be it
       yoga, dancing, body work or other group work. <br/>
       Our garden is large and open, and well suited for quiet activities . <br/>
-      The group space is also well equipped with a high quality steoro system and a video projector is 
+      The group space is also well equipped with a high quality steoro system and a video projector is
       available if needed. <br/>
       For quiet group work we have blankets and sitting cousions for participants. <br/>
       During courses it is possible to use our large, wood heated sauna, and our small pool. <br/>
@@ -91,40 +89,40 @@ en:
       There are many local activities for groups that are not courses, see our <a href="/en/activities.html">activities
       page</a>. <br/>
       We offer vegetarian or vegan food, prepared with love. <br/>
-      Prices and details subject to negotiation. Full board prices with use of group room and sauna range 
+      Prices and details subject to negotiation. Full board prices with use of group room and sauna range
       from 55-80€, with prices depending on group size and food requirements. <br/> <br/>
-  map: 
+  map:
     short: Map
-    one:  <b>Villa Taika</b>  is located in Antskog 4km north of Fiskars  to the direction of Karjalohja (north). 
+    one:  <b>Villa Taika</b>  is located in Antskog 4km north of Fiskars  to the direction of Karjalohja (north).
     two: Villa Taika is an old , white local school house next to the main road through Antskog.
     three: Coming from Fiskars it is the third house on the right in the Antskog village.
     four: We have lakeview from both sides of the house, and there is beautiful nature around for walks.
-  news: 
+  news:
     all: saffron , deco , eco
     short: News
-    saffron: 
+    saffron:
       short: Wonderful new Saffron suite!
       rest: Beautiful eastern pilars decorate the Saffron suite and  the raised ceiling
             brings a wonderful sense of space.<br>
-            It has a ensuite, sunshine wc and shower :) 
+            It has a ensuite, sunshine wc and shower :)
       image: saffron
-    deco: 
+    deco:
         short: Affordable accommodation in redocorated granery
         rest: On the yard we have room granary 75€/ 2hh. Room is traditionally decorated. <br/>
               Traditional log cabin that is decorated with afour poster bed. two peple can sleep in it.
              Shower and toilet are in the main building.
         image: renovate
-    eco: 
-      short: Ecological energy. 
+    eco:
+      short: Ecological energy.
       rest: Villa Taika now uses only renewable enery <br/>
-            We have installed a new wood heating sytem. A modern wood gasification stove now produces most of the 
+            We have installed a new wood heating sytem. A modern wood gasification stove now produces most of the
             energy neeeded. But also a water circulating fireplace contributes to the heating of the house. <br/>
             Additionally we installed a very energy efficient heat pump in our breakfast lounge.<br/>
             The electricity powering the pump, and indeed the whole house is 100% renwable, like wind and
-            water power, bought from Kraft and Kultur.  
+            water power, bought from Kraft and Kultur.
       image: renewable
-  photos: 
-    all: w_pavillion , w_kukkat , w_piha , w_frogs , w_terasse, w_peony , h_aurinko_wc , h_curves , h_lootus_wc ,h_highview  
+  photos:
+    all: w_pavillion , w_kukkat , w_piha , w_frogs , w_terasse, w_peony , h_aurinko_wc , h_curves , h_lootus_wc ,h_highview
     short: Photos
     w_pavillion: Pavillion
     w_kukkat: Flowers in Garden

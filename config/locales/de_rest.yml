@@ -1,10 +1,10 @@
 de:
-  activities: 
+  activities:
     all: swim , forest , row , garden , fiskars , hanko , raasepori , groups
     short: Aktivitäten
     swim:
       short: Schwimmen im sauberen Seen
-      rest:  In Fussnähe befinden sich mehrere Bademöglichkeiten. Der näheste See, Iso–Simi, ist etwa 200m 
+      rest:  In Fussnähe befinden sich mehrere Bademöglichkeiten. Der näheste See, Iso–Simi, ist etwa 200m
         entfernt. Mehrere Seen haben Sandstrand und können per Fahrrad (kostenlos) erreicht werden.
     forest:
       short: Sparziergang im Naturschutzgebiet.
@@ -13,44 +13,44 @@ de:
             die kostenlos von Villa Taika geliehen werden können.
     row:
       short: Rudern, Fischen, Zeit zum entspannen
-      rest: Ein Ruderboot kann für eine kleine Gebühr geliehen werden. Damit lässt sich auf dem Nah delegenen 
+      rest: Ein Ruderboot kann für eine kleine Gebühr geliehen werden. Damit lässt sich auf dem Nah delegenen
             See fischen, oder auf eine entspannte Tour gehen. Für Gruppen können auch Kanutours arrangiert werden.
     garden:
       short: Enspannen und Ruhe
-      rest: Wir haben einen grossen und mit Liebe angelegten Garten der zum Entspannen einlädt. Mehrere 
+      rest: Wir haben einen grossen und mit Liebe angelegten Garten der zum Entspannen einlädt. Mehrere
             Sitzgelegenheiten laden ein, und das geplätscher des Wasserfalls lullt und entspannt.
     fiskars:
       short: Fiskars & Billnäs Dörfer
-      rest: Das liebevoll restaurierten Handwerks-zentrum Fiskars ist nur eine kurze Fahrt entfernt, 
-          und bietet lokales Handwerk zum Kauf, und mehrer Workshops 
-          sind zur Besichtigung offen. 
+      rest: Das liebevoll restaurierten Handwerks-zentrum Fiskars ist nur eine kurze Fahrt entfernt,
+          und bietet lokales Handwerk zum Kauf, und mehrer Workshops
+          sind zur Besichtigung offen.
           Billnäs ist ebenfalls eine altes Eisenwerk und befindet sich knapp über 10 Minuten entfernt.
     hanko:
       short: Tammisaari und Hanko, alte Städte
-      rest: Tammisaari und Hanko sind beide schöne alte Städte am Meer. Mit vielen alten Holzhäusern und schönen 
+      rest: Tammisaari und Hanko sind beide schöne alte Städte am Meer. Mit vielen alten Holzhäusern und schönen
             Fussgängerzonen sind sie ideal für Tagesreisen.
     raasepori:
       short: Raasepori und Mustio
-      rest: Das alte Schloss von Raasepori, eines der ältesten in Finnland, gibt der Region den Namen und befindet 
-            sich nur etwa eine halbe Stunde entfent. 
+      rest: Das alte Schloss von Raasepori, eines der ältesten in Finnland, gibt der Region den Namen und befindet
+            sich nur etwa eine halbe Stunde entfent.
             Das alte Herrenhaus in Mustio ist auch sehr nah und lädt mit seinen grossen Gärten zum weilen ein.
     groups:
       short: Gruppenaktivitäten
-      rest: Unser <a href="http://www.kdadventure.com/fi/activities/kursseja/">Nachbar</a> arrangiert für 
+      rest: Unser <a href="http://www.kdadventure.com/fi/activities/kursseja/">Nachbar</a> arrangiert für
             Gruppen eine Anzahl von Aktivitäten. Zum Beispiel Kanutrips, Kohlenlaufen, Themenabende und
             Wilderniskurse.
   booking:
     short: Buchung
-    header: Buchung   
+    header: Buchung
     received: Ihre Buchung wurde empfangen.
-    error: Bitte alle Felder ausfüllen, auch Email und Datum. 
+    error: Bitte alle Felder ausfüllen, auch Email und Datum.
     booking1: Sie können per email buchen, das Formular ausfüllen, oder uns zwischen 10:00 and 19:00
-              unter +358 40 704 6689 anrufen.  
-    booking2: Für das Formular werden alle Felder benötigt. Als Zimmer kann auch eine Kategorie angegeben werden 
+              unter +358 40 704 6689 anrufen.
+    booking2: Für das Formular werden alle Felder benötigt. Als Zimmer kann auch eine Kategorie angegeben werden
             (also Suite / Deluxe / Standard). <br/>
             Alle Zimmer sind mit einem Doppelbett ausgestattet, bitte geben Sie
             eventuelle Extra-Betten im Kommentar Feld an.
-            
+
     name: Vor und Nachname
     email: Email Addresse
     arriving: Ankunftsdatum
@@ -63,17 +63,15 @@ de:
         Die Buchung wird innerhalb eines Arbeitstages bestätigt. <br/>
         Bei Buchungen von zwei oder mehr Nächten ist eine Anzahlung von 25% zur Buchungsbestätigung fällig.
     pay:  |
-           Sie könnnen nach der Bestätigung per Überweisung bezahlen: Kontonummer Nordea FI61 1014 3500 1363 18 <br/> 
+           Sie könnnen nach der Bestätigung per Überweisung bezahlen: Kontonummer Nordea FI61 1014 3500 1363 18 <br/>
            oder per PayPal auf die email info@villataika.fi <br/>
-           Ansonsten können Sie bei Ankunft in Bar bezahlen.<br/> 
-    pay_button: Bezahlen 
+           Ansonsten können Sie bei Ankunft in Bar oder mit Kreditkarte bezahlen.<br/>
+    pay_button: Bezahlen
     submit: Buchen
-    payson:  Alernativ können Sie einen der Payson Buttons um bezahlen benutzen, oder auch über PayPal und unsere 
-            email addresse überweisen.
-  groups: 
+  groups:
     short: Gruppen
     right: Villa Taika eignet sich gut für Kurse oder andere Gruppenaktivitäten.<br/><br/>
-          <ul> 
+          <ul>
             <li> grosser Gruppen-Saal </li>
             <li> grosser Garten </li>
             <li> gutes Sound und Video Equipment</li>
@@ -87,42 +85,42 @@ de:
     bottom: |-
       Unser Saal ist auf schöne Weise eingerichtet und gross genug für viele Aktivitäten, zb Yoga, Tanzen,
       Körperarbeit oder andere Gruppenarbeit. <br/>
-      Der Garten ist gross und offen. Er eignet sich gut für ruhige Aktivitäten wie Yoga oder Meditation, 
+      Der Garten ist gross und offen. Er eignet sich gut für ruhige Aktivitäten wie Yoga oder Meditation,
       und bietet auch genug Sitzmöglichkeiten (auch bedacht) für Gruppen. <br/>
-      Der Saal ist ausgerüstet mit einem hochqualitativen Audio System, und auch ein Videoprojektor ist 
+      Der Saal ist ausgerüstet mit einem hochqualitativen Audio System, und auch ein Videoprojektor ist
       vorhanden. <br/>
       Für ruhige Arbeit oder Pausen stehen Decken und Kissen zur Verfügung. <br/>
       Die Sauna ist auch für grösserer Gruppen geeignet und zum abkühlen haben wir einen kleinen Pool. <br/>
       In den 8 Zimmern können bequem 20 und mit Extra-Betten bis zu 30 Personen übernachten.<br/>
       Zusätzlich zu den lokalen Restaurants bieten wir auch vegetarisches Essem im Haus an. <br/>
       Preise sind von vielen Faktoren abhängig, bitte setzen Sie sich mit uns in Verbindung um ein geeignetes
-      Paket zu schnüren. Speziell abhängig von Gruppengrösse, Jahreszeit und Mahlzeiten sind Preise zwischen 55 bis 
+      Paket zu schnüren. Speziell abhängig von Gruppengrösse, Jahreszeit und Mahlzeiten sind Preise zwischen 55 bis
       75 pro Person und Tag für Vollpension mit Saalbenutzung üblich. <br/> <br/>
-  map: 
+  map:
     short: Karte
-    one:  <b>Villa Taika</b>  befindet sich in dem Dorf Antskog, 4km nördlich von Fiskars, ca 100km west von 
-          Helsinki. 
+    one:  <b>Villa Taika</b>  befindet sich in dem Dorf Antskog, 4km nördlich von Fiskars, ca 100km west von
+          Helsinki.
     two: Villa Taika ist ein grosses weisses Haus auf einem kleinen Hügel, direkt an der Strasse durch Antskog.
     three: Von Fiskars kommend ist Villa Taika das <em>dritte</em> Haus auf der rechten Seite.
-    four: Direkt vom Haus kann man zwei Seen sehen, und die Natur lädt zum Spazierengehen ein. 
-  news: 
+    four: Direkt vom Haus kann man zwei Seen sehen, und die Natur lädt zum Spazierengehen ein.
+  news:
     short: Neues
-    deco: 
+    deco:
         short: Rustikale Unterkunft im renovierten Blockhaus
         rest: Wir haben Teil des Hofgebebäudes renoviert und ein schönes Blockhaus-Zimmer mit Himmelbett
               ausgestattet. Das einfache aber bezaubernde Zimmer kostet 75€ für zwei Personen. <br/>
               Toilette und Dusche befinden sich im Hauptgebäude.
         image: renovate
-    eco: 
+    eco:
       short: Ököenergie
       rest: Villa Taika ist jetzt komplett auf erneuerbare Energie umgestiegen <br/>
-            Zusätlich zu dem schon vor einigen Jahren installiertem Wasserführendem Kamin, haben wir 
-            eine neuen Holzkessel installiert. Der moderne Holzvergaser glänzt mit einem Wirkungsgrad von bis 
+            Zusätlich zu dem schon vor einigen Jahren installiertem Wasserführendem Kamin, haben wir
+            eine neuen Holzkessel installiert. Der moderne Holzvergaser glänzt mit einem Wirkungsgrad von bis
             zu 91%. <br/>
             Zusätzlich ist eine neue Wärmepumpe mit einem cop Wert von 5,6 zum Energiemix dazugekommen.
-            Aber auch die elektrische Energie ist 100% erneuerbar, dank der Firma Kraft and Kultur.  
+            Aber auch die elektrische Energie ist 100% erneuerbar, dank der Firma Kraft and Kultur.
       image: renewable
-  photos: 
+  photos:
     short: Photos
     w_pavillion: Pavillion
     w_kukkat: Blumen im Garten
@@ -132,5 +130,5 @@ de:
     w_terasse: Terasse im Garten
     h_aurinko_wc: Sonnen Suite
     h_curves: Sonnen Suite
-    h_lootus_wc: Lotus suite 
+    h_lootus_wc: Lotus suite
     h_highview: Villa Taika von hoch oben

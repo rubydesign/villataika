@@ -1,16 +1,16 @@
 fi:
   all: swim , forest , row , garden , fiskars , hanko , raasepori , groups
-  activities: 
+  activities:
     short: Tekemistä
-    swim: 
+    swim:
       short: Uimista läheisissä järvissä
       rest: Lähin järvi on Isosimi, jonka uimapaikkaan on 200m. Villa Taian lähiympäristössä on muitakin järviä,
-        joista monet sopivat myös perheen pienimpienkin polskutteluun. Niihin on vain muutaman minuutin matka autolla 
+        joista monet sopivat myös perheen pienimpienkin polskutteluun. Niihin on vain muutaman minuutin matka autolla
         tai polkupyörällä.
     forest:
       short: Kävelyä tai pyöräilyä lähimetsissä
       rest: Metsissä löytyy pikkupolkuja, joilla voi patikoida tai pyöräillä.
-            Voit tehdä lyhyitäkin retkiä läheiseen Iso-Simin luonnonsuojelualueelle.  
+            Voit tehdä lyhyitäkin retkiä läheiseen Iso-Simin luonnonsuojelualueelle.
             Tuo retkipyörä mukanasi, mutta meiltä saat pyörän lainaksi, jos haluat vaikka Fiskarsiin pyöräillä
     row:
       short: Soutelua
@@ -22,7 +22,7 @@ fi:
               ja nauttia olostasi vesiputouksen solistessa rauhoittavsti.
     fiskars:
       short: Fiskarsin ruukki
-      rest: Fiskarsin ruukki on ihana elämys . Siellä on pikku liikkeitä, jotka myyvät paikallisten 
+      rest: Fiskarsin ruukki on ihana elämys . Siellä on pikku liikkeitä, jotka myyvät paikallisten
             käsityöläisten valmistamia kauniita esineitä. Myös hienot taidenäyttelyt rikastuttavat päivääsi.
             Fiskarsissa Ihanat kahvilat ja ravintolat tarjoavat maukasta ruokaa tai kahvia ja pikkupurtavaa.
             Sinne on vain 5 minuutin automatka
@@ -34,46 +34,44 @@ fi:
     raasepori:
       short: Raaseporin linna ja Mustio
       rest: Raaseporin vanhat ja komeat linnarauniot ovat alle puolentunnin matkan päässä.
-       Ja upea Mustion linna ja sen kaunis puutarha vain, 20 min ajomatkan päässä.Mustiossa on myös 
+       Ja upea Mustion linna ja sen kaunis puutarha vain, 20 min ajomatkan päässä.Mustiossa on myös
        tunnelmallinen ravintola,jossa voi aterioida tai juoda kupposen kahvia.
     groups:
       short: Ryhmille
-      rest: <a href="http://www.kdadventure.com/fi/activities/kursseja/">KD Adventure</a> 
-           Naapurissamme toimiva yritys voi järjestää ryhmille toimintaa. Vaikkapa luontoretkiä, kanoottiretkiä, 
-           paintballia  tai tulisilla hiilillä kävelyä uskaliaimmille. 
+      rest: <a href="http://www.kdadventure.com/fi/activities/kursseja/">KD Adventure</a>
+           Naapurissamme toimiva yritys voi järjestää ryhmille toimintaa. Vaikkapa luontoretkiä, kanoottiretkiä,
+           paintballia  tai tulisilla hiilillä kävelyä uskaliaimmille.
   booking:
     short: Varaus
     header: Huonevaraus
     received: Olemme vastaanottaneet varauksesi
     error: Voitko ystävällisesti täyttää kaikki kentät. Tarkista s-postiosoitteesi ja päivämäärä, kiitos.
-    booking1: "Voit tehdä varauksen puhelimitse 040 704 6689 kello 10:00 ja 19:00 välillä, lähettämällä s-postia 
+    booking1: "Voit tehdä varauksen puhelimitse 040 704 6689 kello 10:00 ja 19:00 välillä, lähettämällä s-postia
                       tai käyttämällä alla olevaa kaavaketta. "
-    booking2: "Täytä kaikki kentät. Jos et halua varata tiettyä huonetta, 
-            voit käyttää eri huonekategorioita Sviitti/Deluxe/Standard. <br/> 
-            Kaikissa huoneissa on kaksoisvuode. Jos teitä on useampi tai haluatte erilliset vuoteet, 
+    booking2: "Täytä kaikki kentät. Jos et halua varata tiettyä huonetta,
+            voit käyttää eri huonekategorioita Sviitti/Deluxe/Standard. <br/>
+            Kaikissa huoneissa on kaksoisvuode. Jos teitä on useampi tai haluatte erilliset vuoteet,
             lisää se huomiokenttään. "
 
     name: Koko nimesi
     email: Sähköpostiosoitteesi
     arriving: Saapumispäivä
     phone: Puhelinnumerosi
-    nights: Öiden määrä 
-    call: Soita 
+    nights: Öiden määrä
+    call: Soita
     room: Huone
     room_wish: Huonetoive
     comment: Huom!
-    confirmation: Huonevaraus ei ole voimassa ennen kuin olette saaneet vahvistuksen siihen. 
-    pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea FI61 1014 3500 1363 18 / Villa Taika<br/> 
-          Paikanpäällä voi maksaa käteisellä tai kortilla.<br/> 
-    pay_button: Maksa 
+    confirmation: Huonevaraus ei ole voimassa ennen kuin olette saaneet vahvistuksen siihen.
+    pay:  Jos haluatte maksaa tilille, tilinumeromme on Nordea FI61 1014 3500 1363 18 / Villa Taika<br/>
+          Paikanpäällä voi maksaa käteisellä tai kortilla.<br/>
+    pay_button: Maksa
     submit: Lähetä varaus
-    payson:     Jos haluatte maksaa luottokortilla käyttäkää Payson palvelua. Tilimme on info@villataika.fi.  
-                  Payson palveluun pääset alla olevaa Payson tunnusta klikkaamalla:<br/>
   groups: 
     short: Ryhmille
-    link: 
-    right: 
-           <ul> 
+    link:
+    right:
+           <ul>
             <li> iso ryhmätila</li>
             <li> iso puutarha</li>
             <li> korkealuokkaiset äänentoisto laitteet</li>
@@ -92,8 +90,8 @@ fi:
           Pihamme on iso ja avoin. Sitä voi käyttää hiljaisiin ryhmäharjoituksiin.<br/>
           Kurssin aikana on mahdollista saunoa puulämmitteisessä saunassamme.<br/>
           Hinnasta ja yksityiskohdista voimme neuvotella. Täysihoito on 55-80€, riippuen ryhmän koosta ja ruokatoiveista.<br/>
-    
-          Talomme sijaitsee erittäin luonnonkauniissa ympäristössä. 
+
+          Talomme sijaitsee erittäin luonnonkauniissa ympäristössä.
           Kävelymatkan päässä on 5 eri järveä ja luonnonsuojelualue. <br/>
           Ota yhteyttä!
 
@@ -102,35 +100,35 @@ fi:
             <br/>
             <a href="groups_extra.html"> Hinnat ja lisätieto </a>
 
-  map: 
+  map:
     short: Kartta
     one: Villa Taika  sijaitsee Antskogissa 4km Fiskarsista  Karjalohjalle päin.
     two: Villa Taika on vanha, valkoinen kansakoulu Antskogin päätien varressa.
-    three: Fiskarsista päin olemme kolmas talo oikealla Antskogissa. 
+    three: Fiskarsista päin olemme kolmas talo oikealla Antskogissa.
     four: Talon molemmilta puolilta näkyy läheiset järvet. Ympärillä on kauniit kävelymaastot.
-  news: 
+  news:
     short: Uutiset
-    saffron: 
+    saffron:
       short: Uusi ihana Saffron sviitti!
       rest: Saffron sviittiä koristaa kauniit itämaiset maäntypylväät. <br/>
           Ja kohotettu katto tuo upeaa tilantunnetta.
-           Siinä on oma aurinkoisenvärinen wc ja suihku :) 
+           Siinä on oma aurinkoisenvärinen wc ja suihku :)
       image: saffron
-    deco: 
+    deco:
       short: Edullinen majoitus kauniissa ulko aitassamme.
       rest: Ulko aitassamme on edullinen majoitusvaihtoehto 75€/ 2hh. Huone on tyylikäs ja tunnelmallinen. <br/>
           Perinteisen kauniin hirsi seinän kanssa on kultainen pylvässänky. Huoneeseen mahtuu 2 hlöä.
-           Suihku ja wc ovat päärakennuksessa. Halutessasi voit käyttää biologista, kemiallista wc:tä 
+           Suihku ja wc ovat päärakennuksessa. Halutessasi voit käyttää biologista, kemiallista wc:tä
       image: renovate
-    eco: 
-      short: Uusiutuva energia 
+    eco:
+      short: Uusiutuva energia
       rest: Villa Taika käyttää vain uusiutuvia energiamuotoja <br/>
               Olemme asentaneet uuden puupannun Villa Taikaan. Moderni puupannu tuottaa suurimman osan
               talomme energiasta. Mutta vesikiertoinen takkamme tuo osansa talon lämmitys energiasta. <br/>
               Lisäksi asensimme erittäin energia taloudellisen ilmalämpöpumpun aamiaissaliimme.<br/>
               Kaikki talomme käyttämä sähkö on yrityksestä, joka myy ainoastaan tuuli-ja vesi sähköä. Yrityksen nimi on Kraft&Kultur.
       image: renewable
-  photos: 
+  photos:
     short: Kuvat
     w_pavillion: Taika paviljonki
     w_kukkat: Punaiset liljat

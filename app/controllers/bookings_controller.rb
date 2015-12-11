@@ -16,20 +16,18 @@ class BookingsController < ApplicationController
   end
 
   def booking
-    @days = params[:days] ? params[:days].to_i : 1
-    @page = "booking"
+    @booking = Booking.new
     if request.post?
-      @booking = Booking.new
       @booking.update_attributes(params_for_model)
-      if @booking.valid?
+      puts "room #{@booking.room_id}"
+      if @booking.save
         BookingMailer.confirm(@booking).deliver
-        redirect_to :action => :confirm
+        render :confirm
         return
       else
         flash.now[:errors] = @booking.errors
       end
     end
-    @booking ||= Booking.new
   end
 
   def confirm
@@ -84,7 +82,7 @@ class BookingsController < ApplicationController
     @rooms = Room.all
   end
   def params_for_model
-    params.require(:booking).permit(:arriving, :nights, :email, :phone, :comment, :room)
+    params.require(:booking).permit(:arriving, :nights, :email, :phone, :comment, :room_id ,:name)
   end
 
 end
