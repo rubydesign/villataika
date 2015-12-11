@@ -1,9 +1,6 @@
 - @rooms.each do |room|
-- free = true
+  - selected = params[:booking] ? params[:booking][:room_id] == room.id.to_s : false ;
   %td
-    %div{:class => free ? 'free' : 'taken', :id => room.name}
-      - if free
-        %a{:href => "#"}
-          = room.name.capitalize
-      - else
-        = room.name
+    %div{:class => "free #{'selected' if selected}" , :id => room.id}
+      %a{:href => "#"}
+        = room.name.capitalize

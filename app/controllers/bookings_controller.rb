@@ -1,6 +1,6 @@
 class BookingsController < ApplicationController
   before_filter :get_bookings , :only => [:rooms_day , :booking]
-  
+
   # GET /bookings
   def index
     if( request.method == "POST")
@@ -20,20 +20,20 @@ class BookingsController < ApplicationController
     @page = "booking"
     if request.post?
       @booking = Booking.new
-      @booking.update_attributes(params[:booking]) 
+      @booking.update_attributes(params_for_model)
       if @booking.valid?
         BookingMailer.confirm(@booking).deliver
-        redirect_to :action => :confirm 
-        return 
+        redirect_to :action => :confirm
+        return
       else
         flash.now[:errors] = @booking.errors
       end
     end
     @booking ||= Booking.new
   end
-  
+
   def confirm
-    
+
   end
   # GET /bookings/new
   def new
@@ -43,7 +43,7 @@ class BookingsController < ApplicationController
   def rooms_day
     render "rooms_day" , :layout => false
   end
-  
+
   # GET /bookings/1/edit
   def edit
     @booking = Booking.find(params[:id])
@@ -53,9 +53,9 @@ class BookingsController < ApplicationController
   def create
     @booking = Booking.new(params[:booking])
     if @booking.save
-      redirect_to(@booking, :notice => 'Booking was successfully created.') 
+      redirect_to(@booking, :notice => 'Booking was successfully created.')
     else
-      render :action => "new" 
+      render :action => "new"
     end
   end
 
@@ -64,9 +64,9 @@ class BookingsController < ApplicationController
     @booking = Booking.find(params[:id])
 
     if @booking.update_attributes(params[:booking])
-      redirect_to(@booking, :notice => 'Booking was successfully updated.') 
+      redirect_to(@booking, :notice => 'Booking was successfully updated.')
     else
-      render :action => "edit" 
+      render :action => "edit"
     end
   end
 
@@ -74,13 +74,17 @@ class BookingsController < ApplicationController
   def destroy
     @booking = Booking.find(params[:id])
     @booking.destroy
-    redirect_to(bookings_url) 
+    redirect_to(bookings_url)
   end
-  
+
   private
   def get_bookings
     arriving = params[:arriving] ? Date.parse(params[:arriving]) : Date.today
     @bookings = {}
     @rooms = Room.all
   end
+  def params_for_model
+    params.require(:booking).permit(:arriving, :nights, :email, :phone, :comment, :room)
+  end
+
 end

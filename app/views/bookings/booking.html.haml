@@ -8,7 +8,7 @@
 %br/
 %br/
 .bookform
-  %form{:action => "booking.html", :method => "post"}
+  = form_tag(:action => "booking", :method => "post") do
     - if flash[:errors]
       %br/
       .flash.errors
@@ -28,8 +28,9 @@
           \:
         %td{:colspan => "2"}
           %select.nights{:name => "booking[nights]"}
+            - nights = params[:booking] ? params[:booking][:nights] : 1
             - ["1"  , "2" , "3" , "4" , "5" , "6" , "7"].each do |ni|
-              <option #{raw'selected="selected"' if @booking.leaving == @booking.arriving.to_s + ni.to_i.day.to_s}>#{ni.to_s}
+              <option #{raw'selected="selected"' if nights == ni}>#{ni.to_s}
             %option= t('booking.call')
       %tr#rooms_day
         %td{:colspan => "8"}
@@ -62,7 +63,7 @@
           %br/
         %td{:colspan => "2"}
           %textarea{:cols => "35", :name => "booking[comment]", :rows => "2"}= @booking.comment
-    %input#room{:name => "booking[room]", :type => "hidden", :value => params[:room]}/
+    %input#room_id{:name => "booking[room_id]", :type => "hidden", :value => (params[:booking][:room_id] rescue nil)}/
     %tr
       %td{:colspan => "2"}
         %input{:name => "submit", :type => "submit", :value => t('booking.submit')}/

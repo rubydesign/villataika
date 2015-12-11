@@ -1,8 +1,8 @@
-// change the table for one day availibility 
-function change_availibility(  ) { 
+// change the table for one day availibility
+function change_availibility(  ) {
   var nights = jQuery("select.nights option:selected").val() ;
   var arriving = jQuery("#arriving_on").val() ;
-  var room = jQuery("#room").val();
+  var room = jQuery("#room_id").val();
   jQuery('#rooms_day').load("./bookings/rooms_day.html?nights=" + nights + "&arriving=" + arriving + "&room=" + room);
 }
 
@@ -10,13 +10,13 @@ function change_availibility(  ) {
 function set_room(){
   jQuery("#rooms_day .selected").removeClass("selected");
   jQuery(this).addClass( "selected");
-  jQuery("#room").val(jQuery(this).attr("id"));
+  jQuery("#room_id").val(jQuery(this).attr("id"));
   return false;
 }
 
 // attach above change function to elements when document is loaded
-jQuery(document).ready(function() { 
-  jQuery('.nights').change(change_availibility);
+jQuery(document).ready(function() {
+//  jQuery('.nights').change(change_availibility);
   jQuery( "#arriving_on" ).datepicker( { dateFormat: 'dd-mm-yy' } );
   jQuery(".free").on("click",  set_room );
   jQuery('a.lightbox').colorbox({rel: true , opacity:0.2}  );
