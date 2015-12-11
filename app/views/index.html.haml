@@ -1,18 +1,18 @@
-#lotus
-  %a{:href => "/#{@locale}/suites.html"}
-    %img{:alt => "Aurinko sviitti", :border => "0", :height => "414", :src => "/images/aurinko.jpg", :valign => "top", :width => "312"}/
-#main_aurinko
-  #aurinko_pic
-    %a{:href => "/#{@locale}/suites.html"}
-      %img{:alt => "Lootus sviitti", :border => "0", :height => "310", :src => "/images/lootus_1.jpg", :width => "246"}/
-  #extra
+.lotus
+  =link_to "/#{@locale}/suites.html" do
+    = image_tag "/images/aurinko.jpg" , :alt => "Aurinko sviitti", :border => "0", :width => "100%", :valign => "top"
+.aurinko_box
+  .aurinko_pic
+    = link_to "/#{@locale}/suites.html" do
+      = image_tag "/images/lootus_1.jpg" ,  :alt => "Lootus sviitti", :border => "0", :width => "100%"
+  .aurinko_extra
     .top
-      %img{:alt => "", :height => "147", :src => "/images/kukka.jpg", :width => "197"}/
+      = image_tag  "/images/kukka.jpg" , :alt => "", :width => "100%"
     .bottom
-      %img{:alt => "", :height => "139", :src => "/images/talo.jpg", :width => "197"}/
-  #maintext
+      = image_tag "/images/talo.jpg" , :alt => "", :width => "100%"
+  .aurinko_maintext
     = t("index.bold")
-  .subtext
+  .aurinko_subtext
     %strong Villa Taika
     = t("index.text")
 .fb-like{"data-action" => "like", "data-href" => "https://facebook.com/villa.Taika", "data-layout" => "standard", "data-share" => "true", "data-show-faces" => "true", "data-width" => "800"}

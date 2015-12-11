@@ -334,69 +334,54 @@ margin-right: 17px;
   @include gallery( 3 of 12);
 }
 
-div.centre {
+.centre {
   text-align: center;
 }
-div#lotus {
-  height: 450px;
-  width: 330px;
-  float: left;
-  position: relative;
+
+.lotus {
+  @include span( first 9 of 24);
 }
 
-div#aurinko_pic {
-  width: 265px;
-  float: left;
-  position: relative;
+.aurinko_box {
+  @include span(last 14 of 24);
 }
 
-#extra {
-  width: 200px;
-  height: 330px;
-  bottom: 0;
-  float: left;
-  margin-left: 0px;
-  padding-right: 10px;
-  position: relative;
+.aurinko_pic {
+  @include span(first 55%);
 }
 
-div#main_aurinko {
-	height: 330px;
-  width: 500px;
-  margin-left:0px;
-  float: left;
-  position: relative;
+.aurinko_extra {
+  @include span(last 42%);
+  .top {
+    top: 0;
+  }
+  .bottom {
+    bottom: 0;
+    padding-top: 18px;
+  }
+
 }
 
-.bottom {
-  bottom: 0;
-  padding-top: 22px;
-}
-
-div#maintext {
+.aurinko_maintext {
+  @include span(12 of 12);
   font-weight: bold;
   font-size: 16px;
   color: #008495;
-    width: 510px;
-  position: relative;
-  float:  left;
-}
-
-.subtext {
-  width:510px;
-  height: 40px;
   margin-top: 10px;
-  font-size: 13px;
-  position: relative;
-  float:  left;
 }
 
+.aurinko_subtext {
+  font-size: 13px;
+  margin-top: 10px;
+  @include span(12 of 12);
+}
+
+.fb-like{
+  margin-top: 15px;
+}
 div.kolmas {
   width: 33%;
   float: left;
-}
-.top {
-  top: 0;
 }
 
 .left {
