@@ -20,19 +20,19 @@
         js.src = "//connect.facebook.net/fi_FI/sdk.js#xfbml=1&version=v2.0";
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
-    #main
-      #header
+    .main
+      .header
         .centre
           %img{:alt => "Villa Taika logo", :src => "/images/logo_iso.png"}/
-        #slogan= t("slogan")
-      #lcol
-        #menu
+        .slogan= t("slogan")
+      .lcol
+        .menu
           %ul
             - ["index" , "bed" ,"booking","groups","map","photos","activities"].each do |p|
               <li #{raw('class="active"') if params[:page] == p}>
               \#{link_to(t(p+'.short') , "/#{@locale}/#{p}.html")}
-        #menuend
-        #lcontent
+        .menuend
+        .lcontent
           %h3.first
             %span= t "bed.rooms"
           %ul.divided
@@ -46,27 +46,27 @@
           %h3
             %a{:href => "/#{@locale}/news.html"}
               %span= t("news.short")
-          #news
+          .news
             %a{:href => "/#{@locale}/news.html"}
               = t("news." + news.first + ".short")
-      #rcol
-        #rcontent
+      .rcol
+        .rcontent
           = yield
         .divider
-    #footer
-      .kolmas
-        %b> Villa Taika
-        , Fiskarsintie 513, 10480 Antskog
-        %br/
-        www.villataika.fi&nbsp;&nbsp;&nbsp;info@villataika.fi
-      .kolmas
-        Raisa Kaipainen &amp; Torsten Rüger
-        %br/
-        = t("puh")
-        +358- (0)40 704 6689
-      .kolmas
-        %a{:href => "/#{@locale}/index.html"}
-          %img{:alt => "", :border => "0", :height => "33", :src => "/images/logo_pien.gif", :width => "198"}/
+      .footer
+        .kolmas
+          %b> Villa Taika
+          , Fiskarsintie 513, 10480 Antskog
+          %br/
+          www.villataika.fi&nbsp;&nbsp;&nbsp;info@villataika.fi
+        .kolmas
+          Raisa Kaipainen &amp; Torsten Rüger
+          %br/
+          = t("puh")
+          +358- (0)40 704 6689
+        .kolmas
+          %a{:href => "/#{@locale}/index.html"}
+            %img{:alt => "", :border => "0", :height => "33", :src => "/images/logo_pien.gif", :width => "198"}/
     .divider
     %br/
     %br/
