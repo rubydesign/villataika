@@ -49,6 +49,18 @@ strong {
   font-style: italic;
 }
 
+.left_map {
+  @include span( 12 of 12);
+  @include breakpoint(900px) {
+    @include span(first 8 of 12);
+  }
+}
+.right_map {
+  @include span( 12 of 12);
+  @include breakpoint(900px) {
+    @include span(last 4 of 12);
+  }
+}
 
 .left {
   @include span(first 6 of 12);
