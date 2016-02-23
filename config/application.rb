@@ -20,16 +20,7 @@ module Villataika
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     config.i18n.default_locale = :fi
 
-    config.action_mailer.delivery_method = :file
-    config.action_mailer.smtp_settings = {
-      :address              => "smtp.villataika.fi",
-      :domain               => 'villataika.fi',
-      :user_name            => 'info@villataika.fi',
-      :password             => 'rakkaus',
-      :port                 => 465,
-      :authentication       => 'plain',
-      :enable_starttls_auto => true
-     }
+    config.action_mailer.raise_delivery_errors = true
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
