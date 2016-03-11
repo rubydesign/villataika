@@ -39,6 +39,7 @@ en:
             bed in Villa Taika, after an adventourous day.
   booking:
     short: Reservation
+    header: Reservation
     received: Your booking was received.
     error: Please fill out all fields, and check your email and date.
     booking1: You can book by phone , +358 40 704 6689 between 10:00 and 19:00, or send us mail,
