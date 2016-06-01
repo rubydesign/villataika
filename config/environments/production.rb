@@ -49,9 +49,22 @@ Rails.application.configure do
   config.log_level = :debug
 
 
-  config.action_mailer.delivery_method = :sendmail
+  # ActionMailer Config
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+        :address              => "smtp.zoho.com",
+        :port                 => 465,
+        :domain               => 'villataika.fi' ,
+        :user_name            => 'info@villataika.fi',
+        :password             => ENV["EMAIL_PASS"],
+        :ssl                  => true,
+        :tls                  => true,
+        :authentication       => :login,
+        :enable_starttls_auto => true
+  }
   config.action_mailer.perform_deliveries = true
-  config.action_mailer.default_options = {from: 'info@villataika.fi' }
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default_options = {  from: 'info@villataika.fi'   }
   config.action_mailer.default_url_options = { :host => 'villataika.fi' }
 
   # config.action_mailer.raise_delivery_errors = false
