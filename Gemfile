@@ -11,6 +11,11 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'byebug'
   gem "better_errors"
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'i18n-spec'
+  gem "i18n-tasks"
+  gem "email_spec"
 end
 
 gem 'email_validator'

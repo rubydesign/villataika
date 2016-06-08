@@ -2,9 +2,7 @@ fi:
   monthnames: Januar Februar Marts April Maj Juni Juli August September Oktober November December
 
 de:
-  monthnames: some
-  
+  monthnames: Januar Februar March April Maj Juni Juli August September Oktober November December
+
 en:
-  monthnames: Januar Februar Marts April Maj Juni Juli August September Oktober November December
-    
-    
+  monthnames: Januar Februar March April Maj Juni Juli August September Oktober November December

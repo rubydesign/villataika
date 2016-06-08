@@ -105,6 +105,12 @@ de:
     four: Direkt vom Haus kann man zwei Seen sehen, und die Natur lädt zum Spazierengehen ein.
   news:
     short: Neues
+    saffron:
+      short: Schöne neue Saffron Suite!
+      rest: Die Saffron Suite ist ein sonnig, helles Zimmer mit hand geschnitztem Relief.
+            Das Zimmer ist nach Süden gerichtet und durch die grossen Fenster entsteht
+            eine sehr geraümiges Gefühl.
+      image: saffron
     deco:
         short: Rustikale Unterkunft im renovierten Blockhaus
         rest: Wir haben Teil des Hofgebebäudes renoviert und ein schönes Blockhaus-Zimmer mit Himmelbett
