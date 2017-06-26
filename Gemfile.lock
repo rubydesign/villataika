@@ -115,7 +115,7 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.9.0)
-    newrelic_rpm (3.14.0.305)
+    newrelic_rpm (4.2.0.334)
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
@@ -236,4 +236,4 @@ DEPENDENCIES
   uglifier (>= 1.0)
 
 BUNDLED WITH
-   1.12.5
+   1.15.1
