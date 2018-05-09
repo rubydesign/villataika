@@ -56,7 +56,7 @@ en:
     room: Room
     room_wish: Room wish
     comment: Comment
-    confirmation: Booking request are subject to confirmation. Bookings over 1 night require a pre-payment of 25%.
+    confirmation: Booking request are subject to confirmation. Bookings over 2 nights require a pre-payment of 25%.
     pay:  |-
         If you wish to pay upon confirmation, our bank account is Nordea FI61 1014 3500 1363 18 <br/>
         Payments may also be made by PayPal to our email info@villataika.fi <br/>

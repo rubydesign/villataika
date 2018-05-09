@@ -17,3 +17,4 @@
 /tmp
 public/assets/
 vendor/bundle/
+.DS_Store
