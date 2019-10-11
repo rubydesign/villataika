@@ -216,7 +216,7 @@ GEM
     tilt (2.0.10)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (4.2.0)
+    uglifier (4.1.11)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.6.0)
     websocket-driver (0.7.1)
@@ -248,7 +248,7 @@ DEPENDENCIES
   sass-rails
   sprockets (= 3.7.2)
   susy
-  uglifier (>= 1.0)
+  uglifier (= 4.1.11)
 
 RUBY VERSION
    ruby 2.6.3p62

@@ -28,6 +28,4 @@ gem 'jquery-ui-rails'
 gem 'jquery-rails'
 gem "mini_racer"
 
-group :production do
-  gem 'uglifier', '>= 1.0'
-end
+gem 'uglifier', "4.1.11"
