@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'rails' , "5.2.3"
 
 gem "haml"
 gem "susy"
 gem "breakpoint"
 
+gem "sprockets" , "3.7.2"
+
 group :development, :test do
-  gem 'sqlite3' , "1.3.10"
-  gem 'quiet_assets'
   gem 'byebug'
   gem "better_errors"
   gem 'rspec-rails'
@@ -25,9 +25,8 @@ gem 'sass-rails'
 gem 'coffee-rails'
 gem 'jquery-ui-rails'
 gem 'jquery-rails'
-gem "therubyracer"
+gem "mini_racer"
 
 group :production do
-  gem 'newrelic_rpm'
   gem 'uglifier', '>= 1.0'
 end
