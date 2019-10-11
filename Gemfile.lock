@@ -206,7 +206,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    susy (2.2.14)
+    susy (2.2.12)
       sass (>= 3.3.0, < 3.5)
     temple (0.8.2)
     terminal-table (1.8.0)
@@ -247,7 +247,7 @@ DEPENDENCIES
   rspec-rails
   sass-rails
   sprockets (= 3.7.2)
-  susy
+  susy (= 2.2.12)
   uglifier (= 4.1.11)
 
 RUBY VERSION

@@ -4,7 +4,7 @@ ruby "2.6.3"
 gem 'rails' , "5.2.3"
 
 gem "haml"
-gem "susy"
+gem "susy" ,  "2.2.12"
 gem "breakpoint"
 
 gem "sprockets" , "3.7.2"
