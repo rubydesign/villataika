@@ -2,8 +2,8 @@ class BookingsController < ApplicationController
 
 
   def booking
-    @booking = Booking.new(params_for_model)
     if request.post?
+      @booking = Booking.new(params_for_model)
       puts "room is #{@booking.room}"
       if @booking.valid?
         BookingMailer.confirm(@booking).deliver
