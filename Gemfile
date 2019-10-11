@@ -5,7 +5,7 @@ gem 'rails' , "5.2.3"
 gem "puma"
 
 gem "haml"
-gem "susy" ,  "2.2.12"
+gem "susy" 
 gem "breakpoint"
 
 gem "sprockets" , "3.7.2"

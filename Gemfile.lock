@@ -250,7 +250,7 @@ DEPENDENCIES
   rspec-rails
   sass-rails
   sprockets (= 3.7.2)
-  susy (= 2.2.12)
+  susy
   uglifier (= 4.1.11)
 
 RUBY VERSION

@@ -63,9 +63,9 @@
           %br/
         %td{:colspan => "2"}
           %textarea{:cols => "35", :name => "booking[comment]", :rows => "2"}= @booking.comment
-    %input#room_id{:name => "booking[room_id]", :type => "hidden", :value => (params[:booking][:room_id] rescue nil)}/
     %tr
       %td{:colspan => "2"}
+        %input#room{:name => "booking[room]", :type => "hidden", :value => (params[:booking][:room] rescue nil)}/
         %input{:name => "submit", :type => "submit", :value => t('booking.submit')}/
       %td{:colspan => "6"}
 %br/

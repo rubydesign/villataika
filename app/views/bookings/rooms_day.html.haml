@@ -1,6 +1,6 @@
-- @rooms.each do |room|
-  - selected = params[:booking] ? params[:booking][:room_id] == room.id.to_s : false ;
+- ["lootus","aurinko","safron","oranssi","vihrea","taivas","ruusu"].each do |room|
+  - selected = params[:booking] ? params[:booking][:room] == room : false ;
   %td
-    %div{:class => "free #{'selected' if selected}" , :id => room.id}
+    %div{:class => "free #{'selected' if selected}" , :room => room}
       %a{:href => "#"}
-        = room.name.capitalize
+        = room.capitalize

@@ -2,7 +2,9 @@
 function change_availibility(  ) {
   var nights = jQuery("select.nights option:selected").val() ;
   var arriving = jQuery("#arriving_on").val() ;
-  var room = jQuery("#room_id").val();
+  var room = jQuery("#room").val();
+  console.log("change");
+  console.log(jQuery(this).attr("room"));
   jQuery('#rooms_day').load("./bookings/rooms_day.html?nights=" + nights + "&arriving=" + arriving + "&room=" + room);
 }
 
@@ -10,7 +12,10 @@ function change_availibility(  ) {
 function set_room(){
   jQuery("#rooms_day .selected").removeClass("selected");
   jQuery(this).addClass( "selected");
-  jQuery("#room_id").val(jQuery(this).attr("id"));
+  $("input[id=room]").val(jQuery(this).attr("room"));
+    //jQuery("#room").set_value(jQuery(this).attr("room"));
+  console.log("set");
+  console.log(jQuery(this).attr("room"));
   return false;
 }
 
