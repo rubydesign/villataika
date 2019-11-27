@@ -29,4 +29,4 @@ gem 'jquery-ui-rails'
 gem 'jquery-rails'
 gem "mini_racer"
 
-gem 'uglifier', "4.1.11"
+gem 'uglifier'
