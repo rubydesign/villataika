@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby "2.6.5"
 
-gem 'rails' , "5.2.3"
+gem 'rails' , "> 5.2"
 gem "puma"
 
 gem "haml"
@@ -18,6 +18,7 @@ group :development, :test do
   gem 'i18n-spec'
   gem "i18n-tasks"
   gem "email_spec"
+  gem "duktape"
 end
 
 gem 'email_validator'
@@ -27,6 +28,5 @@ gem 'sass-rails'
 gem 'coffee-rails'
 gem 'jquery-ui-rails'
 gem 'jquery-rails'
-gem "mini_racer"
 
 gem 'uglifier'
