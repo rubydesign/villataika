@@ -52,7 +52,7 @@ Rails.application.configure do
   # ActionMailer Config
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-        :address              => "smtp.zoho.com",
+        :address              => "smtp.migadu.com",
         :port                 => 465,
         :domain               => 'villataika.fi' ,
         :user_name            => 'info@villataika.fi',
