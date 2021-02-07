@@ -2,81 +2,80 @@ fi:
   bed:
     rooms: Huoneet
     short: Bed & Breakfast
-    one: Tervetuloa viehättävään Villa Taikaan! <br/>Olemme luoneet B&amp;Bn, jossa jokainen huone on uniikisti sisustettu. <br/> 
-        Matkoillamme Aasiaan olemme usein lumoutuneet sen kauneudesta. 
-        Valitsimme huoneisiimme yksilölliset huonekalut muistuttamaan ja inspiroimaan elämän ainutlaatuisesta kauneudesta. <br/> 
+    one: Tervetuloa viehättävään Villa Taikaan! <br/>Olemme luoneet B&amp;Bn, jossa jokainen huone on uniikisti sisustettu. <br/>
+        Matkoillamme Aasiaan olemme usein lumoutuneet sen kauneudesta.
+        Valitsimme huoneisiimme yksilölliset huonekalut muistuttamaan ja inspiroimaan elämän ainutlaatuisesta kauneudesta. <br/>
         Toivomme että sinäkin nautit siitä täällä luonamme Villa Taiassa! <br/>Meillä on suuri puutarha vesiputouksineen ja pihalampineen . Siellä voit
-        nauttia olostasi vesiputouksen solinaa kuunnellen. <br/> 
+        nauttia olostasi vesiputouksen solinaa kuunnellen. <br/>
         <br/> Tulopäivänä huoneeseen voi saapua klo 14-19. Ilmoitathan saapumisajan etukäteen!! Huone luovutetaan klo 12 mennessä.<br/>Voit myös tehdä retkiä lähiympäristöön. Billnäsin ruukki 15km, Mustion linna 15km, Tammisaari 35km.
-    two: 
-        Huoneen hinta on kahdelle ja lisävuode on 25€. 
-        Huoneen hintaan kuuluu aamupala (tarjoillaan klo 8:30-10:00), liinavaatteet ja pyyhkeet. 
+    two:
+        Huoneen hinta on kahdelle ja lisävuode on 25€.
+        Huoneen hintaan kuuluu aamupala (tarjoillaan klo 8:30-10:00), liinavaatteet ja pyyhkeet.
         Huoneiden hinnat ovat 70-110 € .
         Voimme majoittaa jopa 25-30 hengen ryhmän.
         Peruutus on tehtävä 48h ennen .
-    suites: 3 sviittiä omalla suihkulla 95/105€
-    deluxe: 2 huonetta omalla wc:llä (yläkerrassa) 80€/2hh ja 65€/1hh 
-    standard: 2 huonetta, jotka jakavat yhteisen suihkun, 80€/2hh ja 65€/1hh
+    suites: 3 sviittiä omalla suihkulla 95/110€
+    deluxe: 2 huonetta omalla wc:llä (yläkerrassa) 85€/2hh ja 70€/1hh
+    standard: 2 huonetta, jotka jakavat yhteisen suihkun, 85€/2hh ja 70€/1hh
   tai: tai
   puh: puh
   myos: Katso myös
   slogan: taianomaista tyylikkyyttä
   suites:
     short: Sviitit (suihkulla)
-  deluxe: 
+  deluxe:
     short: Deluxe (wc:llä)
-  standard: 
+  standard:
     short: Standard (jaettu)
   index:
     short: Kotisivu
     bold: Taianomaista tyylikkyyttä Aasiasta ja luonnonkauniin ympäristön rauhaa.
-    text:   on kaunis ja viehättävä Bed&Breakfast -paikka sekä 
-              kurssikeskus Antskogissa, 4,5 km Fiskarsista Karjalohjalle päin. 
+    text:   on kaunis ja viehättävä Bed&Breakfast -paikka sekä
+              kurssikeskus Antskogissa, 4,5 km Fiskarsista Karjalohjalle päin.
   green:
-    short:  Vihreä huone 
+    short:  Vihreä huone
     full: <b>Vihreä huone </b>on tunnelmallinen ja rauhaisa 20m2 huone. Siellä on parisänky ja sinne mahtuu lisävuode.
-              Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. <br/> 
+              Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. <br/>
               Yläkerran huoneesta on kaunis näkymä puutarhaan. <br/>Vihreä-ja Oranssi huone sopivat hyvin pienille
               ryhmille tai isolle perheelle yhteiskäytössä. Huoneiden välissä on myös sievä oleskelutila. <br/>
-              Hinta on 80€ /2hh/65€ 1hh
+              Hinta on 85€/2hh 70€/1hh
   orange:
-    short: Oranssi huone 
+    short: Oranssi huone
     full: <b>Oranssi huone </b>on viihtyisä ja  20m2 huone. Siellä on parisänky ja sinne mahtuu kaksikin lisävuodetta. <br/>
             Siinä on oma wc. Suihku on yhteiskäytössä huoneen vieressä. <br/> Yläkerran huoneesta on kaunis näkymä puutarhaan. <br/>
             Vihreä-ja Oranssi huone sopivat hyvin pienille ryhmille
             tai isolle perheelle yhteiskäytössä. Huoneiden välissä on myös sievä oleskelutila. <br/>
-            Hinta on 80€ /2hh/ 65€ 1hh
+            Hinta on 85€/2hh 70€/1hh
   rose:
-    short: Ruusu huone 
-    full: <b>Ruusu huone </b>on romanttinen huone. Huoneessa on parisänky, ja mukava sohva.  
+    short: Ruusu huone
+    full: <b>Ruusu huone </b>on romanttinen huone. Huoneessa on parisänky, ja mukava sohva.
             Sillä on yhteinen wc ja suihku viereisen Taivas huoneen kanssa.<br/>
-            Yhdessä Taivas huoneen kanssa, se sopii erinomaisesti isolle perheelle tai pienelle ryhmälle.<br/> 
-          Hinta on 80€ /2hh ja 65€/1hh
+            Yhdessä Taivas huoneen kanssa, se sopii erinomaisesti isolle perheelle tai pienelle ryhmälle.<br/>
+          Hinta on 85€/2hh ja 70€/1hh
   sky:
-    short: Taivas huone 
-    full: <b>Taivas huone </b>on rauhoittava ja  viehkeä huone. Sillä on yhteinen wc ja suihku viereisen Ruusu huoneen kanssa.  
+    short: Taivas huone
+    full: <b>Taivas huone </b>on rauhoittava ja  viehkeä huone. Sillä on yhteinen wc ja suihku viereisen Ruusu huoneen kanssa.
           Huoneessa on parisänky, ja sinne saa lisävuoteen tai kaksi tarvittaessa..
-          Yhdessä Ruusu huoneen kanssa, se sopii erinomaisesti isolle perheelle tai pienelle ryhmälle.<br/>  
-          Hinta on 80€ /2hh ja 65€/ 1hh
+          Yhdessä Ruusu huoneen kanssa, se sopii erinomaisesti isolle perheelle tai pienelle ryhmälle.<br/>
+          Hinta on 85€/2hh ja 70€/1hh
   lootus:
-    short: Lootus sviitti 
-    full: <b>Lootus sviitti </b> on viehättävä , aasialaisella tyylikkyydellä sisustettu huoneisto 40m².<br/> Siihen kuuluu oma wc ja suihku, sekä terassi , jolta pilkottaa 
+    short: Lootus sviitti
+    full: <b>Lootus sviitti </b> on viehättävä , aasialaisella tyylikkyydellä sisustettu huoneisto 40m².<br/> Siihen kuuluu oma wc ja suihku, sekä terassi , jolta pilkottaa
             läheinen järvi.<br/> Huoneessa on parisänky ja sinne mahtuu 3 tai 4 lisävuodetta. <br/>  <br/>
-            Sviitti sopii myös hääpareille. Hääpaketti sisältää huoneen ja lisäkoristelun kukkasilla ja kynttilöillä. 
+            Sviitti sopii myös hääpareille. Hääpaketti sisältää huoneen ja lisäkoristelun kukkasilla ja kynttilöillä.
             Aamupala haluttaessa sään salliessa omalla terassilla. <br/>
-            Hinta on 105€ /2hh. (Hääpaketti on 150€ )
+            Hinta on 110€/2hh. (Hääpaketti 175€ )
   sun:
-    short: Aurinko sviitti 
+    short: Aurinko sviitti
     full: <b>Aurinko sviitti</b> on valoisa ja tyylikäs 25m² sviitti. Perinteisellä hirsirakennus tekniikalla rakennetut kaaret
           tuovat oman lisänsä, tyylikkäillä tiikki huonekaluilla sisustettuun huoneseen. <br/>
-          Siellä on parisänky ja sinne mahtuu mukavasti kaksikin lisävuodetta. 
+          Siellä on parisänky ja sinne mahtuu mukavasti kaksikin lisävuodetta.
           Siinä on oma wc ja suihku.<br/>
-          Hinta on 95€ /2hh ja 80€ /1hh
+          Hinta on 100€/2hh ja 85€/1hh
   saffron:
     short: Saffron sviitti
-    full: <b>Saffron sviitti</b> on valoisa ja kaunis sviitti. 
-          Huonetta koristaa käsinkaiverretut pylväät, jotka tuovat itämaista tunnelmaa tyylikkääseen huoneeseen. <br/> 
+    full: <b>Saffron sviitti</b> on valoisa ja kaunis sviitti.
+          Huonetta koristaa käsinkaiverretut pylväät, jotka tuovat itämaista tunnelmaa tyylikkääseen huoneeseen. <br/>
           Siellä on parisänky ja sinne mahtuu helposti lisävuode, tarvittaessa kaksikin.
           Huoneessa on oma wc ja suihku.<br/>
-           Hinta on 95€ /2hh ja 80€/ 1hh
-  
+           Hinta on 95€/2hh ja 80€/1hh

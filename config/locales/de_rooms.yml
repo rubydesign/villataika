@@ -4,45 +4,45 @@ de:
     short: Bed & Breakfast
     one:
         Willkommen in der charmanten Atmosphäre der Villa Taika! <br/><br/>
-        Inspiriert von unseren Reisen in den Orient, brachten wir die Schönheit und Magie mit uns 
-        und haben so unser einzigartiges B&B mit 8 individuell eingerichteten Zimmern kreiert. <br/> 
+        Inspiriert von unseren Reisen in den Orient, brachten wir die Schönheit und Magie mit uns
+        und haben so unser einzigartiges B&B mit 8 individuell eingerichteten Zimmern kreiert. <br/>
         Wir hoffen Sie werden neu belebt und gut geruht durch unsere wunderschöne Umgebung!<br/>
-        
+
         In der Nähe sind mehrere Sehenswürdigkeiten, so kann man leicht den Tag in Fiskars (5km), Billnäs (15km),
-        Mustio (15km), Tammisaari (35km) oder Hanko (65km) verbringen. Oder enspannen Sie sich einfach im 
+        Mustio (15km), Tammisaari (35km) oder Hanko (65km) verbringen. Oder enspannen Sie sich einfach im
         liebevoll angelegten Garten zum Plätschern des Wasserfalles. <br/>
     two:
-      Die Preise für ein Doppelzimmer sind zwischen 75 and 105€ für 2 Personen, aber mehrere Zimmer sind geräumig 
+      Die Preise für ein Doppelzimmer sind zwischen 75 and 110€ für 2 Personen, aber mehrere Zimmer sind geräumig
       genug für ein drittes oder sogar viertes Bett (25€). <br/>
       Frühstück, zwischen 8:30–10:00, ist im Preis inbegriffen. <br/>
       Check-in ist zwischen 14:00–19:00 und Check-out bis 12:00 wenn nicht anders vereinbart.  <br/>
     suites: 3 suites mit Dusche und Toilette 95/110 €
-    deluxe: 2 Zimmer mit eigener Toilette 80€
-    standard: 2 Zimmer (teilen Dusche/Toilette) 80€
+    deluxe: 2 Zimmer mit eigener Toilette 85€
+    standard: 2 Zimmer (teilen Dusche/Toilette) 85€
   tai: oder
   puh: Tel
   myos: Siehe auch
   slogan: Asiatische Eleganz
-  suites: 
+  suites:
     short: Suites (ensuite)
-  deluxe: 
+  deluxe:
     short: Deluxe (mit Toilette)
-  standard: 
-    short: Standard 
+  standard:
+    short: Standard
   index:
     short: Home
     bold: Asiatische Eleganz inmitten unberührter Natur.
-    text:  ist ein charmantes Bed & Breakfast in Antskog, nahe Fiskars, knapp über eine Autostunde 
-          von Helsinki entfernt. 
+    text:  ist ein charmantes Bed & Breakfast in Antskog, nahe Fiskars, knapp über eine Autostunde
+          von Helsinki entfernt.
   green:
     short: Grünes Zimmer
     full: Das <b>Grüne Zimmer</b> hat eine ruhige Atmsphere und einen schönen Blick auf den Garten <br/>
           Zusätzlich zu dem vorhanden Doppelbett ist Platzt für eine Extra-Bett. Hinter den Dachwinkel passen
           auch zwei Kinder die das "höhlengefühl" lieben.<br/>
           Im Zimmer ist eine Toilette und eine Dusche wird mit dem Orangen Zimmer gemeinsam benutzt. <br/>
-          Grünes und Oranges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den 
+          Grünes und Oranges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den
           kleinen Vorraum und Dusche für sich haben. <br/>
-          Der Preis für 2 ist 80€ / Einzelbelegung 65€
+          Der Preis für 2 ist 85€ / Einzelbelegung 70€
   orange:
     short: Oranges Zimmer
     full: Das <b>Orange Zimmer</b> hat eine warme, gemütliche Atmosphäre mit asiatischem Touch.
@@ -50,46 +50,45 @@ de:
           auch zwei Kinder die das "höhlengefühl" lieben.<br/>
           Das Zimmer hat aus dem ersten Stock einen schönen Blick auf den Garten und umliegende Natur.
           Im Zimmer ist eine Toilette und eine Dusche wird mit dem grünen Zimmer gemeinsam benutzt. <br>
-          Grünes und Organges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den 
+          Grünes und Organges Zimmer zusammen sind ideal für Kleingruppen bis 7 Erwachsene, da Sie dann den
           kleinen Vorraum und Dusche für sich haben. <br/>
-          Der Preis für 2 ist 80€ / Einzelbelegung 65€
+          Der Preis für 2 ist 85€ / Einzelbelegung 70€
   rose:
     short: Rosenzimmer
     full: Das <b>Rosenzimmer </b> ist ein gemütliches Zimmer mit romantischer Atmosphäre. <br/>
           Es verfügt über ein Doppelbett und ein gemütliches Sofa für zwei Personen. <br/>
           Die Dusche und Toilette befinden sich direkt nebenann und werden mit dem Blauen Zimmer geteilt. <br/>
-          Die benachbarten Rosen- und Blauen Zimmer bieten zusammen eine gute Einheit für kleine Gruppen oder 
+          Die benachbarten Rosen- und Blauen Zimmer bieten zusammen eine gute Einheit für kleine Gruppen oder
           grosse Familien.<br/>
-          Der Preis für 2 ist 80€ / Einzelbelegung 65€
+          Der Preis für 2 ist 85€ / Einzelbelegung 70€
   sky:
-    short: Blaues Zimmer 
+    short: Blaues Zimmer
     full: Das <b>Blaue Zimmer </b> hat eine ruhige, entspannende Atmosphäre. <br/>
           Es teilt Dusche und Bad mit dem Rosenzimmer nebenan. Es befindet sich ein Doppelbett im Zimmer und es
           ist ein Extrabett vorhanden.  <br/>
-          Die benachbarten Rosen- und Blauen Zimmer bieten zusammen eine gute Einheit für kleine Gruppen oder 
+          Die benachbarten Rosen- und Blauen Zimmer bieten zusammen eine gute Einheit für kleine Gruppen oder
           grosse Familien.<br/>
-          Der Preis für 2 ist 80€ / Einzelbelegung 65€
+          Der Preis für 2 ist 85€ / Einzelbelegung 70€
   lootus:
     short: Lotus Suite
     full:  Die <b>Lotus Suite</b> ist ein sehr geräumigiges Zimmer, eher Appartement, mit asiatischer Eleganz.<br/>
-          Zusätzlich zum eigenen Badezimmer, Schlaf- und Vorraum, bietet Sie genug Platz für zwei Betten und dabei 
-          noch genug Platz zum Sizen. Ausserdem ist eine <b> private Terasse </b> angeschlossen, 
+          Zusätzlich zum eigenen Badezimmer, Schlaf- und Vorraum, bietet Sie genug Platz für zwei Betten und dabei
+          noch genug Platz zum Sizen. Ausserdem ist eine <b> private Terasse </b> angeschlossen,
           auf der sich auch im Herbst noch die Morgensonne geniessen lässt.<br/>
-          Der Preis für 2 ist 105€.
+          Der Preis für 2 ist 110€.
   sun:
-    short: Sonnen Suite 
+    short: Sonnen Suite
     full: Die <b>Sonnen Suite</b> ist ein sehr elegantes und sonniges Zimmer. <br/>
-          Traditonelles englisches timber-framing gibt dem Raum einen rusikalen Hauch der die elegante 
+          Traditonelles englisches timber-framing gibt dem Raum einen rusikalen Hauch der die elegante
           Atmosphäre mit Teakmöbeln kontrapunktiert.<br/>
-          Die grossen süd-gerichteten Fenster und hohe Decke verleihen dem Zimmer ein leichtes, sonniges 
-          Gefühl.<br/> 
+          Die grossen süd-gerichteten Fenster und hohe Decke verleihen dem Zimmer ein leichtes, sonniges
+          Gefühl.<br/>
           Dusche und Toilette sind ensuite und zusätlich zum Doppelbett ist Platz für ein Extra-Bett.<br/>
-          Der Preis für 2 ist 95€ / Einzelbelegung 80€
+          Der Preis für 2 ist 100€ / Einzelbelegung 85€
   saffron:
     short: Saffron Suite
     full: Die <b>Saffron Suite</b> ist ein sonnig, helles Zimmer mit hand geschnitztem Relief. <br/>
-          Das Zimmer ist nach Süden gerichtet und durch die grossen Fenster entsteht eine sehr geraümiges 
+          Das Zimmer ist nach Süden gerichtet und durch die grossen Fenster entsteht eine sehr geraümiges
           Gefühl.<br/>
           Eine eigene Dusche und Toilette geht direkt von der eigenen kleinen Eingangshalle ab. <br/>
           Der Preis für 2 ist 95€ / Einzelbelegung 80€
-  
